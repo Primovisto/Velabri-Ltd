@@ -106,4 +106,42 @@ span {
 
 /* End Loader */
 
+/* Start Header */
+header {
+    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+    position:absolute;
+    top:0;
+    padding: 20px 0;
+    width: 100%;
+    z-index: 99;
+    line-height: 30px;
+}
 
+.menu-links {
+    text-align: right;
+}
+
+.menu-links ul li {
+    display: inline-block;
+    margin-right: 15px;
+    position:relative;
+    padding-top: 10px;
+}
+
+.menu-links ul li a {
+    font-family: "Lato", sans-serif;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #444;
+}
+
+.menu-links ul li:hover > a {
+    color: #888;
+}
+
+.jumbotron{
+	background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2din30p.jpg") no-repeat fixed 0 0 / cover;
+	height:100vh;
+	position: relative;
+}
