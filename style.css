@@ -12,6 +12,21 @@ img {
     height: auto;
 }
 
+header.navbar-fixed-top {
+    animation-duration: 1s;
+    animation-name: fadeInDown;
+    animation-timing-function: ease-in-out;
+    background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+    box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.75);
+    left: 0;
+    padding-top: 20px;
+    position: fixed !important;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
 
 /* Pre-loader */
 
