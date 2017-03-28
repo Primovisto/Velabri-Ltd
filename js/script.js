@@ -1,19 +1,18 @@
 /*-----------------
     Loader
-    -----------------*/
+ -----------------*/
 
 $(document).ready(function() {
 
     setTimeout(function() {
         $('body').addClass('loaded');
-        $('h1').css('color', '#222222');
     }, 3000);
 
 });
 
- /*-----------------
+/*-----------------
     fixed top
-    -----------------*/
+ -----------------*/
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 70) {
             $('header').addClass('navbar-fixed-top');
@@ -24,8 +23,10 @@ $(document).ready(function() {
 
 /*-----------------
     Typewriter
-    -----------------*/
-   var TxtType = function(el, toRotate, period) {
+ -----------------*/
+
+
+var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
         this.loopNum = 0;

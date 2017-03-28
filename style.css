@@ -5,6 +5,7 @@ html {
     height: 100%;
     background-color: #fff;
     line-height: 30px;
+    text-decoration: none;
 }
 
 img {
@@ -16,7 +17,7 @@ header.navbar-fixed-top {
     animation-duration: 1s;
     animation-name: fadeInDown;
     animation-timing-function: ease-in-out;
-    background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+    background: rgba(255, 255, 255, 0.6) none repeat fixed 0 0;
     box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.75);
     left: 0;
     padding-top: 20px;
@@ -25,6 +26,8 @@ header.navbar-fixed-top {
     top: 0;
     width: 100%;
     z-index: 999;
+    font-weight: 500;
+
 }
 
 
@@ -47,7 +50,7 @@ header.navbar-fixed-top {
     z-index: 1001;
 }
 
-span {
+.loader-balls {
     display: block;
     height: 20px;
     width: 20px;
@@ -58,19 +61,19 @@ span {
 }
 
 #ball-1 {
-    animation: bounce 1s ease-in-out infinite;
+    animation: bounce 1s ease-in-out 0.33s infinite;
 }
 
 #ball-2 {
     position: absolute;
     left: 40px;
-    animation: bounce 1s ease-in-out 0.33s infinite;
+    animation: bounce 1s ease-in-out 0.66s infinite;
 }
 
 #ball-3 {
     position: absolute;
     left: 80px;
-    animation: bounce 1s ease-in-out 0.66s infinite;
+    animation: bounce 1s ease-in-out 1s infinite;
 }
 
 @keyframes bounce {
@@ -119,73 +122,108 @@ span {
     transition: all 0.3s 1s ease-out;
 }
 
+
 /* End Loader */
 
+
 /* Start Header */
+
 header {
-    background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
-    position:absolute;
-    top:0;
+    background: rgba(255, 255, 255, 0) none repeat fixed 0 0;
+    position: absolute;
+    top: 0;
     padding: 20px 0;
     width: 100%;
     z-index: 99;
     line-height: 30px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.2);
 }
 
 .menu-links {
     text-align: right;
 }
 
+
+
 .menu-links ul li {
     display: inline-block;
     margin-right: 15px;
-    position:relative;
-    padding-top: 10px;
+    position: relative;
+    padding-top: 20px;
 }
 
 .menu-links ul li a {
-    font-family: "Lato", sans-serif;
+    font-family: "Didact Gothic", sans-serif;
     padding: 10px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #444;
+    color: #fff;
+    font-weight:400;
 }
 
 .menu-links ul li:hover > a {
-    color: #888;
+    color: #444;
 }
 
-.jumbotron{
-	background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2din30p.jpg") no-repeat fixed 0 0 / cover;
-	height:100vh;
-	position: relative;
+.jumbotron-section {
+    background: rgba(0, 0, 0, 0) url("http://i66.tinypic.com/dd2arr.jpg") no-repeat fixed 0 0 / cover;
+    height: 100%;
+    position: relative;
 }
 
-.jumbotron-content{
-	text-align:center;
-	position:absolute;
-	top:50%;
-	right:0;
-	left:0;
-	transform: translateY(-50%);
+.jumbotron-content {
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 9;
 }
 
 .jumbotron-content h1 {
-  color:#fff;
-  font-size:60px;
-  font-weight:400;
-
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
 }
 
-.hero-content ul {
-  list-style:none;
+.typewrite {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    
 }
 
+.jumbotron-content ul {
+    margin-top: 82px;
+}
 
-.jumbotron-content h1 span {
-  color:#fff;
-  font-size:50px;
-  font-weight:300;
+.jumbotron-content ul li {
+    display: inline-block;
+    margin: 0 3px;
+}
 
+.jumbotron-content ul li a {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0) inset;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    text-shadow: none;
+    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    -o-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
+}
+
+.jumbotron-content ul li a:hover {
+    background: #444 none repeat scroll 0 0;
+    border-color: #444;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5) inset, 0 0 20px rgba(255, 255, 255, 0.2);
 }
