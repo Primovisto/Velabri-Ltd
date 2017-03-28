@@ -13,6 +13,11 @@ img {
     height: auto;
 }
 
+h2{
+    font-size:40px;
+    font-family:"Linden Hill";
+}
+
 header.navbar-fixed-top {
     animation-duration: 1s;
     animation-name: fadeInDown;
@@ -27,28 +32,22 @@ header.navbar-fixed-top {
     width: 100%;
     z-index: 999;
     font-weight: 500;
-    
-
 }
 
 .navbar-fixed-top .light-logo {
-    opacity:0;
-    display:none;
+    opacity: 0;
+    display: none;
 }
 
 .navbar-fixed-top .dark-logo {
-    opacity:1;
-    display:block;
+    opacity: 1;
+    display: block;
 }
 
-header.navbar-fixed-top .menu-links a{
-    color:#444;
-
+header.navbar-fixed-top .menu-links a {
+    color: #444;
 }
 
-header.logo-dark{
-    background-image:url("http://i66.tinypic.com/2qnqmmx.png");
-}
 
 
 /* Pre-loader 
@@ -199,6 +198,9 @@ header .dark-logo {
     background: rgba(0, 0, 0, 0) url("http://i66.tinypic.com/dd2arr.jpg") no-repeat fixed 0 0 / cover;
     height: 100%;
     position: relative;
+    -moz-box-shadow: 2px 2px 3px #888;
+    -webkit-box-shadow: 2px 2px 3px #888;
+    box-shadow: 2px 2px 3px #888;
 }
 
 .jumbotron-content {
@@ -259,4 +261,71 @@ header .dark-logo {
     background: #592c11 none repeat scroll 0 0;
     border-color: #592c11;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5) inset, 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Services Section */
+
+.services-section{
+    background-color: #f1e8ca;
+    padding:20px;
+    padding-bottom:40px;
+    animation-duration:1s;
+    animation-name: fadeInLeft;
+    animation-timing-function: ease-in-out;
+
+}
+
+.services-section h2{
+
+    color:#745151;
+    text-align:center;
+    margin-top:50px;
+    font-family: 'lato','sans-serif';
+    margin-bottom:40px;
+    font-size:35px;
+}
+
+
+.service-1 {
+    text-align:center;
+}
+
+.service-1 .service-content h3{
+    color:#745151;
+}
+
+.service-1 .service-content p {
+    font-family: 'lato', 'sans-serif';
+    color:#745151;
+}
+
+
+.service-1 .service-icon i {
+        color: #745151;
+    font-size: 60px;
+    text-align:center;
+    
+}
+
+.service-1 .service-content a {
+    border: 1px solid #745151;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0) inset;
+    color: #745151;
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    height: 45px;
+    line-height: 45px;
+    padding:0 10px;
+    text-decoration:none;
+}
+
+.service-1 .service-content a:hover{
+    color:#dd855c;
+    border:1px solid #dd855c;
+
+}
+
+#row2 {
+    padding-top:60px;
 }

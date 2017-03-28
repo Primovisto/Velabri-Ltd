@@ -21,19 +21,7 @@ $(document).ready(function() {
         }
     });
 
-/*-------------------
-  Change Logo Color on scroll
------------------*/
 
-$(window).on('scroll', function(){
-    if ($(window).scrollTop()> 70) {
-        $('logo').addClass('logo-dark');
-    } else {
-        $('logo').removeClass('logo-dark');
-
-    }
-    
-});
 
 
 /*-----------------
@@ -97,3 +85,7 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
+
+
+    window.sr = ScrollReveal({ duration: 2000 });
+sr.reveal('.services-section', 50);
