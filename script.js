@@ -87,5 +87,4 @@ var TxtType = function(el, toRotate, period) {
     };
 
 
-    window.sr = ScrollReveal({ duration: 2000 });
-sr.reveal('.services-section', 50);
+  
