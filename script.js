@@ -11,7 +11,7 @@ $(document).ready(function() {
 });
 
 /*-----------------
-    fixed top
+ fixed top scroll
  -----------------*/
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 70) {
@@ -20,6 +20,21 @@ $(document).ready(function() {
             $('header').removeClass('navbar-fixed-top');
         }
     });
+
+/*-------------------
+  Change Logo Color on scroll
+-----------------*/
+
+$(window).on('scroll', function(){
+    if ($(window).scrollTop()> 70) {
+        $('logo').addClass('logo-dark');
+    } else {
+        $('logo').removeClass('logo-dark');
+
+    }
+    
+});
+
 
 /*-----------------
     Typewriter

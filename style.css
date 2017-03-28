@@ -27,11 +27,31 @@ header.navbar-fixed-top {
     width: 100%;
     z-index: 999;
     font-weight: 500;
+    
 
 }
 
+.navbar-fixed-top .light-logo {
+    opacity:0;
+    display:none;
+}
 
-/* Pre-loader */
+.navbar-fixed-top .dark-logo {
+    opacity:1;
+    display:block;
+}
+
+header.navbar-fixed-top .menu-links a{
+    color:#444;
+
+}
+
+header.logo-dark{
+    background-image:url("http://i66.tinypic.com/2qnqmmx.png");
+}
+
+
+/* Pre-loader 
 
 #loader-wrapper {
     position: fixed;
@@ -139,8 +159,17 @@ header {
     border-bottom:1px solid rgba(255, 255, 255, 0.2);
 }
 
+header .dark-logo {
+    opacity:0;
+    display:none;
+}
+
 .menu-links {
     text-align: right;
+}
+
+.logo .logo-light {
+
 }
 
 
@@ -157,12 +186,13 @@ header {
     padding: 10px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #fff;
+    color:#fff;
     font-weight:400;
 }
 
+
 .menu-links ul li:hover > a {
-    color: #444;
+    color: #592c11;
 }
 
 .jumbotron-section {
@@ -194,6 +224,9 @@ header {
     font-size: 50px;
     font-weight: 300;
     text-align: center;
+    animation-duration: 1s;
+    animation-name: fadeInUp;
+    
     
 }
 
@@ -223,7 +256,7 @@ header {
 }
 
 .jumbotron-content ul li a:hover {
-    background: #444 none repeat scroll 0 0;
-    border-color: #444;
+    background: #592c11 none repeat scroll 0 0;
+    border-color: #592c11;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5) inset, 0 0 20px rgba(255, 255, 255, 0.2);
 }
