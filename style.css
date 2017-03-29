@@ -329,3 +329,38 @@ header .dark-logo {
 #row2 {
     padding-top:60px;
 }
+.portfolio-section{
+    background-color:#f1e8ca;
+}
+.portfolio-section h2 {
+    text-align:center;
+}
+
+.portfolio-image-2{
+    padding-top:21px;
+}
+
+.footer-section{
+    text-align:center;
+}
+
+.btn_large{
+    margin:30px;
+    padding:20px 30px;
+    font-size:18px;
+    border:2px solid #745151;
+    text-transform: uppercase;
+    font-family:'lato';
+    font-weight:500;
+    color:#745151;
+    background-color:rgba(255,255,255,0);
+
+}
+
+
+
+.btn_large:hover{
+  background-color:#745151;
+  color:#fff;
+}
+
