@@ -302,7 +302,7 @@ header .dark-logo {
 }
 
 .service-1 .service-content p {
-    font-family: 'lato', 'sans-serif';
+    font-family: 'dosis', 'sans-serif';
     color: #444;
 }
 
@@ -317,7 +317,7 @@ header .dark-logo {
     box-shadow: 0 0 25px rgba(255, 255, 255, 0) inset;
     color: #444;
     display: inline-block;
-    font-family: "Lato", sans-serif;
+    font-family: "dosis", sans-serif;
     font-size: 15px;
     height: 45px;
     line-height: 45px;
@@ -330,6 +330,9 @@ header .dark-logo {
     border: 1px solid #dd855c;
 }
 
+.service-1 .service-content .redesign {
+    margin-top:35px;
+}
 
 /* Portfolio Section */
 
@@ -383,7 +386,7 @@ header .dark-logo {
     font-size: 26px;
     font-weight: 600;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 80px;
     padding-bottom: 10px;
 }
 
@@ -399,22 +402,28 @@ header .dark-logo {
     text-align: center;
     color: #fff;
     padding: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:20px;
 }
 
 .btn_large.quote_btn {
     color: #fff;
     border: 2px solid #fff;
-    padding: 15px 40px;
+    padding: 10px 45px;
     text-transform: uppercase;
-    font-family: 'catamaran', 'sans-serif';
+    font-family: 'Roboto', 'sans-serif';
     font-size: 22px;
     text-align: center;
-    margin-left: 41%;
+    margin-left: 40%;
+    margin-top:40px;
 }
 
 .btn_large.quote_btn:hover {
     background-color: rgba(255, 255, 255, 1);
     color: #333;
+    font-size: 22px;
+
+    font-family:'Roboto', sans-serif;
 }
 
 .portfolio-images {
@@ -422,7 +431,7 @@ header .dark-logo {
     padding: 0;
 }
 
-.overlay {
+.portfolio-overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -436,21 +445,9 @@ header .dark-logo {
     overflow: hidden;
 }
 
-.overlay-small {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0px;
-    right: 30px;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #b49b05;
-    overflow: hidden;
-}
 
-.portfolio-item:hover .overlay {
+
+.portfolio-item:hover .portfolio-overlay {
     opacity: 0.95;
 }
 
@@ -469,75 +466,13 @@ header .dark-logo {
     padding-bottom: 20px;
 }
 
-.btn_medium {
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #000;
-    padding: 10px 30px;
-    font-size: 18px;
-    font-family: 'lato';
-}
 
-.btn_medium.btn1 {
-    position: absolute;
-    top: 55%;
-    left: 40%;
-}
 
-.btn_medium.btn2 {
-    position: absolute;
-    top: 55%;
-    left: 33%;
-}
-
-.btn_medium.btn3 {
-    position: absolute;
-    top: 55%;
-    left: 44%;
-}
-
-.btn_medium:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #000;
-}
-
-.portfolio-images:hover .overlay-small {
-    opacity: 0.95;
-}
-
-.no-padding {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.no-padding-1 {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.no-padding-2 {
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 15px;
-}
-
-.portfolio-large-image {
-    margin-top: -15px;
-}
-
-.overlay-large {
-    position: absolute;
-    top: -15px;
-    bottom: 0px;
-    left: 0px;
-    right: 30px;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #444444;
-    overflow: hidden;
-}
-
-.telecom-property:hover .overlay-large {
-    opacity: 0.95;
+.image{
+    height:60vh;
+    width:100%;
+    margin-top: 30px;
+    -webkit-box-shadow: 4px 4px 15px -1px rgba(0,0,0,0.5);
+-moz-box-shadow: 4px 4px 15px -1px rgba(0,0,0,0.5);
+box-shadow: 4px 4px 15px -1px rgba(0,0,0,0.5);
 }
