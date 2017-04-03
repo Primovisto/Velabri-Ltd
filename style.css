@@ -72,7 +72,7 @@ header.navbar-fixed-top .menu-links a {
     display: block;
     height: 20px;
     width: 20px;
-    background: #ddd;
+    background: #444;
     border-radius: 50%;
     position: absolute;
     top: 0px;
@@ -188,6 +188,9 @@ header .dark-logo {
     color: #592c11;
 }
 
+
+/* Jumbotron Section */
+
 .jumbotron-section {
     background: rgba(0, 0, 0, 0) url("http://i66.tinypic.com/2rffx44.png") no-repeat fixed 0 0 / cover;
     height: 100%;
@@ -226,7 +229,7 @@ header .dark-logo {
 
 .jumbotron-content ul {
     margin-top: 82px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
 .jumbotron-content ul li {
@@ -251,7 +254,7 @@ header .dark-logo {
 }
 
 .jumbotron-content ul li a:hover {
-    border:none;
+    border: none;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2) inset, 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
@@ -276,52 +279,40 @@ header .dark-logo {
 }
 
 .jumbotron-buttons a {
-
-    
-    padding:14px 30px;
-    font-family:'dosis';
-    font-size:20px;
-    text-decoration:none;
-    margin:20px 10px;
-    margin-top:40px;
+    padding: 14px 30px;
+    font-family: 'dosis';
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    margin-top: 40px;
     text-transform: uppercase;
-    border-radius:2px;
-    
-    
+    border-radius: 2px;
 }
 
-
 .btn-large.btn-jumbo {
-    background-color:#555;
-    color:#fff;
-    border:2px solid #555;
-
+    background-color: #555;
+    color: #fff;
+    border: 2px solid #555;
+    margin-left: 50px;
 }
 
 .btn-large.btn-jumbo2 {
-    background-color:rgba(255,255,255,0.5);
-    color:#444;
-    border:2px solid #555;
-    
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #444;
+    border: 2px solid #555;
 }
 
-.btn-large.btn-jumbo:hover{
-    background-color:#333;
+.btn-large.btn-jumbo:hover {
+    background-color: #333;
 }
 
 .btn-large.btn-jumbo2:hover {
-    background-color:rgba(255,255,255,0.7);
-    border:2px solid #555;
-    
-    
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #555;
 }
 
 
-
-
-
-
-
+/* End Jumbotron */
 
 
 /* Services Section */
@@ -399,13 +390,14 @@ header .dark-logo {
 }
 
 .service-1 .service-content .redesign {
-    margin-top:35px;
+    margin-top: 35px;
 }
+
 
 /* Portfolio Section */
 
 .portfolio-section {
-    background-color: #F5F5DC;
+    background-color: #fff;
 }
 
 .portfolio-section h2 {
@@ -470,7 +462,7 @@ header .dark-logo {
     color: #fff;
     padding: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size:20px;
+    font-size: 20px;
 }
 
 .btn_large.quote_btn {
@@ -482,16 +474,16 @@ header .dark-logo {
     font-size: 22px;
     text-align: center;
     margin-left: 40%;
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 .btn_large.quote_btn:hover {
     background-color: rgba(255, 255, 255, 1);
     color: #333;
     font-size: 22px;
-
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 /* Portfolio Section */
 
@@ -507,49 +499,109 @@ header .dark-logo {
     transition: .5s ease;
     background-color: #fff;
     overflow: hidden;
-
 }
 
 .portfolio-overlay {
-    padding:0;
+    padding: 0;
 }
-
-
 
 .portfolio-image:hover .portfolio-overlay {
     opacity: 0.45;
-    padding:0;
+    padding: 0;
+}
+
+.image {
+    height: 60vh;
+    width: 100%;
+    padding: 0;
+    -webkit-box-shadow: 4px 4px 15px -1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 15px -1px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 15px -1px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-header {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.header-section h2 {
+    text-align: center;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 35px;
+    margin: 30px;
 }
 
 
+/* Footer Section */
 
-.image{
-    height:60vh;
-    width:100%;
+.footer-section {
+    background-color:#444;
+
+
+}
+.footer-logo {
+    margin-top:30px;
+    text-align:center;
+}
+
+footer .footer-nav{
+    margin-top:25px;
+    text-align:center;
+}
+
+.footer-nav li {
+    display:inline-block;
+    width:18%;
+}
+
+.footer-nav ul li {
+    display:inline-block;
     padding:0;
+    text-align:left;
+    width:18%;
+
+}
+
+
+.footer-nav ul li a {
+    color: #8a9290;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', 'sans-serif';
+    font-size:25px;
+
+}
+
+.footer-nav ul li a:hover {
+    color: #eee;
+    text-decoration: underline;
+    
+    
+}
+
+.social-nav {
+    display:inline-block;
+    width:18%;
+    position:relative;
+    left:13px;
+}
+
+.social-nav ul{
+    display:inline;
 
     
-    -webkit-box-shadow: 4px 4px 15px -1px rgba(0,0,0,0.5);
-    -moz-box-shadow: 4px 4px 15px -1px rgba(0,0,0,0.5);
-    box-shadow: 4px 4px 15px -1px rgba(0,0,0,0.5);
 }
 
-.portfolio-header{
-    text-align:center;
-    font-size:20px;
-    font-family:'Open Sans Condensed', sans-serif;
-    font-weight:600;
-    margin:20px;
+.who-are-we {
+    position: relative;
+    left:80px;
 }
 
-.header-section h2{
-
-    text-align:center;
-    font-family:'Roboto', 'sans-serif';
-    font-size:35px;
-    margin:30px;
-
-
-
+.contact-us {
+    position: relative;
+    left:80px;
 }
-
