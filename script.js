@@ -86,12 +86,6 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };
 
-$(document).ready(function() {
- $('.project-1').mouseover(function() {
-  $('.portfolio-title').css("visibility","visible");
-});
-
-$('.project-1').mouseout(function() {
-  $('.portfolio-title').css("visibility","hidden");
-});
+$('#menu-button').on('click', function() {
+  $(document.body).toggleClass('menu-open');
 });
