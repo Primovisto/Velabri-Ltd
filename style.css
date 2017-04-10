@@ -21,13 +21,21 @@ header.navbar-fixed-top {
     box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.75);
     left: 0;
     padding-top: 20px;
-    position: fixed !important;
+    position: fixed;
     right: 0;
     top: 0;
     width: 100%;
     z-index: 999;
     font-weight: 500;
 }
+
+h5 {
+    font-family: 'open sans';
+    font-size:20px;
+    font-weight:600;
+    color:#666;
+}
+
 
 .navbar-fixed-top .light-logo {
     opacity: 0;
@@ -621,7 +629,7 @@ header .light-logo {
 
 .header_section {
     font-family: 'roboto';
-    color: #666;
+    color: #232929;
     text-align: center;
     font-family: 'open sans', 'sans-serif';
     font-size: 30px;
@@ -1012,3 +1020,149 @@ footer .footer-nav {
         font-size: 1.3em;
     }
 }
+
+/* Inside Pages -Contact Us */
+
+#contact .menu-links ul li a{
+    color:#232929;
+}
+
+
+
+#contact .navbar-fixed-top .dark-logo {
+    opacity: 1;
+    display: block;
+}
+
+#contact header .dark-logo {
+    opacity: 1;
+    display: block;
+    
+}
+
+#contact header .light-logo {
+    opacity:0;
+    display:none;
+}
+
+#contact .menu-links ul li:hover > a {
+    color: #6fa9a7;
+}
+
+#contact  form {
+    margin-top:40px;
+}
+
+
+#contact .form-group { 
+    position: relative; 
+}
+#contact .form-control { 
+    border-radius: 0; 
+}
+
+#contact #label-header {
+    font-family: 'open sans';
+    font-weight:200;
+}
+
+
+
+
+#contact .contact-form h2 {
+    font-family:'open sans';
+    margin-top:100px;
+    color:#666;
+}
+
+
+
+
+
+ #contact .btn.btn-primary.contact-btn{
+
+  color: #222;
+  background-color: #f5f5f5; 
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f5f5f5), to(#dddddd));
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #dddddd); 
+  background-image:    -moz-linear-gradient(top, #f5f5f5, #dddddd);
+  background-image:     -ms-linear-gradient(top, #f5f5f5, #dddddd);
+  background-image:      -o-linear-gradient(top, #f5f5f5, #dddddd);
+  border: 1px solid #cccccc;
+  text-shadow: #fff 1px 1px 0;
+
+ }
+
+ #contact .btn.btn-primary.contact-btn:hover {
+    -webkit-box-shadow: 0 4px 6px -3px #aaa;
+     -moz-box-shadow: 0 4px 6px -3px #aaa;
+          box-shadow: 0 4px 6px -3px #aaa;
+ }
+
+ #contact .contact-text h2 {
+    font-family:'open sans';
+    margin-top:100px;
+    color:#666;
+    margin-left:10%;
+ }
+
+  #contact .contact-text p {
+    margin-top:40px;
+    font-size:14px;
+    font-family:'open sans';
+    color:#666;
+    text-align:justify;
+    margin-left:10%;
+    margin-bottom: 15px;
+ }
+
+ #contact .contact-text h5 {
+    margin-left: 10%;
+
+ }
+
+ #contact .contact-info {
+    margin-left:  10%;
+    width:90%;
+ }
+
+
+
+ #contact .contact-info i {
+    margin-right:10px;
+    font-size: 20px;
+    color: #6fa9a7;
+ }
+
+
+
+ .social-list {
+    margin-left:9%;
+    padding:0;
+    list-style: none;
+    margin-top:15px;
+
+ }
+
+ .social-list > li {
+    display:inline-block;
+    padding:0 10px;
+ }
+
+ .social-list li i {
+    font-size:24px;
+    color:#6fa9a7;
+ }
+
+  .social-list li i:hover{
+    color:#666;
+  }
+
+  #map-canvas {
+    
+        width: 100%;
+        height: 100%;
+        background-color: grey;
+        margin-top:80px;
+      
+  }
