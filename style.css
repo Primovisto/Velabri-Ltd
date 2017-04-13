@@ -330,115 +330,44 @@ header .light-logo {
 
 /* End Jumbotron */
 
-/*Choose-us-section*/
 
-.choose-us-main-header {
-    font-size: 35px;
-    font-family: 'roboto';
-    color: #232929;
-    text-align: center;
-    padding-top: 60px;
-}
 
-.choose-us-header-text {
-    font-family: 'open sans';
-    text-align: center;
-    font-size: 16px;
-    padding: 20px 80px;
-    color: #888;
-}
 
-.choose-us .why-choose {
-    position: relative;
-    width: 100%;
-    margin-bottom: 60px;
-}
+/* Services Section */
 
-.why-choose-header.header-right {
-    margin-right: 40px;
-}
-
-.why-choose-header.header-left {
-    margin-left: 40px;
-}
-
-.why-choose h5 {
-    color: #232929;
-    font-size: 18px;
-    font-family: 'open sans';
-    font-weight: 600;
-}
-
-.why-choose a {
-    text-decoration: none;
-}
-
-.why-choose a:hover h5 {
-    color: #6fa9a7;
-}
-
-.why-choose p {
-    font-family: 'open sans', 'sans-serif';
-    font-size: 12px;
-    color: #888;
-}
-
-.choose-us .why-choose-header.header-left {
-    text-align: left;
-    padding-right: 30px;
-}
-
-.choose-us .why-choose-header.header-right {
-    text-align: right;
-}
-
-.choose-us .why-choose.why-choose-left,
-.choose-us .why-choose.why-choose-right {
-    padding-left: 100px;
-    text-align: left;
-}
-
-.choose-us .why-choose .simple-icon {
-    position: absolute;
-    top: 0;
-}
-
-.choose-us .why-choose.why-choose-left .simple-icon,
-.choose-us .why-choose.why-choose-right .simple-icon {
-    left: 0;
-}
-
-.why-choose .simple-icon i {
-    color: #6fa9a7;
-    font-size: 20px;
-    border: 2px solid #6fa9a7;
-    border-radius: 50%;
-    padding: 15px;
-}
-
-.why-choose .simple-icon i:hover {
-    color: #232929;
-    border: 2px solid #232929;
-}
-
-.choose-us-background{
-    background-color:#f7f7f7;
+.services {
     border-top:1px solid #d3d3d3;
-    margin-top:30px;
-    
-
-}
-.choose-us-background .why-choose {
-    margin-top:60px;
+    background-color: #f7f7f7;
+    padding: 10px 0px;
 }
 
-.choose-us-background:before {
+.services-header {
+    background-color:#fff;
+}
+
+.services-heading {
+    color: #232929;
+    text-align: center;
+    font-family: 'Roboto', 'sans-serif';
+    padding-top: 50px;
+    font-size: 45px;
+}
+.services-paragraph {
+    font-family: 'open sans', 'sans-serif';
+    color: #888;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 100px;
+    padding-bottom: 40px;
+}
+
+.services:before {
     display: block;
     position: relative;
     content: '';
     width: 50px;
     height: 50px;
-    bottom: 25px;
+    bottom: 35px;
     left: 48%;
     background-color: #fff;
     -ms-transform: rotate(45deg);
@@ -449,77 +378,27 @@ header .light-logo {
     border-right:1px solid #d3d3d3;;
 }
 
-@media (min-width: 992px) {
-    .choose-us .why-choose.why-choose-left {
-        padding-right: 100px;
-        padding-left: 0;
-        text-align: right;
-    }
-    .choose-us .why-choose.why-choose-left .simple-icon {
-        right: 0;
-        left: auto;
-    }
-}
-
-
-/* End why choose */
-
-
-/* Services Section */
-
-.services {
-    border-top:1px solid #d3d3d3;
-    background-image: url("http://i64.tinypic.com/2a9brz7.jpg");
-    padding: 30px 0px;
-}
-
-.services-heading {
-    color: #6fa9a7;
-    text-align: center;
-    font-family: 'open sans', 'sans-serif';
-    padding-top: 50px;
-    font-size: 30px;
-}
-
-.services-subheader {
-    font-family: 'open sans', 'sans-serif';
-    color: #232929;
-    font-size: 24px;
-    text-align: center;
-}
-
-.services-paragraph {
-    font-family: 'open sans condensed', 'sans-serif';
-    font-weight: 400;
-    color: #444;
-    font-size: 20px;
-    text-align: center;
-    padding: 0 100px;
-    padding-bottom: 40px;
-}
-
 .service {
     text-align: center;
-    padding-top: 0px;
     margin: 20px;
 }
 
 .services .services-heading {
-    font-family: 'open sans condensed', 'sans-serif';
+    font-family: 'open sans', 'sans-serif';
     font-size: 40px;
 }
 
 .service .service-content h3 {
-    color: #3d3d3d;
+    color: #232929;
     font-size: 18px;
     font-weight: 600;
     font-family: 'open sans';
 }
 
 .service .service-content p {
-    font-family: 'open sans condensed', 'sans-serif';
-    color: #444;
-    font-size: 16px;
+    font-family: 'open sans', 'sans-serif';
+    color: #888;
+    font-size: 14px;
 }
 
 .service .service-icon i {
@@ -615,6 +494,140 @@ header .light-logo {
     }
 }
 
+/*Choose-us-section*/
+
+.choose-us-main-header {
+    font-size: 45px;
+    font-family: 'roboto';
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.choose-us-header-text {
+    font-family: 'open sans';
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 80px;
+    color: #fff;
+}
+.choose-us {
+    background-color:#f7f7f7;
+    
+}
+
+.choose-us .why-choose {
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top:40px;
+
+}
+
+.why-choose-header.header-right {
+    margin-right: 40px;
+}
+
+.why-choose-header.header-left {
+    margin-left: 40px;
+}
+
+.why-choose h5 {
+    color: #232929;
+    font-size: 18px;
+    font-family: 'open sans';
+    font-weight: 600;
+}
+
+.why-choose a {
+    text-decoration: none;
+}
+
+.why-choose a:hover h5 {
+    color: #6fa9a7;
+}
+
+.why-choose p {
+    font-family: 'open sans', 'sans-serif';
+    font-size: 14px;
+    color: #888;
+}
+
+.choose-us .why-choose-header.header-left {
+    text-align: left;
+    padding-right: 30px;
+}
+
+.choose-us .why-choose-header.header-right {
+    text-align: right;
+}
+
+.choose-us .why-choose.why-choose-left,
+.choose-us .why-choose.why-choose-right {
+    padding-left: 100px;
+    text-align: left;
+}
+
+.choose-us .why-choose .simple-icon {
+    position: absolute;
+    top: 0;
+}
+
+.choose-us .why-choose.why-choose-left .simple-icon,
+.choose-us .why-choose.why-choose-right .simple-icon {
+    left: 0;
+}
+
+.why-choose .simple-icon i {
+    color: #6fa9a7;
+    font-size: 20px;
+    border: 2px solid #6fa9a7;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.why-choose .simple-icon i:hover {
+    color: #232929;
+    border: 2px solid #232929;
+}
+
+.choose-us-header {
+    background-image: url(http://i64.tinypic.com/2ezh24m.png);
+    height:40vh;
+}
+
+.choose-us-header .down-arrow{
+    color:#fff;
+    font-size:60px;
+    text-align:center;
+    position:relative;
+    border:2px solid #fff;
+    border-radius:100%;
+    left:48%;
+    right:52%;
+    top:90px;
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .choose-us .why-choose.why-choose-left {
+        padding-right: 100px;
+        padding-left: 0;
+        text-align: right;
+    }
+    .choose-us .why-choose.why-choose-left .simple-icon {
+        right: 0;
+        left: auto;
+    }
+}
+
+
+/* End why choose */
+
 
 /* Get A Quote Section */
 
@@ -663,13 +676,13 @@ header .light-logo {
     margin: 20px;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 35px;
+    font-size: 45px;
     color: #232929;
 }
 
 .portfolio-header-text {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'open sans', 'sans-serif';
     color: #888;
     margin-bottom: 50px;
