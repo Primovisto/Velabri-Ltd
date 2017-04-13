@@ -349,7 +349,7 @@ header .light-logo {
     color: #232929;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
-    padding-top: 50px;
+    margin-top: 50px;
     font-size: 45px;
 }
 .services-paragraph {
@@ -358,7 +358,7 @@ header .light-logo {
     font-size: 18px;
     text-align: center;
     padding: 0 100px;
-    padding-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .services:before {
@@ -464,7 +464,7 @@ header .light-logo {
 }
 
 .services-btn a:hover {
-    background-color: #7ac3c0;
+    background-color: #508b89;
 }
 
 
@@ -510,6 +510,37 @@ header .light-logo {
     font-size: 18px;
     padding: 20px 80px;
     color: #fff;
+}
+.choose-us-header{
+    position:relative;
+}
+
+.choose-us-header::before{
+    
+    border-right: 30px solid transparent;
+    border-left: 1000px solid #f7f7f7;
+    content: '';
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    width: 50%;
+    z-index: 100;
+    border-bottom: 30px solid #f7f7f7;
+
+
+}
+
+.choose-us-header::after{
+    left: 50%;
+    border-left: 30px solid transparent;
+    border-right: 1000px solid #f7f7f7;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    z-index: 100;
+    border-bottom: 30px solid #f7f7f7;
+
 }
 .choose-us {
     background-color:#f7f7f7;
@@ -593,7 +624,7 @@ header .light-logo {
 
 .choose-us-header {
     background-image: url(http://i64.tinypic.com/2ezh24m.png);
-    height:40vh;
+    height:50vh;
 }
 
 
@@ -657,25 +688,36 @@ header .light-logo {
 /* Portfolio Section */
 
 .portfolio-section {
-    background-color: #fff;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    background-color:#fff;
+    
+    
 }
 
-.portfolio-header h2 {
-    margin: 20px;
+.portfolio-section-header {
+    background-color:#fff;
+    border-bottom:1px solid #d3d3d3;
+}
+
+.portfolio-heading h2 {
+    margin-top: 50px;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
     font-size: 45px;
     color: #232929;
 }
 
-.portfolio-header-text {
+.portfolio-heading-text {
     text-align: center;
     font-size: 18px;
     font-family: 'open sans', 'sans-serif';
     color: #888;
     margin-bottom: 50px;
+}
+
+.portfolio-items-section {
+    position:relative;
+    background-color:#f7f7f7;
+    padding:80px;
 }
 
 .image {
@@ -707,14 +749,32 @@ header .light-logo {
     text-align: center;
 }
 
+.portfolio-items-section:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+    bottom: 429px;
+    left: 48%;
+    background-color: #fff;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+    border-bottom:1px solid #d3d3d3;
+    border-right:1px solid #d3d3d3;;
+}
+
+
 
 /* Skills Section */
 
 .our_skills {
-    background-image: url(http://i64.tinypic.com/2a9brz7.jpg);
+    background-color:#f7f7f7;
     padding-top: 40px;
     padding-bottom: 120px;
-    border-top: 1px solid #d3d3d3
+
 }
 
 .header_section h2 {
@@ -736,13 +796,14 @@ header .light-logo {
 
 .skills_logos {
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.3);
     -webkit-transition: all 1s linear;
     -moz-transition: all 1s linear;
     -o-transition: all 1s linear;
     transition: all 1s linear;
     background: #fff;
     max-width: 80%;
+    border-right:1px solid #eee;
+    border-bottom:1px solid #eee;
 }
 
 .skills_logos .skilltypes {
@@ -764,22 +825,6 @@ header .light-logo {
     overflow: hidden;
 }
 
-.our_skills:before {
-    display: block;
-    position: relative;
-    content: '';
-    width: 50px;
-    height: 50px;
-    bottom: 65px;
-    left: 48%;
-    background-color: #fff;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    z-index: 1;
-    border-bottom:1px solid #d3d3d3;
-    border-right:1px solid #d3d3d3;
-}
 
 
 
