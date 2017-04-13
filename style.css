@@ -624,7 +624,7 @@ header .light-logo {
 
 .choose-us-header {
     background-image: url(http://i64.tinypic.com/2ezh24m.png);
-    height:50vh;
+    height:45vh;
 }
 
 
@@ -657,11 +657,11 @@ header .light-logo {
 }
 
 .work-text {
-    font-size: 28px;
+    font-size: 22px;
     color: #fff;
     font-weight: 400;
     margin: 45px 0;
-    font-family: 'open sans condensed';
+    font-family: 'open sans', 'sans-serif';
 }
 
 .btn_large.quote_btn {
@@ -718,6 +718,7 @@ header .light-logo {
     position:relative;
     background-color:#f7f7f7;
     padding:80px;
+    border-bottom:1px solid #d3d3d3;
 }
 
 .image {
@@ -738,24 +739,25 @@ header .light-logo {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 15px;
-    color: #555;
+    color: #888;
 }
 
 .portfolio-website-type {
-    color: #555;
+    color: #232929;
     font-size: 18px;
     font-family: 'open sans', 'sans serif';
     font-weight: 600;
     text-align: center;
+    margin-bottom:40px;
 }
 
-.portfolio-items-section:after {
+.portfolio-items-section::after {
     display: block;
     position: absolute;
     content: '';
     width: 50px;
     height: 50px;
-    bottom: 429px;
+    bottom: 783px;
     left: 48%;
     background-color: #fff;
     -ms-transform: rotate(45deg);
@@ -770,29 +772,37 @@ header .light-logo {
 
 /* Skills Section */
 
-.our_skills {
-    background-color:#f7f7f7;
-    padding-top: 40px;
-    padding-bottom: 120px;
-
+#our_skills{
+  margin:0;
+  width:100%;
+  background-image:url(http://i65.tinypic.com/28bu2oi.jpg);
 }
 
+
 .header_section h2 {
-    color: #232929;
+    color: #fff;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
     font-weight: 600;
     font-size: 45px;
     padding: 0px;
+    margin-top:80px;
 }
 
 .header_section h3 {
     font-size: 18px;
     font-family: 'open sans', 'sans-serif';
     text-align: center;
-    color: #888;
+    color: #fff;
     margin-bottom: 30px;
 }
+
+
+.skills-content{
+    padding:60px;
+    padding-bottom:100px;
+}
+
 
 .skills_logos {
     text-align: center;
@@ -802,8 +812,9 @@ header .light-logo {
     transition: all 1s linear;
     background: #fff;
     max-width: 80%;
-    border-right:1px solid #eee;
-    border-bottom:1px solid #eee;
+    border:1px solid #d3d3d3;
+
+    
 }
 
 .skills_logos .skilltypes {

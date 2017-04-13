@@ -86,6 +86,3 @@ var TxtType = function(el, toRotate, period) {
         document.body.appendChild(css);
     };
 
-$('#menu-button').on('click', function() {
-  $(document.body).toggleClass('menu-open');
-});
