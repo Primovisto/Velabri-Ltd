@@ -518,7 +518,7 @@ header .light-logo {
 .choose-us-header::before{
     
     border-right: 30px solid transparent;
-    border-left: 1000px solid #f7f7f7;
+    border-left: 100% solid #f7f7f7;
     content: '';
     position: absolute;
     right: 50%;
@@ -533,7 +533,7 @@ header .light-logo {
 .choose-us-header::after{
     left: 50%;
     border-left: 30px solid transparent;
-    border-right: 1000px solid #f7f7f7;
+    border-right: 100% solid #f7f7f7;
     content: '';
     position: absolute;
     bottom: 0;
@@ -757,7 +757,7 @@ header .light-logo {
     content: '';
     width: 50px;
     height: 50px;
-    bottom: 783px;
+    bottom: 753px;
     left: 48%;
     background-color: #fff;
     -ms-transform: rotate(45deg);
@@ -840,41 +840,12 @@ header .light-logo {
 
 
 
-/* Footer Contact Section */
-
-.contact-col {
-    background-color: #6fa9a7;
-    padding: 25px;
-}
-
-.contact-col p {
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.contact-col span {
-    margin: 10px 15px;
-}
-
-.contact-col .phone-info i {
-    font-size: 25px;
-    color: #fff;
-    margin: 6px;
-}
-
-.contact-col .email-info i {
-    font-size: 25px;
-    color: #fff;
-    margin: 6px;
-}
 
 
 /* Footer Section */
 
 .footer-section {
-    background-color: #2d3333;
+    background-image: url(http://i67.tinypic.com/281efis.jpg);
 }
 
 .footer-logo {
