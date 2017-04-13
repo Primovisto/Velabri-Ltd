@@ -210,12 +210,10 @@ header .light-logo {
 /* Jumbotron Section */
 
 .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i66.tinypic.com/2rffx44.png") no-repeat fixed 0 0 / cover;
+    background: rgba(0, 0, 0, 0) url("http://i67.tinypic.com/fnvgb4.jpg") no-repeat fixed 0 0 / cover;
     height: 100%;
     position: relative;
-    -moz-box-shadow: 2px 2px 3px #888;
-    -webkit-box-shadow: 2px 2px 3px #888;
-    box-shadow: 2px 2px 3px #888;
+
 }
 
 .jumbotron-content {
@@ -223,26 +221,41 @@ header .light-logo {
     position: absolute;
     right: 0;
     text-align: center;
-    top: 50%;
+    top: 55%;
     transform: translateY(-50%);
     z-index: 9;
 }
 
 .jumbotron-content h1 {
     color: #fff;
-    font-size: 45px;
+    font-size: 58px;
     text-align: center;
     text-decoration: none;
+    font-family: 'cabin sketch', helvetica, sans-serif;
+}
+
+.jumbotron-content p {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'cabin sketch', helvetica, sans-serif;
+}
+
+.jumbotron-content span {
+    color:#6fa9a7;
 }
 
 .jumbotron-content ul {
     margin-top: 82px;
     margin-bottom: 40px;
+    margin-right:30px;
 }
 
 .jumbotron-content ul li {
     display: inline-block;
     margin: 0 3px;
+
 }
 
 .jumbotron-content ul li a {
@@ -263,7 +276,7 @@ header .light-logo {
 
 .jumbotron-content ul li a:hover {
     border: none;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2) inset, 0 0 20px rgba(255, 255, 255, 0.2);
+    
 }
 
 .jumbotron-content ul li:nth-child(1) a:hover {
@@ -286,102 +299,176 @@ header .light-logo {
     background-color: #000;
 }
 
-.jumbotron-buttons a {
-    padding: 14px 30px;
+.jumbotron-button a {
+    padding: 10px 20px;
     font-family: 'open sans';
     font-size: 20px;
     text-decoration: none;
-    margin: 20px 10px;
+    margin: 20px 0px;
     margin-top: 40px;
     text-transform: uppercase;
-    border-radius: 2px;
+    border-radius: 25px;
 }
 
 .btn-large.btn-jumbo {
-    background-color: #555;
+    background-color: rgba(255,255,255,0);
     color: #fff;
-    border: 2px solid #555;
-    margin-left: 50px;
+    font-weight:600;
+    border: 2px solid #fff;
+    margin-left: 10px;
 }
 
-.btn-large.btn-jumbo2 {
-    background-color: rgba(255, 255, 255, 0.5);
-    color: #444;
-    border: 2px solid #555;
-}
+
 
 .btn-large.btn-jumbo:hover {
-    background-color: #333;
+    background-color: #fff;
+    color:#6fa9a7;
 }
 
-.btn-large.btn-jumbo2:hover {
-    background-color: rgba(255, 255, 255, 0.7);
-    border: 2px solid #555;
-}
+
 
 
 /* End Jumbotron */
 
+/*Choose-us-section*/
 
-/* Welcome Section */
-
-.welcome {
-    background-image: url("http://i64.tinypic.com/2im2yd2.jpg");
-    margin-top: 40px;
-    padding: 0;
-    animation-duration: 1s;
-    animation-name: fadeInLeft;
-    animation-timing-function: ease-in-out;
-}
-
-.welcome-main-header {
+.choose-us-main-header {
     font-size: 35px;
-    line-height: 30px;
-    font-family: 'roboto', 'sans-serif';
-    color: #3d3d3d;
-    margin-bottom: 30px;
-    font-weight: 500;
+    font-family: 'roboto';
+    color: #232929;
     text-align: center;
-    padding: 0;
+    padding-top: 60px;
 }
 
-.welcome-main-header span {
+.choose-us-header-text {
+    font-family: 'open sans';
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 80px;
+    color: #888;
+}
+
+.choose-us .why-choose {
+    position: relative;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.why-choose-header.header-right {
+    margin-right: 40px;
+}
+
+.why-choose-header.header-left {
+    margin-left: 40px;
+}
+
+.why-choose h5 {
+    color: #232929;
+    font-size: 18px;
+    font-family: 'open sans';
+    font-weight: 600;
+}
+
+.why-choose a {
+    text-decoration: none;
+}
+
+.why-choose a:hover h5 {
     color: #6fa9a7;
 }
 
-.welcome-header {
+.why-choose p {
     font-family: 'open sans', 'sans-serif';
-    font-size: 24px;
-    line-height: 45px;
-    color: #3d3d3d;
-    text-align: center;
-    padding: 0px 20px;
+    font-size: 12px;
+    color: #888;
 }
 
-.welcome-header span {
-    font-family: 'cabin sketch';
-    font-size: 40px;
+.choose-us .why-choose-header.header-left {
+    text-align: left;
+    padding-right: 30px;
 }
 
-.welcome:after {
+.choose-us .why-choose-header.header-right {
+    text-align: right;
+}
+
+.choose-us .why-choose.why-choose-left,
+.choose-us .why-choose.why-choose-right {
+    padding-left: 100px;
+    text-align: left;
+}
+
+.choose-us .why-choose .simple-icon {
+    position: absolute;
+    top: 0;
+}
+
+.choose-us .why-choose.why-choose-left .simple-icon,
+.choose-us .why-choose.why-choose-right .simple-icon {
+    left: 0;
+}
+
+.why-choose .simple-icon i {
+    color: #6fa9a7;
+    font-size: 20px;
+    border: 2px solid #6fa9a7;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.why-choose .simple-icon i:hover {
+    color: #232929;
+    border: 2px solid #232929;
+}
+
+.choose-us-background{
+    background-color:#f7f7f7;
+    border-top:1px solid #d3d3d3;
+    margin-top:30px;
+    
+
+}
+.choose-us-background .why-choose {
+    margin-top:60px;
+}
+
+.choose-us-background:before {
     display: block;
     position: relative;
     content: '';
     width: 50px;
     height: 50px;
-    bottom: -25px;
+    bottom: 25px;
     left: 48%;
     background-color: #fff;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     z-index: 1;
+    border-bottom:1px solid #d3d3d3;
+    border-right:1px solid #d3d3d3;;
 }
+
+@media (min-width: 992px) {
+    .choose-us .why-choose.why-choose-left {
+        padding-right: 100px;
+        padding-left: 0;
+        text-align: right;
+    }
+    .choose-us .why-choose.why-choose-left .simple-icon {
+        right: 0;
+        left: auto;
+    }
+}
+
+
+/* End why choose */
 
 
 /* Services Section */
 
 .services {
+    border-top:1px solid #d3d3d3;
     background-image: url("http://i64.tinypic.com/2a9brz7.jpg");
     padding: 30px 0px;
 }
@@ -532,7 +619,7 @@ header .light-logo {
 /* Get A Quote Section */
 
 .work-with-us {
-    background-color: #3d3d3d;
+    background-image: url(http://i66.tinypic.com/2dtuk44.jpg);
 }
 
 .work-text {
@@ -621,9 +708,10 @@ header .light-logo {
 /* Skills Section */
 
 .our_skills {
-    background-color: #eee;
+    background-image: url(http://i64.tinypic.com/2a9brz7.jpg);
     padding-top: 40px;
     padding-bottom: 120px;
+    border-top: 1px solid #d3d3d3
 }
 
 .header_section h2 {
@@ -680,125 +768,18 @@ header .light-logo {
     content: '';
     width: 50px;
     height: 50px;
-    bottom: 70px;
+    bottom: 65px;
     left: 48%;
     background-color: #fff;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     z-index: 1;
+    border-bottom:1px solid #d3d3d3;
+    border-right:1px solid #d3d3d3;
 }
 
 
-/*Choose-us-section*/
-
-.choose-us-main-header {
-    font-size: 35px;
-    font-family: 'roboto';
-    color: #232929;
-    text-align: center;
-    padding-top: 60px;
-}
-
-.choose-us-header-text {
-    font-family: 'open sans';
-    text-align: center;
-    font-size: 16px;
-    padding: 20px 80px;
-    color: #888;
-}
-
-.choose-us .why-choose {
-    position: relative;
-    width: 100%;
-    margin-bottom: 60px;
-}
-
-.why-choose-header.header-right {
-    margin-right: 40px;
-}
-
-.why-choose-header.header-left {
-    margin-left: 40px;
-}
-
-.why-choose h5 {
-    color: #232929;
-    font-size: 18px;
-    font-family: 'open sans';
-    font-weight: 600;
-}
-
-.why-choose a {
-    text-decoration: none;
-}
-
-.why-choose a:hover h5 {
-    color: #6fa9a7;
-}
-
-.why-choose p {
-    font-family: 'open sans', 'sans-serif';
-    font-size: 12px;
-    color: #888;
-}
-
-.choose-us .why-choose-header.header-left {
-    text-align: left;
-    padding-right: 30px;
-}
-
-.choose-us .why-choose-header.header-right {
-    text-align: right;
-}
-
-.choose-us .why-choose.why-choose-left,
-.choose-us .why-choose.why-choose-right {
-    padding-left: 100px;
-    text-align: left;
-}
-
-.choose-us .why-choose .simple-icon {
-    position: absolute;
-    top: 0;
-}
-
-.choose-us .why-choose.why-choose-left .simple-icon,
-.choose-us .why-choose.why-choose-right .simple-icon {
-    left: 0;
-}
-
-.why-choose .simple-icon i {
-    color: #6fa9a7;
-    font-size: 20px;
-    border: 2px solid #6fa9a7;
-    border-radius: 50%;
-    padding: 15px;
-}
-
-.why-choose .simple-icon i:hover {
-    color: #232929;
-    border: 2px solid #232929;
-}
-
-.why-choose-image {
-    margin-top: 30px;
-}
-
-@media (min-width: 992px) {
-    .choose-us .why-choose.why-choose-left {
-        padding-right: 100px;
-        padding-left: 0;
-        text-align: right;
-    }
-    .choose-us .why-choose.why-choose-left .simple-icon {
-        right: 0;
-        left: auto;
-    }
-}
-
-
-/* End why choose */
 
 
 /* Footer Contact Section */
