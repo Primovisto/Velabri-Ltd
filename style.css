@@ -18,7 +18,7 @@ header.navbar-fixed-top {
     animation-duration: 1s;
     animation-name: fadeInDown;
     animation-timing-function: ease-in-out;
-    background: rgba(255, 255, 255, 0.8) none repeat fixed 0 0;
+    background: rgba(255, 255, 255, 0.9) none repeat fixed 0 0;
     box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.75);
     left: 0;
     padding-top: 20px;
@@ -596,17 +596,7 @@ header .light-logo {
     height:40vh;
 }
 
-.choose-us-header .down-arrow{
-    color:#fff;
-    font-size:60px;
-    text-align:center;
-    position:relative;
-    border:2px solid #fff;
-    border-radius:100%;
-    left:48%;
-    right:52%;
-    top:90px;
-}
+
 
 
 
@@ -728,11 +718,11 @@ header .light-logo {
 }
 
 .header_section h2 {
-    color: #6fa9a7;
+    color: #232929;
     text-align: center;
-    font-family: 'open sans', 'sans-serif';
+    font-family: 'Roboto', 'sans-serif';
     font-weight: 600;
-    font-size: 30px;
+    font-size: 45px;
     padding: 0px;
 }
 
@@ -740,8 +730,7 @@ header .light-logo {
     font-size: 18px;
     font-family: 'open sans', 'sans-serif';
     text-align: center;
-    color: #3d3d3d;
-    font-weight:600;
+    color: #888;
     margin-bottom: 30px;
 }
 
