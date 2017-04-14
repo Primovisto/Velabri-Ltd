@@ -1,10 +1,10 @@
 body,
 html {
     margin: 0;
-    color: #444;
+    color: #232929;
     height: 100%;
     width: 100%;
-    background-color: #fff;
+    background-color: #f7f7f7;
     line-height: 30px;
     text-decoration: none;
 }
@@ -757,7 +757,7 @@ header .light-logo {
     content: '';
     width: 50px;
     height: 50px;
-    bottom: 753px;
+    bottom: 783px;
     left: 48%;
     background-color: #fff;
     -ms-transform: rotate(45deg);
@@ -775,12 +775,55 @@ header .light-logo {
 #our_skills{
   margin:0;
   width:100%;
-  background-image:url(http://i65.tinypic.com/28bu2oi.jpg);
+  background-color:#fff;
 }
+
+.header_section{
+    background-color:#fff;
+    height:40vh;
+    position:relative;
+    
+}
+
+.header_section::before,
+    .header_section::after {
+        position: absolute;
+        content: '';
+        pointer-events: none;
+    }
+ 
+    .header_section {
+        z-index: 1;
+        background: #fff;
+    }
+ 
+    .header_section::before, 
+        .header_section::after {
+        top: 0;
+         z-index: -1;
+        width: 100%;
+        height: 25%;
+        background: inherit;
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
+ 
+    .header_section::before {
+        height: 25%;
+        background: #fff;
+        -webkit-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+        -webkit-transform-origin: 3% 0;
+        transform-origin: 3% 0;
+        border-top:1px solid #d3d3d3;
+    }
+
 
 
 .header_section h2 {
-    color: #fff;
+    color: #232929;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
     font-weight: 600;
@@ -793,13 +836,13 @@ header .light-logo {
     font-size: 18px;
     font-family: 'open sans', 'sans-serif';
     text-align: center;
-    color: #fff;
+    color: #888;
     margin-bottom: 30px;
 }
 
 
+
 .skills-content{
-    padding:60px;
     padding-bottom:100px;
 }
 
@@ -844,65 +887,181 @@ header .light-logo {
 
 /* Footer Section */
 
-.footer-section {
-    background-image: url(http://i67.tinypic.com/281efis.jpg);
+.footer {
+  background-color: #f7f7f7;
+  width: 100%;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 50px;
+  border-top:1px solid #d3d3d3;
+  
 }
 
-.footer-logo {
-    margin-top: 30px;
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+/* footer left*/
+
+.footer .footer-left {
+  width: 33%;
+  padding-right: 15px;
+}
+
+.footer .about {
+  line-height: 20px;
+  color: #7f858f;
+  font-family:'open sans','sans-serif';
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .about span {
+  display: block;
+  color: #232929;
+  font-family:'open sans', 'sans-serif';
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer .icons {
+  margin-top: 25px;
+}
+
+.footer .icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+/* footer center*/
+
+.footer .footer-center {
+  width: 30%;
+}
+.footer-center .center-header   {
+display: block;
+  color: #232929;
+  font-family:'open sans', 'sans-serif';
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  padding-left: 15px;
+}
+
+.footer .footer-center i {
+  background-color: #6fa9a7;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+  color:#fff;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #232929;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .footer-center p a {
+  color: #232929;
+  text-decoration: none;
+}
+
+
+/* footer right*/
+
+.footer .footer-right {
+  width: 35%;
+  
+}
+
+.footer .footer-right .right-header {
+    display: block;
+  color: #232929;
+  font-family:'open sans', 'sans-serif';
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  
+}
+
+
+
+
+.footer .menu a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: #232929;
+  font-size:16px;
+}
+
+.footer .menu a:hover {
+  color: #6fa9a7;
+}
+
+.footer .name {
+  color: #888;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer {
+    font-size: 14px;
+  }
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
     text-align: center;
-}
-
-footer .footer-nav {
-    margin-top: 25px;
-    text-align: center;
-}
-
-.footer-nav li {
-    display: inline-block;
-    width: 18%;
-}
-
-.footer-nav ul li {
-    display: inline-block;
-    padding: 0;
-    text-align: left;
-    width: 18%;
-}
-
-.footer-nav ul li a {
-    color: #8a9290;
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    font-family: 'Open Sans', 'sans-serif';
-    font-size: 25px;
-}
-
-.footer-nav ul li a:hover {
-    color: #eee;
-    text-decoration: underline;
-}
-
-.social-nav {
-    display: inline-block;
-    width: 18%;
-    position: relative;
-    left: 13px;
-}
-
-.social-nav ul {
-    display: inline;
-}
-
-.who-are-we {
-    position: relative;
-    left: 80px;
-}
-
-.contact-us {
-    position: relative;
-    left: 80px;
+  }
+  .footer .footer-center i {
+    margin-left: 0;
+  }
 }
 
 
@@ -1162,7 +1321,15 @@ footer .footer-nav {
 
 /*  Inside Pages -About Us Page */
 
+#about .about-us {
+    background-color: #fff;
+}
+
 #about .menu-links ul li a {
+    color: #fff;
+}
+
+#about header.navbar-fixed-top .menu-links a {
     color: #232929;
 }
 
@@ -1171,14 +1338,19 @@ footer .footer-nav {
     display: block;
 }
 
+#about header.navbar-fixed-top .light-logo {
+    opacity: 0;
+    display: none;
+}
+
 #about header .dark-logo {
-    opacity: 1;
-    display: block;
+    opacity: 0;
+    display: none;
 }
 
 #about header .light-logo {
-    opacity: 0;
-    display: none;
+    opacity: 1;
+    display: block;
 }
 
 #about .menu-links ul li:hover > a {
@@ -1186,11 +1358,11 @@ footer .footer-nav {
 }
 
 #about .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/155jcx1.jpg") no-repeat fixed 0 0 / cover;
+    background: rgba(0, 0, 0, 0) url("http://i68.tinypic.com/zvdb2v.png") no-repeat fixed 0 0 / cover;
 }
 
 #about .jumbotron-content h1 {
-    color: #232929;
+    color: #fff;
     font-size: 60px;
     text-align: center;
     text-decoration: none;
@@ -1198,16 +1370,22 @@ footer .footer-nav {
 }
 
 #about .jumbotron-content p {
-    color: #232929;
+    color: #fff;
     font-family: 'open sans', 'sans-serif';
     font-size: 20px;
     text-align: center;
 }
 
+#about .jumbotron-section .jumbotron-content .about-arrow {
+    color: #fff;
+    font-size: 40px;
+}
+
 #about .about-text h5 {
     color: #232929;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'open sans', 'sans-serif';
+    font-weight: 400;
     margin-bottom: 30px;
 }
 
@@ -1220,7 +1398,7 @@ footer .footer-nav {
 }
 
 #about .about-us {
-    margin-top: 40px;
+    padding: 40px;
 }
 
 #about .about-image img {
@@ -1229,12 +1407,11 @@ footer .footer-nav {
 
 #about .meet-the-team {
     background-image: url('http://i64.tinypic.com/2a9brz7.jpg');
-    margin-top: 50px;
 }
 
 #about .meet-the-team:before {
     display: block;
-position: relative;
+    position: relative;
     content: '';
     width: 50px;
     height: 50px;
@@ -1246,6 +1423,7 @@ position: relative;
     transform: rotate(45deg);
     z-index: 1;
 }
+
 #about .meet-the-team .team-header {
     text-align: center;
     font-family: 'open sans', 'sans-serif';
@@ -1253,7 +1431,9 @@ position: relative;
     margin: 30px;
     color: #232929;
 }
+
 #about .meet-the-team .team-header p {}
+
 #about .meet-the-team .team-image .name {
     font-family: 'open sans', 'sans-serif';
     color: #232929;
@@ -1261,11 +1441,13 @@ position: relative;
     text-align: center;
     margin-left: 25px;
 }
+
 #about .ed-team-image,
 .james-team-image {
     border-radius: 50%;
     margin-left: 50px;
 }
+
 #about .meet-the-team .team-image .position {
     font-family: 'open sans', 'sans-serif';
     color: #7f858f;
@@ -1274,31 +1456,40 @@ position: relative;
     margin-left: 25px;
 }
 
+
 /* Quote Page */
+
 #quote .get-a-quote {
     background-image: url(http://i64.tinypic.com/2a9brz7.jpg);
 }
+
 #quote .menu-links ul li a {
     color: #232929;
 }
+
 #quote header.navbar-fixed-top .dark-logo {
     opacity: 1;
     display: block;
 }
+
 #quote header .dark-logo {
     opacity: 1;
     display: block;
 }
+
 #quote header .light-logo {
     opacity: 0;
     display: none;
 }
+
 #quote .menu-links ul li:hover > a {
     color: #6fa9a7;
 }
+
 #quote .jumbotron-section {
     background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/155jcx1.jpg") no-repeat fixed 0 0 / cover;
 }
+
 #quote .jumbotron-content h1 {
     color: #232929;
     font-size: 60px;
@@ -1306,29 +1497,35 @@ position: relative;
     text-decoration: none;
     font-family: 'open sans', 'sans-serif';
 }
+
 #quote .jumbotron-content p {
     color: #232929;
     font-family: 'open sans', 'sans-serif';
     font-size: 20px;
     text-align: center;
 }
+
 #quote .quote-form {
     margin: 50px 0;
 }
+
 #quote .quote-form h2 {
     font-family: 'open sans', 'sans-serif';
     font-size: 30px;
     color: #232929;
 }
+
 #quote .quote-form h2 span {
     color: #6fa9a7;
 }
+
 #quote .quote-form p {
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
     color: #232929;
     margin-bottom: 30px;
 }
+
 #quote .quote-text {
     background-color: #fff;
     min-height: 100%;
@@ -1336,6 +1533,7 @@ position: relative;
     padding: 25px;
     margin-top: 100px;
 }
+
 #quote .quote-text h2 {
     font-family: 'open sans', 'sans-serif';
     font-size: 24px;
@@ -1343,6 +1541,7 @@ position: relative;
     margin-bottom: 20px;
     text-align: left;
 }
+
 #quote .quote-text h5 {
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
@@ -1350,11 +1549,13 @@ position: relative;
     color: #232929;
     text-align: left;
 }
+
 #quote .quote-text p {
     font-family: 'open sans', 'sans-serif';
     font-size: 16px;
     text-align: left;
 }
+
 #quote .quote-text .phone-number {
     font-family: 'open sans', 'sans-serif';
     font-size: 26px;
@@ -1363,6 +1564,7 @@ position: relative;
     text-align: left;
     margin-bottom: 30px;
 }
+
 #quote .quote-text .phone-icon {
     font-size: 30px;
     margin-right: 10px;
@@ -1372,6 +1574,7 @@ position: relative;
     border: 1px solid #6fa9a7;
     padding: 6px 8px;
 }
+
 #quote .btn.btn-primary.quote-btn {
     color: #222;
     background-color: #f5f5f5;
@@ -1383,6 +1586,7 @@ position: relative;
     border: 1px solid #cccccc;
     text-shadow: #fff 1px 1px 0;
 }
+
 #quote .btn.btn-primary.quote-btn:hover {
     -webkit-box-shadow: 0 4px 6px -3px #aaa;
     -moz-box-shadow: 0 4px 6px -3px #aaa;
@@ -1394,14 +1598,16 @@ position: relative;
 
 #portfolio .portfolio-item {
     margin-bottom: 50px;
-    
 }
+
 #portfolio .portfolio-item .logo-image {
     position: relative;
 }
+
 #portfolio .img-responsive {
     width: 100%;
 }
+
 #portfolio .portfolio-item .logo-image .overlay {
     opacity: 0;
     position: absolute;
@@ -1414,13 +1620,16 @@ position: relative;
     color: #fff;
     border-radius: 8px;
 }
+
 #portfolio .portfolio-item .logo-image .overlay:hover {
     opacity: 1;
 }
+
 #portfolio .portfolio-item .logo-image .overlay .icons {
     margin-top: 40%;
     text-align: center;
 }
+
 #portfolio .portfolio-item-info .name {
     text-align: center;
     font-family: 'open sans', 'sans-serif';
@@ -1428,6 +1637,7 @@ position: relative;
     font-weight: 600;
     color: #232929;
 }
+
 #portfolio .portfolio-item-info .type {
     text-align: center;
     font-family: 'open sans', 'sans-serif';
@@ -1435,22 +1645,27 @@ position: relative;
     font-weight: 400;
     color: #666;
 }
+
 #portfolio .portfolio-item .icons i {
     font-size: 35px;
     color: #fff;
 }
+
 #portfolio .portfolio-item .icons i:hover {
     font-size: 35px;
     color: #232929;
 }
+
 #portfolio .portfolio-welcome {
     margin-top: 70px;
 }
+
 #portfolio .portfolio-welcome h2 {
     text-align: center;
     font-family: 'open sans', 'sans-serif';
     font-size: 40px;
 }
+
 #portfolio .portfolio-welcome p {
     text-align: center;
     font-family: 'open sans', 'sans-serif';
@@ -1458,56 +1673,58 @@ position: relative;
     color: #888;
 }
 
+
 /* Services - Inside Pages */
 
 #services .get-a-quote {
     background-image: url(http://i64.tinypic.com/2a9brz7.jpg);
 }
+
 #services .menu-links ul li a {
     color: #232929;
 }
+
 #services header.navbar-fixed-top .dark-logo {
     opacity: 1;
     display: block;
 }
+
 #services header .dark-logo {
     opacity: 1;
     display: block;
 }
+
 #services header .light-logo {
     opacity: 0;
     display: none;
 }
+
 #services .menu-links ul li:hover > a {
     color: #6fa9a7;
-
 }
 
 #services .row-margin {
-
-    margin-top:80px;
-
+    margin-top: 80px;
 }
 
 #services .services-page-header h2 {
-    font-family : 'open sans', 'sans-serif';
-    font-size:40px;
+    font-family: 'open sans', 'sans-serif';
+    font-size: 40px;
     margin-top: 40px;
-    text-align:center;
-
+    text-align: center;
 }
 
 #services .service-type {
-    font-family : 'open sans', 'sans-serif';
-    font-size:20px;
+    font-family: 'open sans', 'sans-serif';
+    font-size: 20px;
     margin-top: 15px
 }
 
 #services .service-page-icon {
-    color:#6fa9a7;
+    color: #6fa9a7;
 }
 
 #services .service-paragraph h3 {
-    font-family : 'open sans', 'sans-serif';
-    font-size:20px;
+    font-family: 'open sans', 'sans-serif';
+    font-size: 20px;
 }
