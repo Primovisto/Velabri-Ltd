@@ -9,6 +9,10 @@ html {
     text-decoration: none;
 }
 
+p {
+    font-family:'open sans', 'sans-serif';
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -28,6 +32,11 @@ header.navbar-fixed-top {
     width: 100%;
     z-index: 999;
     font-weight: 500;
+}
+
+h2 {
+    font-family:'Roboto', 'sans-serif';
+    font-size:45px;
 }
 
 h5 {
@@ -757,7 +766,7 @@ header .light-logo {
     content: '';
     width: 50px;
     height: 50px;
-    bottom: 753px;
+    bottom: 768px;
     left: 48%;
     background-color: #fff;
     -ms-transform: rotate(45deg);
@@ -1193,6 +1202,11 @@ display: block;
     background-color:#fff;
 }
 
+#contact .contact-us-page{
+    padding-bottom:80px;
+    background-color:#fff;
+}
+
 #contact .menu-links ul li a {
     color: #232929;
 }
@@ -1215,11 +1229,6 @@ display: block;
     opacity: 0;
     display: none;
 }
-
-#contact .menu-links ul li:hover > a {
-    color: #6fa9a7;
-}
-
 
 #contact .form-group {
     position: relative;
@@ -1314,7 +1323,6 @@ display: block;
 #map-canvas {
     width: 100%;
     height: 80%;
-    margin-top:100px;
 
     
 }
@@ -1359,7 +1367,7 @@ display: block;
 }
 
 #about .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i68.tinypic.com/zvdb2v.png") no-repeat fixed 0 0 / cover;
+    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
 }
 
 #about .jumbotron-content h1 {
@@ -1377,15 +1385,10 @@ display: block;
     text-align: center;
 }
 
-#about .jumbotron-section .jumbotron-content .about-arrow {
-    color: #fff;
-    font-size: 40px;
-}
-
 #about .about-text h5 {
     color: #232929;
-    font-size: 30px;
-    font-family: 'open sans', 'sans-serif';
+    font-size: 45px;
+    font-family: 'roboto', 'sans-serif';
     font-weight: 400;
     margin-bottom: 30px;
 }
@@ -1407,7 +1410,7 @@ display: block;
 }
 
 #about .meet-the-team {
-    background-image: url('http://i64.tinypic.com/2a9brz7.jpg');
+    background-color: #f7f7f7;
 }
 
 #about .meet-the-team:before {
@@ -1425,15 +1428,24 @@ display: block;
     z-index: 1;
 }
 
-#about .meet-the-team .team-header {
+#about .meet-the-team .team-header h2 {
     text-align: center;
-    font-family: 'open sans', 'sans-serif';
-    font-size: 30px;
+    font-family: 'roboto', 'sans-serif';
+    font-size: 45px;
     margin: 30px;
     color: #232929;
 }
 
 #about .meet-the-team .team-header p {}
+
+#about .team-image .about-bio {
+    text-align: center;
+    margin-left: 25px;
+    padding: 30px;
+    font-family: 'open sans', 'sans-serif';
+    font-size: 14px;
+    color: #232929;
+}
 
 #about .meet-the-team .team-image .name {
     font-family: 'open sans', 'sans-serif';
@@ -1457,14 +1469,71 @@ display: block;
     margin-left: 25px;
 }
 
+#about .about-testimonial {
+    background-color: #fff;
+}
+
+#about .testimonial-header h2 {
+    text-align: center;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 45px;
+    color: #232929;
+    padding-top: 50px;
+}
+
+#about .testimonial-header p {
+    font-family: 'open sans', 'sans-serif';
+    font-size:16px;
+    color:#888;
+    text-align:center;
+    padding-bottom: 50px;
+}
+
+#about .about-testimonial .testimonial-text p {
+    padding-right: 20px;
+    color: #232929;
+}
+
+#about .about-testimonial .testimonial-text h5 {
+    font-weight: 600;
+    color: #232929;
+    padding-right: 20px;
+}
+
+#about .about-testimonial .testimonial-text .testimonial-title {
+    padding: 0;
+    font-size: 12px;
+    color:#888;
+}
+
+#about .about-testimonial .testimonial-image img {
+    border-radius: 100%;
+    width: 100px;
+    height: 80px;
+    border: 1px solid #eee;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
+}
+
+#about .extra-margin {
+    padding:40px 0;
+}
 
 /* Quote Page */
 
 #quote .get-a-quote {
-    background-image: url(http://i64.tinypic.com/2a9brz7.jpg);
+    background-color:#f7f7f7;
+    padding:50px;
 }
 
 #quote .menu-links ul li a {
+    color: #fff;
+}
+#quote .menu-links ul li:hover > a {
+    color: #6fa9a7;
+}
+#quote header.navbar-fixed-top .menu-links a {
     color: #232929;
 }
 
@@ -1473,26 +1542,27 @@ display: block;
     display: block;
 }
 
-#quote header .dark-logo {
-    opacity: 1;
-    display: block;
-}
-
-#quote header .light-logo {
+#quote header.navbar-fixed-top .light-logo {
     opacity: 0;
     display: none;
 }
 
-#quote .menu-links ul li:hover > a {
-    color: #6fa9a7;
+#quote header .dark-logo {
+    opacity: 0;
+    display: none;
+}
+
+#quote header .light-logo {
+    opacity: 1;
+    display: block;
 }
 
 #quote .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/155jcx1.jpg") no-repeat fixed 0 0 / cover;
+    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
 }
 
 #quote .jumbotron-content h1 {
-    color: #232929;
+    color: #fff;
     font-size: 60px;
     text-align: center;
     text-decoration: none;
@@ -1500,15 +1570,13 @@ display: block;
 }
 
 #quote .jumbotron-content p {
-    color: #232929;
+    color: #fff;
     font-family: 'open sans', 'sans-serif';
     font-size: 20px;
     text-align: center;
 }
 
-#quote .quote-form {
-    margin: 50px 0;
-}
+
 
 #quote .quote-form h2 {
     font-family: 'open sans', 'sans-serif';
@@ -1527,12 +1595,16 @@ display: block;
     margin-bottom: 30px;
 }
 
+#quote .form-group {
+    width:90%;
+}
+
 #quote .quote-text {
     background-color: #fff;
     min-height: 100%;
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 25px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 #quote .quote-text h2 {
@@ -1541,12 +1613,13 @@ display: block;
     color: #6fa9a7;
     margin-bottom: 20px;
     text-align: left;
+    font-weight:600;
 }
 
 #quote .quote-text h5 {
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     color: #232929;
     text-align: left;
 }
@@ -1555,6 +1628,11 @@ display: block;
     font-family: 'open sans', 'sans-serif';
     font-size: 16px;
     text-align: left;
+
+}
+
+#quote .quote-text a {
+    color:#6fa9a7;
 }
 
 #quote .quote-text .phone-number {
@@ -1563,7 +1641,6 @@ display: block;
     font-weight: 600;
     color: #232929;
     text-align: left;
-    margin-bottom: 30px;
 }
 
 #quote .quote-text .phone-icon {
@@ -1597,6 +1674,43 @@ display: block;
 
 /* Inside Pages - Portfolio Page */
 
+#portfolio .jumbotron-section {
+    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
+}
+
+#portfolio .jumbotron-content h1 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'open sans', 'sans-serif';
+}
+
+#portfolio .jumbotron-content p {
+    color: #fff;
+    font-family: 'open sans', 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+}
+
+#portfolio .portfolio-welcome {
+    background-color: #fff;
+    padding:50px;
+}
+
+#portfolio .portfolio-welcome h2 {
+      font-family: 'Roboto', 'sans-serif';
+      font-size: 45px;
+      text-align:center;
+}
+
+#portfolio .portfolio-welcome p {
+    text-align: center;
+    font-family: 'open sans', 'sans-serif';
+    font-size: 16px;
+    color: #888;
+}
+
 #portfolio .portfolio-item {
     margin-bottom: 50px;
 }
@@ -1616,7 +1730,7 @@ display: block;
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(111, 169, 167, 0.7);
+    background: rgba(0, 0, 0, 0.5);
     padding: 10px;
     color: #fff;
     border-radius: 8px;
@@ -1657,31 +1771,24 @@ display: block;
     color: #232929;
 }
 
-#portfolio .portfolio-welcome {
-    margin-top: 70px;
-}
 
-#portfolio .portfolio-welcome h2 {
-    text-align: center;
-    font-family: 'open sans', 'sans-serif';
-    font-size: 40px;
-}
 
-#portfolio .portfolio-welcome p {
-    text-align: center;
-    font-family: 'open sans', 'sans-serif';
-    font-size: 16px;
-    color: #888;
-}
+
 
 
 /* Services - Inside Pages */
 
-#services .get-a-quote {
-    background-image: url(http://i64.tinypic.com/2a9brz7.jpg);
-}
+
 
 #services .menu-links ul li a {
+    color: #fff;
+}
+
+#services .menu-links ul li:hover > a {
+    color: #6fa9a7;
+}
+
+#services header.navbar-fixed-top .menu-links a {
     color: #232929;
 }
 
@@ -1690,18 +1797,36 @@ display: block;
     display: block;
 }
 
-#services header .dark-logo {
-    opacity: 1;
-    display: block;
-}
 
-#services header .light-logo {
+#services header.navbar-fixed-top .light-logo {
     opacity: 0;
     display: none;
 }
 
-#services .menu-links ul li:hover > a {
-    color: #6fa9a7;
+
+#services header .dark-logo {
+    opacity: 0;
+    display: none;
+}
+
+
+#services header .light-logo {
+    opacity: 1;
+    display: block;
+}
+
+
+#services .jumbotron-section {
+    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
+}
+
+
+#services .jumbotron-content h1 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'open sans', 'sans-serif';
 }
 
 #services .row-margin {
