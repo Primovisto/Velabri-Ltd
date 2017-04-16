@@ -1229,6 +1229,43 @@ display: block;
     display: none;
 }
 
+#contact .contact-header .contact-heading {
+    color: #232929;
+    text-align: center;
+    font-family: 'roboto', 'sans-serif';
+    margin-top: 120px;
+    font-size: 45px;
+}
+#contact .contact-header .contact-paragraph {
+    font-family: 'open sans', 'sans-serif';
+    color: #888;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 100px;
+    margin-bottom: 30px;
+}
+
+#contact .contact-us-main {
+    border-top:1px solid #d3d3d3;
+}
+
+#contact .contact-us-main:before {
+    display: block;
+    position: relative;
+    content: '';
+    width: 50px;
+    height: 50px;
+    bottom: 25px;
+    left: 48%;
+    background-color: #fff;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+    border-right:1px solid #d3d3d3;
+    border-bottom:1px solid #d3d3d3;
+}
+
 #contact .form-group {
     position: relative;
 }
@@ -1244,7 +1281,6 @@ display: block;
 
 #contact .contact-form h2 {
     font-family: 'open sans';
-    margin-top: 180px;
     color: #232929;
 }
 
@@ -1268,7 +1304,6 @@ display: block;
 
 #contact .contact-text h2 {
     font-family: 'open sans';
-    margin-top: 180px;
     color: #232929;
     margin-left: 10%;
 }
@@ -1681,6 +1716,7 @@ display: block;
     font-family:'open sans', 'sans-serif';
     font-size:18px;
     display:inline-block;
+
     margin-top:20px;
 
 }
@@ -1748,6 +1784,23 @@ display: block;
     padding:50px;
 }
 
+#portfolio .portfolio-main:before {
+    display: block;
+    position: relative;
+    content: '';
+    width: 50px;
+    height: 50px;
+    bottom: 75px;
+    left: 48%;
+    background-color: #fff;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+    border-bottom:1px solid #d3d3d3;
+    border-right:1px solid #d3d3d3;;
+}
+
 #portfolio .portfolio-item .logo-image {
     position: relative;
 }
@@ -1796,12 +1849,12 @@ display: block;
 
 #portfolio .portfolio-item .icons i {
     font-size: 35px;
-    color: #fff;
+    color: #232929;
 }
 
 #portfolio .portfolio-item .icons i:hover {
     font-size: 35px;
-    color: #232929;
+    color: #fff;
 }
 
 
