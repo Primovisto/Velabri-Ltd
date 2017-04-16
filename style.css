@@ -4,7 +4,7 @@ html {
     color: #232929;
     height: 100%;
     width: 100%;
-    background-color: #f7f7f7;
+    background-color: #fff;
     line-height: 30px;
     text-decoration: none;
 }
@@ -34,10 +34,7 @@ header.navbar-fixed-top {
     font-weight: 500;
 }
 
-h2 {
-    font-family:'Roboto', 'sans-serif';
-    font-size:45px;
-}
+
 
 h5 {
     font-family: 'open sans';
@@ -54,6 +51,7 @@ h5 {
 .navbar-fixed-top .dark-logo {
     opacity: 1;
     display: block;
+    padding-bottom:10px;
 }
 
 header.navbar-fixed-top .menu-links a {
@@ -172,11 +170,11 @@ header {
 header .dark-logo {
     opacity: 0;
     display: none;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 header .light-logo {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .menu-links {
@@ -237,10 +235,10 @@ header .light-logo {
 
 .jumbotron-content h1 {
     color: #fff;
-    font-size: 58px;
+    font-size: 44px;
     text-align: center;
     text-decoration: none;
-    font-family: 'cabin sketch', helvetica, sans-serif;
+    font-family: 'Roboto', helvetica, sans-serif;
 }
 
 .jumbotron-content p {
@@ -248,7 +246,8 @@ header .light-logo {
     font-size: 28px;
     text-align: center;
     text-decoration: none;
-    font-family: 'cabin sketch', helvetica, sans-serif;
+    font-family: 'open sans', helvetica, sans-serif;
+    font-weight: 400;
 }
 
 .jumbotron-content span {
@@ -346,7 +345,7 @@ header .light-logo {
 
 .services {
     border-top:1px solid #d3d3d3;
-    background-color: #f7f7f7;
+    background-color: #fff;
     padding: 10px 0px;
 }
 
@@ -527,14 +526,14 @@ header .light-logo {
 .choose-us-header::before{
     
     border-right: 30px solid transparent;
-    border-left: 100% solid #f7f7f7;
+    border-left: 100% solid #fff;
     content: '';
     position: absolute;
     right: 50%;
     bottom: 0;
     width: 50%;
     z-index: 100;
-    border-bottom: 30px solid #f7f7f7;
+    border-bottom: 30px solid #fff;
 
 
 }
@@ -542,17 +541,17 @@ header .light-logo {
 .choose-us-header::after{
     left: 50%;
     border-left: 30px solid transparent;
-    border-right: 100% solid #f7f7f7;
+    border-right: 100% solid #fff;
     content: '';
     position: absolute;
     bottom: 0;
     width: 50%;
     z-index: 100;
-    border-bottom: 30px solid #f7f7f7;
+    border-bottom: 30px solid #fff;
 
 }
 .choose-us {
-    background-color:#f7f7f7;
+    background-color:#fff;
     
 }
 
@@ -1411,6 +1410,8 @@ display: block;
 
 #about .meet-the-team {
     background-color: #f7f7f7;
+    border-bottom:1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
 }
 
 #about .meet-the-team:before {
@@ -1426,6 +1427,8 @@ display: block;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     z-index: 1;
+    border-right:1px solid #d3d3d3;
+    border-bottom:1px solid #d3d3d3;
 }
 
 #about .meet-the-team .team-header h2 {
@@ -1471,6 +1474,7 @@ display: block;
 
 #about .about-testimonial {
     background-color: #fff;
+    
 }
 
 #about .testimonial-header h2 {
@@ -1489,9 +1493,12 @@ display: block;
     padding-bottom: 50px;
 }
 
+
+
 #about .about-testimonial .testimonial-text p {
     padding-right: 20px;
     color: #232929;
+
 }
 
 #about .about-testimonial .testimonial-text h5 {
@@ -1516,14 +1523,16 @@ display: block;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
 }
 
-#about .extra-margin {
+#about .extra-padding {
     padding:40px 0;
 }
+
+
 
 /* Quote Page */
 
 #quote .get-a-quote {
-    background-color:#f7f7f7;
+    background-color:#fff;
     padding:50px;
 }
 
@@ -1577,16 +1586,46 @@ display: block;
 }
 
 
-
-#quote .quote-form h2 {
-    font-family: 'open sans', 'sans-serif';
-    font-size: 30px;
+#quote .quote-heading {
     color: #232929;
+    text-align: center;
+    font-family: 'Roboto', 'sans-serif';
+    margin-top: 50px;
+    font-size: 45px;
+}
+#quote .quote-paragraph {
+    font-family: 'open sans', 'sans-serif';
+    color: #888;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 100px;
+    margin-bottom: 50px;
 }
 
-#quote .quote-form h2 span {
-    color: #6fa9a7;
+#quote .get-a-quote {
+    border-top:1px solid #d3d3d3;
 }
+
+#quote .get-a-quote:before {
+    display: block;
+    position: relative;
+    content: '';
+    width: 50px;
+    height: 50px;
+    bottom: 75px;
+    left: 48%;
+    background-color: #fff;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+    border-bottom:1px solid #d3d3d3;
+    border-right:1px solid #d3d3d3;;
+}
+
+
+
+
 
 #quote .quote-form p {
     font-family: 'open sans', 'sans-serif';
@@ -1599,59 +1638,6 @@ display: block;
     width:90%;
 }
 
-#quote .quote-text {
-    background-color: #fff;
-    min-height: 100%;
-    border-radius: 4px;
-    padding: 25px;
-    margin-top: 60px;
-}
-
-#quote .quote-text h2 {
-    font-family: 'open sans', 'sans-serif';
-    font-size: 24px;
-    color: #6fa9a7;
-    margin-bottom: 20px;
-    text-align: left;
-    font-weight:600;
-}
-
-#quote .quote-text h5 {
-    font-family: 'open sans', 'sans-serif';
-    font-size: 18px;
-    font-weight: 600;
-    color: #232929;
-    text-align: left;
-}
-
-#quote .quote-text p {
-    font-family: 'open sans', 'sans-serif';
-    font-size: 16px;
-    text-align: left;
-
-}
-
-#quote .quote-text a {
-    color:#6fa9a7;
-}
-
-#quote .quote-text .phone-number {
-    font-family: 'open sans', 'sans-serif';
-    font-size: 26px;
-    font-weight: 600;
-    color: #232929;
-    text-align: left;
-}
-
-#quote .quote-text .phone-icon {
-    font-size: 30px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    color: #6fa9a7;
-    border-radius: 50%;
-    border: 1px solid #6fa9a7;
-    padding: 6px 8px;
-}
 
 #quote .btn.btn-primary.quote-btn {
     color: #222;
@@ -1670,6 +1656,45 @@ display: block;
     -moz-box-shadow: 0 4px 6px -3px #aaa;
     box-shadow: 0 4px 6px -3px #aaa;
 }
+
+#quote .quote-icons .quote-icon{
+    margin-left:20px;
+
+
+}
+#quote .quote-icons p {
+    text-align:center;
+    font-family:'open sans', 'sans-serif';
+    font-size:14px;
+    margin-bottom:50px;
+    font-weight: 600;
+    
+}
+
+#quote .quote-contact {
+    border:1px solid #d3d3d3;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+#quote .quote-contact p {
+    font-family:'open sans', 'sans-serif';
+    font-size:18px;
+    display:inline-block;
+    margin-top:20px;
+
+}
+
+#quote .quote-contact .quote-phone-icon {
+   margin-right:10px;
+   font-size:36px;
+
+   color:#6fa9a7;
+   
+}
+
+
+
 
 
 /* Inside Pages - Portfolio Page */
@@ -1696,6 +1721,7 @@ display: block;
 #portfolio .portfolio-welcome {
     background-color: #fff;
     padding:50px;
+
 }
 
 #portfolio .portfolio-welcome h2 {
@@ -1713,6 +1739,13 @@ display: block;
 
 #portfolio .portfolio-item {
     margin-bottom: 50px;
+
+}
+
+#portfolio .portfolio-main{
+    border-top:1px solid #d3d3d3;
+    background-color:#fff;
+    padding:50px;
 }
 
 #portfolio .portfolio-item .logo-image {
@@ -1730,7 +1763,7 @@ display: block;
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(100, 94, 98, 0.49);
     padding: 10px;
     color: #fff;
     border-radius: 8px;
