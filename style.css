@@ -1141,8 +1141,8 @@ header .light-logo {
     .services:before {
         display: none;
     }
-    .services-btn #btn_1 {
-        font-size: 16px;
+    .services-btn .btn_1 {
+        font-size: 14px;
         padding: 6px 18px;
         margin: 0;
     }
