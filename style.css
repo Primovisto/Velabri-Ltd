@@ -1182,12 +1182,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     .services-btn #btn_1 {
         font-size:16px;
         padding:6px 18px;
+        margin:0;
     }
+
+    /* Get a Quote */
+
+    .work-with-us {
+        height:25vh;
+    }
+
+
     .work-text {
-        font-size: 24px;
+        font-family:'open sans', 'sans-serif';
+        font-size: 22px;
+        font-weight:600;
         color: #fff;
-        margin: 0;
+        margin:0;
         text-align: center;
+        padding-top:15px;
     }
     .btn_large.quote_btn {
         border: 2px solid #fff;
@@ -1204,6 +1216,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
         padding: 8px 15px;
         font-size: 18px;
     }
+
+    /* Why Choose Section */
+    .choose-us-main-header {
+    font-size: 30px;
+    padding-top: 20px;
+
+
+    }
+
+    .choose-us-header-text {
+
+    
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+
+
     /* Portfolio Section */
     .portfolio-image {
         text-align: center;
@@ -1219,6 +1250,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     }
     .portfolio-website-type {
         display: none;
+    }
+    .portfolio-items-section{
+        padding:0;
+    }
+
+    .portfolio-items-section::after {
+        display:none;
     }
 }
 
