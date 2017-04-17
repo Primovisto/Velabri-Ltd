@@ -196,7 +196,7 @@ header .light-logo {
 }
 
 .menu-links ul li:hover > a {
-    color: #33495f;
+    color: #32c4e9;
 }
 
 
@@ -248,7 +248,7 @@ header .light-logo {
 }
 
 .jumbotron-content span {
-    color: #33495f;
+    color: #32c4e9;
 }
 
 .jumbotron-content ul {
@@ -323,7 +323,7 @@ header .light-logo {
 
 .btn-large.btn-jumbo:hover {
     background-color: #fff;
-    color: #33495f;
+    color: #32c4e9;
 }
 
 
@@ -509,30 +509,30 @@ header .light-logo {
 
 .choose-us-header::before {
     border-right: 30px solid transparent;
-    border-left: 100% solid #fff;
+    border-left: 100% solid #f7f7f7;
     content: '';
     position: absolute;
     right: 50%;
     bottom: 0;
     width: 50%;
     z-index: 100;
-    border-bottom: 30px solid #fff;
+    border-bottom: 30px solid #f7f7f7;
 }
 
 .choose-us-header::after {
     left: 50%;
     border-left: 30px solid transparent;
-    border-right: 100% solid #fff;
+    border-right: 100% solid #f7f7f7;
     content: '';
     position: absolute;
     bottom: 0;
     width: 50%;
     z-index: 100;
-    border-bottom: 30px solid #fff;
+    border-bottom: 30px solid #f7f7f7;
 }
 
 .choose-us {
-    background-color: #fff;
+    background-color: #f7f7f7;
 }
 
 .choose-us .why-choose {
@@ -562,7 +562,7 @@ header .light-logo {
 }
 
 .why-choose a:hover h5 {
-    color: #6fa9a7;
+    color: #32c4e9;
 }
 
 .why-choose p {
@@ -597,9 +597,9 @@ header .light-logo {
 }
 
 .why-choose .simple-icon i {
-    color: #6fa9a7;
+    color: #32c4e9;
     font-size: 20px;
-    border: 2px solid #6fa9a7;
+    border: 2px solid #232929;
     border-radius: 50%;
     padding: 15px;
 }
@@ -610,7 +610,7 @@ header .light-logo {
 }
 
 .choose-us-header {
-    background-image: url(http://i64.tinypic.com/2ezh24m.png);
+    background-image: url(http://i63.tinypic.com/v7xtt3.png);
     height: 45vh;
 }
 
