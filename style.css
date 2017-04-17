@@ -228,6 +228,7 @@ header .light-logo {
 .navbar-inverse .navbar-collapse {
     border-color: #232929;
     background-color: #232929;
+    visibility:visible;
 }
 
 .navbar .navbar-header{
@@ -236,6 +237,7 @@ header .light-logo {
 }
 #myCollapsingList{
     background-color:#232929;
+    visibility: visible;
 
 }
 #myCollapsingList li a {
@@ -410,7 +412,7 @@ background-color: #ffffff;
     z-index: 1;
     border-bottom: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
-    ;
+    
 }
 
 .service {
@@ -1143,35 +1145,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     .jumbotron-content p {
         font-size:18px;
     }
-    .jumbotron-buttons a {
+    .jumbotron-button a {
         padding: 8px 18px;
         font-size: 14px;
     }
     .btn-large.btn-jumbo {
-        margin-left: 40px;
+        margin-left: 0px;
     }
     
-    /* Welcome Section */
-    .welcome {
-        padding: 0px;
-        margin: 20px 0px;
-    }
-    .welcome-header {
-        font-size: 24px;
-        line-height: 26px;
-        padding: 0;
-        margin: 20px;
-    }
-    .welcome-main-header {
-        font-size: 30px;
-    }
-    .welcome-header span {
-        font-family: 'cabin sketch';
-        font-size: 28px;
-    }
-    .welcome:after {
-        display: none;
-    }
+    
     /*Services Section*/
     .services {
         padding: 0;
@@ -1179,23 +1161,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     .service {
         margin: 20px 40px;
     }
-    .services .services-heading {
+    .services .services-header h2 {
         font-size: 45px;
     }
-    .services-subheader {
-        font-size: 20px;
-    }
+    
     .services-paragraph {
-        font-size: 18px;
+        font-size: 16px;
         padding: 0;
         padding-bottom: 20px;
     }
     .service .service-content h3 {
         font-size: 18px;
     }
-    /* Quote Section */
-    .work-with-us {
-        padding: 20px;
+
+    .services:before {
+    display: none;
+    
+    }
+
+    .services-btn #btn_1 {
+        font-size:16px;
+        padding:6px 18px;
     }
     .work-text {
         font-size: 24px;
