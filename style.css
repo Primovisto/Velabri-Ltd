@@ -388,7 +388,7 @@ header .light-logo {
 }
 
 .service .service-content h3 {
-    color: #000;
+    color: #232929;
     font-size: 18px;
     font-weight: 600;
     font-family: 'open sans';
@@ -487,12 +487,12 @@ header .light-logo {
 /*Choose-us-section*/
 
 .choose-us-main-header {
-    font-size: 60px;
-    font-family: 'open sans';
+    font-size: 50px;
+    font-family: 'roboto', 'open sans';
     color: #fff;
     font-weight:800;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 70px;
 }
 
 .choose-us-header-text {
@@ -508,7 +508,7 @@ header .light-logo {
 }
 
 .choose-us-header::before {
-    border-right: 30px solid transparent;
+    border-right: 40px solid transparent;
     border-left: 100% solid #f7f7f7;
     content: '';
     position: absolute;
@@ -516,19 +516,19 @@ header .light-logo {
     bottom: 0;
     width: 50%;
     z-index: 100;
-    border-bottom: 30px solid #f7f7f7;
+    border-bottom: 40px solid #f7f7f7;
 }
 
 .choose-us-header::after {
     left: 50%;
-    border-left: 30px solid transparent;
+    border-left: 40px solid transparent;
     border-right: 100% solid #f7f7f7;
     content: '';
     position: absolute;
     bottom: 0;
     width: 50%;
     z-index: 100;
-    border-bottom: 30px solid #f7f7f7;
+    border-bottom: 40px solid #f7f7f7;
 }
 
 .choose-us {
@@ -551,7 +551,7 @@ header .light-logo {
 }
 
 .why-choose h5 {
-    color: #232929;
+    color: #000;
     font-size: 18px;
     font-family: 'open sans';
     font-weight: 600;
@@ -568,7 +568,23 @@ header .light-logo {
 .why-choose p {
     font-family: 'open sans', 'sans-serif';
     font-size: 14px;
-    color: #888;
+    color: #3d3d3d;
+}
+
+.why-choose.why-choose-right .simple-icon i {
+    border:1px solid #232929;
+    color:#232929;
+    border-radius:50%;
+    padding:15px;
+    font-size: 22px
+}
+
+.why-choose.why-choose-left .simple-icon i {
+    border:1px solid #232929;
+    color:#232929;
+    border-radius:50%;
+    padding:15px;
+    font-size: 22px
 }
 
 .choose-us .why-choose-header.header-left {
@@ -596,22 +612,10 @@ header .light-logo {
     left: 0;
 }
 
-.why-choose .simple-icon i {
-    color: #32c4e9;
-    font-size: 20px;
-    border: 2px solid #232929;
-    border-radius: 50%;
-    padding: 15px;
-}
-
-.why-choose .simple-icon i:hover {
-    color: #232929;
-    border: 2px solid #232929;
-}
 
 .choose-us-header {
-    background-image: url(http://i63.tinypic.com/v7xtt3.png);
-    height: 45vh;
+    background: radial-gradient(#222, #000);
+    height: 55vh;
 }
 
 @media (min-width: 992px) {
@@ -664,11 +668,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
 
 .btn_large.quote_btn:hover {
     background-color: rgba(255, 255, 255, 1);
-    color: #444;
+    color: #232929;
     border: 2px solid #fff;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
 }
+
+
 
 
 /* Portfolio Section */
@@ -686,7 +692,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     margin-top: 50px;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 45px;
+    font-size: 60px;
     color: #232929;
 }
 
@@ -694,7 +700,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     text-align: center;
     font-size: 18px;
     font-family: 'open sans', 'sans-serif';
-    color: #888;
+    color: #232929;
     margin-bottom: 50px;
 }
 
@@ -714,23 +720,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
 }
 
-.portfolio-image a img:hover {
+.portfolio-image a img {
     filter: grayscale(100%);
+}
+
+.portfolio-image a img:hover {
+    filter: grayscale(0%);
 }
 
 .portfolio-website {
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+    font-weight:600;
     margin-top: 15px;
-    color: #888;
+    color: #232929;
 }
 
 .portfolio-website-type {
-    color: #232929;
-    font-size: 18px;
+    color: #000;
+    font-size: 14px;
     font-family: 'open sans', 'sans serif';
-    font-weight: 600;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -741,7 +751,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     content: '';
     width: 50px;
     height: 50px;
-    bottom: 768px;
+    bottom: 753px;
     left: 48%;
     background-color: #fff;
     -ms-transform: rotate(45deg);
@@ -759,65 +769,57 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
 #our_skills {
     margin: 0;
     width: 100%;
-    background-color: #fff;
+    background-color:#fff;
     padding:0;
 }
 
 .header_section {
-    background-color: #fff;
+    z-index: 1;
+    background-image: url(http://i63.tinypic.com/2ev93q9.png);
+    height:50vh;
     position:relative;
 }
 
-.header_section::before,
-.header_section::after {
-    position: absolute;
-    content: '';
-    pointer-events: none;
-}
 
-.header_section {
-    z-index: 1;
-    background: #fff;
-}
-
-.header_section::before,
-.header_section::after {
-    top: 0;
-    z-index: -1;
-    width: 100%;
-    height: 45%;
-    background: inherit;
-    -webkit-transform: rotate(-2deg);
-    transform: rotate(-2deg);
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
-}
-
-.header_section::before {
-    height: 45%;
-    background: #fff;
-    -webkit-transform: rotate(-3deg);
-    transform: rotate(-3deg);
-    -webkit-transform-origin: 3% 0;
-    transform-origin: 3% 0;
-    border-top: 1px solid #d3d3d3;
-}
 
 .header_section h2 {
-    color: #232929;
+    color: #fff;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
-    font-weight: 600;
-    font-size: 45px;
-    margin-top: 30px;
+    font-size: 60px;
+    padding-top: 50px;
 }
 
 .header_section h3 {
     font-size: 18px;
     font-family: 'open sans', 'sans-serif';
     text-align: center;
-    color: #888;
+    color: #fff;
     
+}
+
+.header_section::before {
+    border-right: 40px solid transparent;
+    border-left: 100% solid #fff;
+    content: '';
+    position: absolute ;
+    right: 50%;
+    bottom: 0;
+    width: 50%;
+    z-index: 100;
+    border-bottom: 40px solid #fff;
+}
+
+.header_section::after {
+    left: 50%;
+    border-left: 40px solid transparent;
+    border-right: 100% solid #fff;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    z-index: 100;
+    border-bottom: 40px solid #fff;
 }
 
 .skills-content {
