@@ -315,7 +315,7 @@ header .light-logo {
 
 .btn-large.btn-jumbo {
     background-color: rgba(255, 255, 255, 0);
-    color: #33495f;
+    color: #fff;
     font-weight: 600;
     border: 2px solid #fff;
     margin-left: 10px;
@@ -339,7 +339,7 @@ header .light-logo {
 }
 
 .services-header {
-    background-color: #fff;
+    
 }
 
 .services-heading {
@@ -347,12 +347,12 @@ header .light-logo {
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
     margin-top: 50px;
-    font-size: 45px;
+    font-size: 60px;
 }
 
 .services-paragraph {
     font-family: 'open sans', 'sans-serif';
-    color: #888;
+    color: #232929;
     font-size: 18px;
     text-align: center;
     padding: 0 100px;
@@ -388,29 +388,12 @@ header .light-logo {
 }
 
 .service .service-content h3 {
-    color: #232929;
+    color: #000;
     font-size: 18px;
     font-weight: 600;
     font-family: 'open sans';
 }
 
-.service .service-content p {
-    font-family: 'open sans', 'sans-serif';
-    color: #888;
-    font-size: 14px;
-}
-
-.service .service-icon i {
-    color: #33495f;
-    font-size: 60px;
-    text-align: center;
-    padding: 15px;
-}
-
-.service .service-icon .mobile-icon {
-    padding: 10px;
-    font-size: 70px;
-}
 
 .service:hover .service-icon i {
     -webkit-animation: spin 0.5s linear;
@@ -453,17 +436,23 @@ header .light-logo {
 }
 
 .services-btn a {
-    background-color: #33495f;
-    color: #fff;
+    background-color: rgba(255,255,255,0);
+    color: #232929;
+    font-weight:600;
     padding: 10px 30px;
     margin: 8px;
     text-decoration: none;
+    text-transform:uppercase;
     font-family: 'open sans', 'sans-serif';
     font-size: 16px;
+    border:2px solid #232929;
+    border-radius:4px;
+
 }
 
 .services-btn a:hover {
-    background-color: #243b52;
+    border-color:#32c4e9;
+    color:#32c4e9;
 }
 
 
@@ -498,18 +487,19 @@ header .light-logo {
 /*Choose-us-section*/
 
 .choose-us-main-header {
-    font-size: 45px;
-    font-family: 'roboto';
+    font-size: 60px;
+    font-family: 'open sans';
     color: #fff;
+    font-weight:800;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .choose-us-header-text {
     font-family: 'open sans';
     text-align: center;
     font-size: 18px;
-    padding: 20px 80px;
+    padding: 10px 80px;
     color: #fff;
 }
 
@@ -764,12 +754,12 @@ header .light-logo {
     margin: 0;
     width: 100%;
     background-color: #fff;
+    padding:0;
 }
 
 .header_section {
     background-color: #fff;
-    height: 40vh;
-    position: relative;
+    position:relative;
 }
 
 .header_section::before,
@@ -789,7 +779,7 @@ header .light-logo {
     top: 0;
     z-index: -1;
     width: 100%;
-    height: 25%;
+    height: 45%;
     background: inherit;
     -webkit-transform: rotate(-2deg);
     transform: rotate(-2deg);
@@ -798,7 +788,7 @@ header .light-logo {
 }
 
 .header_section::before {
-    height: 25%;
+    height: 45%;
     background: #fff;
     -webkit-transform: rotate(-3deg);
     transform: rotate(-3deg);
@@ -813,8 +803,7 @@ header .light-logo {
     font-family: 'Roboto', 'sans-serif';
     font-weight: 600;
     font-size: 45px;
-    padding: 0px;
-    margin-top: 80px;
+    margin-top: 30px;
 }
 
 .header_section h3 {
@@ -822,11 +811,13 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
     text-align: center;
     color: #888;
-    margin-bottom: 30px;
+    
 }
 
 .skills-content {
-    padding-bottom: 100px;
+    padding-bottom: 60px;
+
+    
 }
 
 .skills_logos {
@@ -837,7 +828,6 @@ header .light-logo {
     transition: all 1s linear;
     background: #fff;
     max-width: 80%;
-    border: 1px solid #d3d3d3;
 }
 
 .skills_logos .skilltypes {
@@ -857,7 +847,12 @@ header .light-logo {
 .skilltypes {
     display: inline;
     overflow: hidden;
+
 }
+
+
+
+
 
 
 /* Footer Section */
@@ -1379,6 +1374,8 @@ header .light-logo {
 
 #about .jumbotron-section {
     background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
+    height:50%;
+
 }
 
 #about .jumbotron-content h1 {
