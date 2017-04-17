@@ -934,15 +934,17 @@ header .light-logo {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 16px;
-    padding: 50px;
+    padding: 50px 0px 0px 0px;
+
     border-top: 1px solid #d3d3d3;
-    padding-bottom: 250px;
+    height:50vh;
 }
 
 .footer .footer-left,
 .footer .footer-center,
 .footer .footer-right {
     display: inline-block;
+
     vertical-align: top;
 }
 
@@ -1072,7 +1074,7 @@ header .light-logo {
 }
 
 .footer .menu a:hover {
-    color: #6fa9a7;
+    color: #32c4e9;
 }
 
 .footer .name {
@@ -1080,23 +1082,6 @@ header .light-logo {
     font-size: 14px;
     font-weight: normal;
     margin: 0;
-}
-
-@media (max-width: 767px) {
-    .footer {
-        font-size: 14px;
-    }
-    .footer .footer-left,
-    .footer .footer-center,
-    .footer .footer-right {
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-    .footer .footer-center i {
-        margin-left: 0;
-    }
 }
 
 
@@ -1130,7 +1115,7 @@ header .light-logo {
         margin: 20px 40px;
     }
     .services .services-header h2 {
-        font-size: 45px;
+        font-size: 40px;
     }
     .services-paragraph {
         font-size: 16px;
@@ -1179,7 +1164,7 @@ header .light-logo {
     
     /* Why Choose Section */
     .choose-us-main-header {
-        font-size: 30px;
+        font-size: 40px;
         padding-top: 20px;
     }
     .choose-us-header-text {
@@ -1192,6 +1177,10 @@ header .light-logo {
 
     .portfolio-items-section{
         border-bottom:none;
+    }
+
+    .portfolio-heading h2 {
+        font-size:40px;
     }
     .portfolio-image {
         text-align: center;
@@ -1207,7 +1196,7 @@ header .light-logo {
     }
 
     .portfolio-website {
-        font-size:14px;
+        font-size:12px;
     }
     .portfolio-website-type {
         display: none;
@@ -1249,6 +1238,28 @@ header .light-logo {
    .header_section h3{
     padding:0 20px;
    }
+
+   /* footer Section */
+   
+    
+    .footer {
+        font-size: 14px;
+        height:100%;
+        padding:0px 0 ;
+    }
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 0px;
+        text-align: center;
+        margin-top:0px;
+    }
+    .footer .footer-center i {
+        margin-left: 0;
+    }
+    
 }
 
 
