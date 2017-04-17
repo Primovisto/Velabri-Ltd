@@ -1112,6 +1112,7 @@ header .light-logo {
     }
     .jumbotron-content p {
         font-size: 18px;
+        padding:0 20px;
     }
     .jumbotron-button a {
         padding: 8px 18px;
@@ -1125,6 +1126,7 @@ header .light-logo {
         padding: 0;
     }
     .service {
+        padding-top: 20px;
         margin: 20px 40px;
     }
     .services .services-header h2 {
@@ -1132,8 +1134,7 @@ header .light-logo {
     }
     .services-paragraph {
         font-size: 16px;
-        padding: 0;
-        padding-bottom: 20px;
+        padding: 0px 20px;
     }
     .service .service-content h3 {
         font-size: 18px;
@@ -1188,6 +1189,10 @@ header .light-logo {
     
 
     /* Portfolio Section */
+
+    .portfolio-items-section{
+        border-bottom:none;
+    }
     .portfolio-image {
         text-align: center;
         margin: 20px;
@@ -1218,16 +1223,32 @@ header .light-logo {
         margin-top: 30px;
     }
     .portfolio-btn #btn_2 {
-        padding: 8px 18px;
-        font-size: 14px;
+        padding: 8px 16px;
+        font-size: 12px;
     }
     .portfolio-btn #btn_3 {
-        padding: 8px 18px;
-        font-size: 14px;
+        padding: 8px 16px;
+        font-size: 12px;
     }
 
+    /* Our Skills Section */
 
 
+   #our_skills {
+
+    padding-top:40px;
+    border-top:none;
+    
+
+   }
+
+   .header_section h2 {
+    margin-top:20px;
+   }
+
+   .header_section h3{
+    padding:0 20px;
+   }
 }
 
 
