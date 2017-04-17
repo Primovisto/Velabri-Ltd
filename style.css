@@ -11,6 +11,8 @@ html {
 
 p {
     font-family: 'open sans', 'sans-serif';
+    font-size:18px;
+    color:#232929;
 }
 
 img {
@@ -32,6 +34,13 @@ header.navbar-fixed-top {
     width: 100%;
     z-index: 999;
     font-weight: 500;
+}
+h2 {
+    color: #232929;
+    text-align: center;
+    font-family: 'Roboto', 'sans-serif';
+    margin-top: 50px;
+    font-size: 50px;
 }
 
 h5 {
@@ -211,6 +220,33 @@ header .light-logo {
     margin: 0;
 }
 
+.navbar.navbar-inverse  .navbar-toggle{
+    background-color:#222;
+    
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: #232929;
+    background-color: #232929;
+}
+
+.navbar .navbar-header{
+    background-color:#232929;
+    border:none;
+}
+#myCollapsingList{
+    background-color:#232929;
+
+}
+#myCollapsingList li a {
+    color:#32c4e9;
+    background-color:#232929;
+    font-family:'open sans', 'sans-serif';
+    font-weight:600;
+}
+
+
+
 
 /* Jumbotron Section */
 
@@ -232,7 +268,7 @@ header .light-logo {
 
 .jumbotron-content h1 {
     color: #fff;
-    font-size: 44px;
+    font-size: 60px;
     text-align: center;
     text-decoration: none;
     font-family: 'Roboto', helvetica, sans-serif;
@@ -245,10 +281,6 @@ header .light-logo {
     text-decoration: none;
     font-family: 'open sans', helvetica, sans-serif;
     font-weight: 400;
-}
-
-.jumbotron-content span {
-    color: #32c4e9;
 }
 
 .jumbotron-content ul {
@@ -303,29 +335,41 @@ header .light-logo {
 }
 
 .jumbotron-button a {
-    padding: 10px 20px;
+    padding: 7px 15px;
     font-family: 'open sans';
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     margin: 20px 0px;
     margin-top: 40px;
     text-transform: uppercase;
     border-radius: 25px;
+    margin-left: 10px;
+    font-weight:600;
 }
 
 .btn-large.btn-jumbo {
-    background-color: rgba(255, 255, 255, 0);
-    color: #fff;
-    font-weight: 600;
-    border: 2px solid #fff;
-    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #32c4e9;
+    
+    
 }
 
 .btn-large.btn-jumbo:hover {
-    background-color: #fff;
-    color: #32c4e9;
+    background-color: #32c4e9;
+    color: #fff;
 }
 
+#jumbo_btn2{
+    background-color: #32c4e9;
+    color: #fff;
+    font-family:'roboto';
+    
+    
+}
+#jumbo_btn2:hover{
+background-color: #ffffff;
+    color: #32c4e9;
+}
 
 /* End Jumbotron */
 
@@ -340,14 +384,6 @@ header .light-logo {
 
 .services-header {
     
-}
-
-.services-heading {
-    color: #232929;
-    text-align: center;
-    font-family: 'Roboto', 'sans-serif';
-    margin-top: 50px;
-    font-size: 60px;
 }
 
 .services-paragraph {
@@ -492,7 +528,7 @@ header .light-logo {
     color: #fff;
     font-weight:800;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
 .choose-us-header-text {
@@ -637,13 +673,13 @@ header .light-logo {
 /* Get A Quote Section */
 
 .work-with-us {
-   background: -moz-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,140,140,1) 90%, rgba(0,156,156,1) 100%); /* ff3.6+ */
+   background: -moz-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,140,140,1) 90%, rgba(0,156,156,1) 100%); 
 background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(90%, rgba(0,140,140,1)), color-stop(100%, rgba(0,156,156,1))); /* safari4+,chrome */
-background: -webkit-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,140,140,1) 90%, rgba(0,156,156,1) 100%); /* safari5.1+,chrome10+ */
-background: -o-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,140,140,1) 90%, rgba(0,156,156,1) 100%); /* opera 11.10+ */
-background: -ms-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,140,140,1) 90%, rgba(0,156,156,1) 100%); /* ie10+ */
-background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,140,140,1) 90%, rgba(0,156,156,1) 100%); /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', endColorstr='#000000',GradientType=1 ); /* ie6-9 */
+background: -webkit-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,140,140,1) 90%, rgba(0,156,156,1) 100%); 
+background: -o-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,140,140,1) 90%, rgba(0,156,156,1) 100%); 
+background: -ms-linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,140,140,1) 90%, rgba(0,156,156,1) 100%); 
+background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,140,140,1) 90%, rgba(0,156,156,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', endColorstr='#000000',GradientType=1 ); 
 }
 
 .work-text {
@@ -692,7 +728,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     margin-top: 50px;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 60px;
+    font-size: 50px;
     color: #232929;
 }
 
@@ -751,7 +787,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     content: '';
     width: 50px;
     height: 50px;
-    bottom: 753px;
+    bottom: 844px;
     left: 48%;
     background-color: #fff;
     -ms-transform: rotate(45deg);
@@ -760,7 +796,56 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     z-index: 1;
     border-bottom: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
-    ;
+    
+    
+}
+
+.portfolio-btn  {
+    text-align:center;
+    margin-top:30px;
+}
+
+.portfolio-btn #btn_2  {
+   background: #32c4e9;
+    color: #fff;
+    font-weight:600;
+    padding: 15px 30px;
+    margin: 8px;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family: 'open sans', 'sans-serif';
+    font-size: 16px;
+    border:2px solid #32c4e9;
+    border-radius:4px;
+    text-align:center;
+
+}
+
+.portfolio-btn #btn_2:hover {
+    
+    background-color: #fff;
+    color:#32c4e9;
+}
+
+.portfolio-btn #btn_3  {
+    background-color:rgba(255,255,255,0);
+    color: #232929;
+    font-weight:600;
+    padding: 15px 30px;
+    margin: 8px;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-family: 'open sans', 'sans-serif';
+    font-size: 16px;
+    border:2px solid #232929;
+    border-radius:4px;
+
+}
+
+.portfolio-btn #btn_3:hover {
+    
+    border-color:#232929;
+    color:#32c4e9;
 }
 
 
@@ -769,7 +854,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
 #our_skills {
     margin: 0;
     width: 100%;
-    background-color:#fff;
+    background-color:#f7f7f7;
     padding:0;
 }
 
@@ -786,8 +871,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     color: #fff;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 60px;
-    padding-top: 50px;
+    font-size: 50px;
+    padding-top: 40px;
 }
 
 .header_section h3 {
@@ -800,30 +885,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
 
 .header_section::before {
     border-right: 40px solid transparent;
-    border-left: 100% solid #fff;
+    border-left: 100% solid #f7f7f7;
     content: '';
     position: absolute ;
     right: 50%;
     bottom: 0;
     width: 50%;
     z-index: 100;
-    border-bottom: 40px solid #fff;
+    border-bottom: 40px solid #f7f7f7;
 }
 
 .header_section::after {
     left: 50%;
     border-left: 40px solid transparent;
-    border-right: 100% solid #fff;
+    border-right: 100% solid #f7f7f7;
     content: '';
     position: absolute;
     bottom: 0;
     width: 50%;
     z-index: 100;
-    border-bottom: 40px solid #fff;
+    border-bottom: 40px solid #f7f7f7;
 }
 
 .skills-content {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
+    background-color: #f7f7f7;
 
     
 }
@@ -834,8 +920,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     -moz-transition: all 1s linear;
     -o-transition: all 1s linear;
     transition: all 1s linear;
-    background: #fff;
+    background: #f7f7f7;
     max-width: 80%;
+
 }
 
 .skills_logos .skilltypes {
@@ -846,6 +933,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
     transition: all 300ms linear;
+    border:1px solid #232929;
 }
 
 .skills_logos .skilltypes:hover {
@@ -866,7 +954,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
 /* Footer Section */
 
 .footer {
-    background-color: #232929;
+    background: radial-gradient(#222, #000);
     width: 100%;
     text-align: left;
     font-family: sans-serif;
@@ -898,7 +986,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     font-family: 'open sans', 'sans-serif';
     font-size: 13px;
     font-weight: normal;
-    margin: 0;
+    
 }
 
 .footer .about span {
@@ -907,7 +995,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    margin-top:5px;
 }
 
 .footer .icons {
@@ -947,7 +1036,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
 }
 
 .footer .footer-center i {
-    background-color: #6fa9a7;
+    background-color: #32c4e9;
     color: #ffffff;
     font-size: 25px;
     width: 38px;
@@ -961,15 +1050,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
 
 .footer .footer-center i.fa-envelope {
     font-size: 17px;
-    line-height: 38px;
+   
     color: #fff;
 }
 
-.footer .footer-center p {
+.footer .footer-center .footer-paragraph {
     display: inline-block;
     color: #fff;
     vertical-align: middle;
     margin: 0;
+    font-size:14px;
+    font-weight:400;
 }
 
 .footer .footer-center p span {
@@ -997,7 +1088,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .footer .menu a {
@@ -1043,9 +1134,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
 /* xs */
 
 @media screen and (max-width: 768px) {
+    
     /* Jumbotron Section */
     .jumbotron-content h1 {
-        font-size: 30px;
+        font-size: 35px;
+    }
+
+    .jumbotron-content p {
+        font-size:18px;
     }
     .jumbotron-buttons a {
         padding: 8px 18px;
@@ -1054,6 +1150,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     .btn-large.btn-jumbo {
         margin-left: 40px;
     }
+    
     /* Welcome Section */
     .welcome {
         padding: 0px;
@@ -1858,14 +1955,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
 
 #services .jumbotron-section {
     background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
-}
-
-#services .jumbotron-content h1 {
-    color: #fff;
-    font-size: 60px;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'open sans', 'sans-serif';
+    height:60vh;
 }
 
 #services .row-margin {
@@ -1901,6 +1991,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
     border-bottom: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
 
+}
+
+#services .services-paragraph a {
+    color:#32c4e9;
 }
 
 #services .services-page-header h2 {
@@ -1985,7 +2079,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
 
 #services .service-type-para {
     font-family:'open sans';
-    color:#656565;
+    color:#232929;
     text-align:left;
     word-spacing: 2px;
 
@@ -2021,7 +2115,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', end
 #services .services-our-process p {
     font-family: 'open sans', 'sans-serif';
     font-size:18px;
-    color:#888;
+    color:#232929;
     text-align:center;
 }
 
