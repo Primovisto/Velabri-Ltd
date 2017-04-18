@@ -1913,6 +1913,10 @@ font-weight: 200;
     background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
     height: 50vh;
 }
+
+#services .service-details{
+    margin-top:50px;
+}
 #services .row-margin {
     margin-bottom: 30px;
 }
@@ -1953,7 +1957,7 @@ font-weight: 200;
     margin-top: 15px
 }
 #services .service-page-icon {
-    color: #33495f;
+    color: #32c4e9;
     position: relative;
     top: 10px;
     left: 20px;
@@ -1974,6 +1978,7 @@ font-weight: 200;
     font-size: 25px;
     cursor: pointer;
     padding-left: 10px;
+    color:#232929;
 }
 #services .services-paragraph {
     margin-bottom: 0;
