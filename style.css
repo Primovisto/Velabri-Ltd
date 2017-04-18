@@ -1301,15 +1301,19 @@ header .light-logo {
     
 }
 
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+@media only screen and (min-device-width : 414px) and (max-device-width : 667px) {
     .footer {height:160vh;}
 
     .work-with-us {
-        height:40vh;
+        height:38vh;
     }
 
     #our_skills .header_section {
-        height:40vh;
+        height:80vh;
+    }
+
+    .choose-us-header{
+        height:80vh;
     }
 }
 
