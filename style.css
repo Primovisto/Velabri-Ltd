@@ -1,3 +1,7 @@
+    * {
+        margin:0;
+    }
+
     body,
 html {
     margin: 0;
@@ -941,7 +945,7 @@ header .light-logo {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 16px;
-    padding: 50px 0px 0px 0px;
+    padding: 50px;
 
     border-top: 1px solid #d3d3d3;
     height:50vh;
@@ -1069,7 +1073,7 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
     font-weight: 600;
-    margin-bottom:0px;
+    margin-bottom:30px;
 }
 
 .footer .menu a {
@@ -1249,19 +1253,16 @@ header .light-logo {
    }
 
    /* footer Section */
-   body{
-    height:100%;
-   }
+   
     footer {
         
         
 
     }
     .footer {
+        height:100%;
         font-size: 14px;
-        position:relative;
-        bottom:0;
-        padding:0px 0 ;
+        padding:20px ;
         margin-bottom:0;
     }
     .footer .footer-left,
@@ -1269,7 +1270,7 @@ header .light-logo {
     .footer .footer-right {
         display: block;
         width: 100%;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         text-align: center;
 
         
@@ -1287,7 +1288,7 @@ header .light-logo {
     .footer .footer-center .center-header {
 
     margin-bottom:0;
-    padding-top:0px;
+    
 }
 
 
@@ -1296,7 +1297,7 @@ header .light-logo {
     margin-top:0px;
     margin-bottom: 0px;
 }
-.footer .menu a {
+    .footer .menu a {
     font-weight:400;
     font-size: 14px;
 }
