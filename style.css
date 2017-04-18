@@ -939,11 +939,12 @@ header .light-logo {
     display:block;
     background: radial-gradient(#222, #000);
     width: 100%;
+    min-height:50vh;
     text-align: left;
     font-family: 'open sans', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    padding: 0;
+    padding: 50;
     border-top: 1px solid #d3d3d3;
    
     
@@ -953,8 +954,7 @@ header .light-logo {
 .footer .footer-center,
 .footer .footer-right {
     display: inline-block;
-    
-
+    margin-top:40px;
     vertical-align: top;
 }
 
@@ -972,6 +972,7 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
     font-size: 13px;
     font-weight: normal;
+    margin-bottom:0;
 }
 
 .footer .about span {
@@ -980,7 +981,7 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     margin-top: 5px;
 }
 
@@ -1249,10 +1250,12 @@ header .light-logo {
    /* footer Section */
    
     .footer {
-        height:100%;
+        height:115vh;
         font-size: 14px;
-        padding:20px ;
+        padding:50px ;
         margin-bottom:0;
+        box-sizing: border-box;
+
         
         
     }
@@ -1260,7 +1263,7 @@ header .light-logo {
     .footer .footer-center,
     .footer .footer-right {
         
-        display:block;
+        display:inline;
         width: 100%;
         margin-bottom: 0px;
         text-align: center;
@@ -1271,7 +1274,7 @@ header .light-logo {
 
     .footer .about span {
     margin-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 40px;
 }
 
    
@@ -1285,8 +1288,8 @@ header .light-logo {
 
     .footer .footer-right .right-header {
     
-    margin-top:0px;
-    margin-bottom: 20px;
+    margin-top:20px;
+    margin-bottom: 0px;
 }
     .footer .menu a {
     font-weight:400;
