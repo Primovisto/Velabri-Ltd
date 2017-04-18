@@ -936,22 +936,25 @@ header .light-logo {
 /* Footer Section */
 
 .footer {
+    display:flex;
     background: radial-gradient(#222, #000);
     width: 100%;
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'open sans', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    padding: 50px;
-    overflow:hidden;
+    padding: 20px;
+    
     border-top: 1px solid #d3d3d3;
-    height:50vh;
+   
+    
 }
 
 .footer .footer-left,
 .footer .footer-center,
 .footer .footer-right {
     display: inline-block;
+    flex-flow: row;
 
     vertical-align: top;
 }
@@ -1257,11 +1260,13 @@ header .light-logo {
         padding:20px ;
         margin-bottom:0;
         overflow: hidden;
+        
     }
     .footer .footer-left,
     .footer .footer-center,
     .footer .footer-right {
-        display: block;
+        
+        display:block;
         width: 100%;
         margin-bottom: 20px;
         text-align: center;
