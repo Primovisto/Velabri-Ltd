@@ -8,7 +8,7 @@ html {
     background-color: #fff;
     line-height: 30px;
     text-decoration: none;
-    padding:0;
+
 }
 
 p {
@@ -943,7 +943,7 @@ header .light-logo {
     font-weight: bold;
     font-size: 16px;
     padding: 50px;
-
+    overflow:hidden;
     border-top: 1px solid #d3d3d3;
     height:50vh;
 }
@@ -1256,6 +1256,7 @@ header .light-logo {
         font-size: 14px;
         padding:20px ;
         margin-bottom:0;
+        overflow: hidden;
     }
     .footer .footer-left,
     .footer .footer-center,
@@ -1269,17 +1270,15 @@ header .light-logo {
     }
 
     .footer .about span {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     padding-top: 0px;
 }
 
-    .footer .footer-center i {
-        margin-left: 0;
-    }
+   
 
     .footer .footer-center .center-header {
 
-    margin-bottom:0;
+    margin-bottom:20px;
     
 }
 
@@ -1287,7 +1286,7 @@ header .light-logo {
     .footer .footer-right .right-header {
     
     margin-top:0px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
     .footer .menu a {
     font-weight:400;
