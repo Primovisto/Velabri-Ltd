@@ -1302,10 +1302,14 @@ header .light-logo {
 }
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-    .footer {height:85vh;}
+    .footer {height:160vh;}
 
     .work-with-us {
-        height:45vh;
+        height:40vh;
+    }
+
+    #our_skills .header_section {
+        height:40vh;
     }
 }
 
