@@ -1069,7 +1069,7 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom:0px;
 }
 
 .footer .menu a {
@@ -1249,12 +1249,20 @@ header .light-logo {
    }
 
    /* footer Section */
-   
-    
+   body{
+    height:100%;
+   }
+    footer {
+        
+        
+
+    }
     .footer {
         font-size: 14px;
-        height:100%;
+        position:relative;
+        bottom:0;
         padding:0px 0 ;
+        margin-bottom:0;
     }
     .footer .footer-left,
     .footer .footer-center,
@@ -1263,12 +1271,13 @@ header .light-logo {
         width: 100%;
         margin-bottom: 0px;
         text-align: center;
-        margin-top:0px;
+
+        
     }
 
     .footer .about span {
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin-bottom: 0px;
+    padding-top: 0px;
 }
 
     .footer .footer-center i {
@@ -1276,13 +1285,15 @@ header .light-logo {
     }
 
     .footer .footer-center .center-header {
+
     margin-bottom:0;
-    margin-top:40px;
+    padding-top:0px;
 }
 
 
     .footer .footer-right .right-header {
-    margin-top:40px;
+    
+    margin-top:0px;
     margin-bottom: 0px;
 }
 .footer .menu a {
