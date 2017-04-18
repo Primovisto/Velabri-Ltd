@@ -1252,7 +1252,7 @@ header .light-logo {
     .footer {
         height:115vh;
         font-size: 14px;
-        padding:50px ;
+        padding:20px ;
         margin-bottom:0;
         box-sizing: border-box;
 
@@ -1273,15 +1273,15 @@ header .light-logo {
     }
 
     .footer .about span {
-    margin-bottom: 0px;
-    padding-top: 40px;
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
 
    
 
     .footer .footer-center .center-header {
 
-    margin-bottom:0px;
+    margin-bottom:20px;
     
 }
 
@@ -1289,7 +1289,7 @@ header .light-logo {
     .footer .footer-right .right-header {
     
     margin-top:20px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
     .footer .menu a {
     font-weight:400;
@@ -1307,6 +1307,10 @@ header .light-logo {
     .jumbotron-content h1 {
         font-size:40px;
         
+    }
+
+    .footer {
+        min-height:80vh;
     }
 }
 
