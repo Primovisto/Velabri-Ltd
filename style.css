@@ -1301,8 +1301,11 @@ header .light-logo {
     
 }
 
-@media only screen and (min-device-width : 414px) and (max-device-width : 667px) {
-    .footer {height:160vh;}
+@media only screen and (min-device-width : 414px) and (max-device-width : 767px) {
+    .footer {
+        height:160vh;
+
+    }
 
     .work-with-us {
         height:38vh;
