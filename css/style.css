@@ -279,7 +279,6 @@ header .light-logo {
     text-align: center;
     text-decoration: none;
     font-family: 'Roboto', helvetica, sans-serif;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     
 }
 .jumbotron-content h1:hover span{
@@ -293,7 +292,7 @@ header .light-logo {
     text-decoration: none;
     font-family: 'open sans', helvetica, sans-serif;
     font-weight: 400;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
 }
 
 .jumbotron-content ul {
@@ -1377,7 +1376,7 @@ header .light-logo {
 }
 
 #contact header {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 #contact header .dark-logo {
@@ -1391,8 +1390,8 @@ header .light-logo {
 }
 
 #contact .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
-    height:50%;
+    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
+    height:70%;
 }
 
 #contact .jumbotron-content h1 {
@@ -1478,15 +1477,17 @@ font-weight: 200;
     font-family: 'open sans';
     color: #232929;
     margin-left: 10%;
+    margin:30px 0;
 }
 #contact .contact-text p {
-    margin-top: 40px;
+    margin-top: 75px;
     font-size: 14px;
     font-family: 'open sans';
     color: #232929;
     text-align: justify;
     margin-left: 10%;
     margin-bottom: 15px;
+
 }
 #contact .contact-text h5 {
     margin-left: 10%;
