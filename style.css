@@ -258,7 +258,7 @@ header .light-logo {
 /* Jumbotron Section */
 
 .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
+    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/2lk40v9.png") no-repeat fixed 0 0 / cover;
     height: 100%;
     position: relative;
 }
@@ -279,11 +279,6 @@ header .light-logo {
     text-align: center;
     text-decoration: none;
     font-family: 'Roboto', helvetica, sans-serif;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    
-}
-.jumbotron-content h1:hover span{
-    color:#32c4e9;
 }
 
 .jumbotron-content p {
@@ -293,7 +288,6 @@ header .light-logo {
     text-decoration: none;
     font-family: 'open sans', helvetica, sans-serif;
     font-weight: 400;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .jumbotron-content ul {
