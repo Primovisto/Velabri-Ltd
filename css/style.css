@@ -1,13 +1,16 @@
-   
+
+    
     body,
 html {
     margin: 0;
+    padding:0;
     color: #232929;
     height: 100%;
     width: 100%;
     background-color: #fff;
     line-height: 30px;
     text-decoration: none;
+    
 
 }
 
@@ -261,6 +264,7 @@ header .light-logo {
 .jumbotron-section {
     background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
     height: 100%;
+    width:100%;
     position: relative;
 }
 
@@ -547,6 +551,7 @@ header .light-logo {
 }
 
 .choose-us-header {
+    height:40vh;
     position: relative;
 }
 
@@ -724,6 +729,7 @@ header .light-logo {
 /* Portfolio Section */
 
 .portfolio-section {
+    padding:0;
     background-color: #fff;
 }
 
@@ -751,8 +757,10 @@ header .light-logo {
 .portfolio-items-section {
     position: relative;
     background-color: #f7f7f7;
-    padding-top:20px;
+    padding-top:30px;
     padding-bottom:60px;
+    margin:0;
+    
     
 }
 
@@ -797,7 +805,7 @@ header .light-logo {
     content: '';
     width: 50px;
     height: 50px;
-    bottom: 45px;
+    bottom: 55px;
     left: 48%;
     background-color: #fff;
     -ms-transform: rotate(45deg);
@@ -859,13 +867,14 @@ header .light-logo {
     margin: 0;
     width: 100%;
     background-color: #f7f7f7;
-    padding: 0;
+   
 }
 
 .header_section {
     z-index: 1;
     background-image: url(http://i63.tinypic.com/2ev93q9.png);
-    height: 50vh;
+    height:40vh;
+    padding:50px;
     position: relative;
 }
 
@@ -874,7 +883,7 @@ header .light-logo {
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
     font-size: 50px;
-    padding-top: 40px;
+    
 }
 
 .header_section h3 {
@@ -1370,9 +1379,6 @@ header .light-logo {
         padding:30px;
     }
 
-   .header_section h2 {
-    padding-top:0;
-   }
 
 
 /* Tablet Landscape*/
@@ -1380,6 +1386,10 @@ header .light-logo {
 @media screen and (device-width: 768px) {
     .header_section {
         height:40vh;
+    }
+
+    .choose-us-header {
+        height:30vh;
     }
 }
 
@@ -2115,3 +2125,5 @@ font-weight: 200;
     padding: 40px;
     list-style: none;
 }
+
+
