@@ -1377,9 +1377,15 @@ header .light-logo {
 
 /* Tablet Landscape*/
 
-@media screen and (min-width: 768px) {
+@media screen and (device-width: 768px) {
     .header_section {
         height:40vh;
+    }
+}
+
+@media screen and (device-width: 1024px) {
+    .header_section {
+        height:50vh;
     }
 }
 
