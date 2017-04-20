@@ -942,7 +942,9 @@ header .light-logo {
 /* Footer Section */
 
 .footer {
-    display:block;
+    display:flex;
+    flex-direction:row-reverse;
+    flex-wrap: nowrap;
     background: radial-gradient(#222, #000);
     width: 100%;
     min-height:50vh;
@@ -952,6 +954,7 @@ header .light-logo {
     font-size: 16px;
     padding: 50;
     border-top: 1px solid #d3d3d3;
+    margin:0;
    
     
 }
@@ -1102,7 +1105,7 @@ header .light-logo {
 
 /* xs */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 413px) {
     /* Jumbotron Section */
     .jumbotron-content h1 {
         font-size: 35px;
@@ -1256,11 +1259,12 @@ header .light-logo {
    /* footer Section */
    
     .footer {
-        height:115vh;
+        height:auto;
         font-size: 14px;
         padding:20px ;
         margin-bottom:0;
         box-sizing: border-box;
+        position:static;
 
         
         
