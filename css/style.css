@@ -747,15 +747,17 @@ header .light-logo {
 
 .portfolio-items-section {
     position: relative;
+    right:20px;
     background-color: #f7f7f7;
-    padding: 80px;
-    border-bottom: 1px solid #d3d3d3;
+    padding-top:20px;
+    
 }
 
 .image {
-    height: 30vh;
+    height: 35vh;
     width: 100%;
-    padding: 0;
+    padding: 0; 
+    margin:0;
     -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
@@ -792,7 +794,7 @@ header .light-logo {
     content: '';
     width: 50px;
     height: 50px;
-    bottom: 105px;
+    bottom: 45px;
     left: 48%;
     background-color: #fff;
     -ms-transform: rotate(45deg);
@@ -805,7 +807,7 @@ header .light-logo {
 
 .portfolio-btn {
     text-align: center;
-    margin-top: 30px;
+    margin: 50px 0px;
 }
 
 .portfolio-btn #btn_2 {
@@ -1103,7 +1105,7 @@ header .light-logo {
 
 /* xs */
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 767px) {
     /* Jumbotron Section */
     .jumbotron-content h1 {
         font-size: 35px;
@@ -1309,25 +1311,6 @@ header .light-logo {
     
 }
 
-@media only screen and (min-device-width : 414px) and (max-device-width : 767px) {
-    .footer {
-        height:auto;
-
-    }
-
-    .work-with-us {
-        height:56vh;
-    }
-
-   .header_section {
-        height:90vh;
-    }
-
-    .choose-us-header{
-        height:80vh;
-    }
-}
-
 
 /* md */
 
@@ -1339,6 +1322,12 @@ header .light-logo {
 
     .jumbotron-section {
         background: contain;
+    }
+
+
+
+    .portfolio-website {
+        font-size:14px;
     }
 }
 
