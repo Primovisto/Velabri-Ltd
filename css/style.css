@@ -396,6 +396,10 @@ header .light-logo {
     padding: 10px 0px;
 }
 
+.services-header{
+    padding-top:20px;
+}
+
 .services-paragraph {
     font-family: 'open sans', 'sans-serif';
     color: #232929;
@@ -512,6 +516,7 @@ header .light-logo {
     color: #fff;
     font-weight: 800;
     text-align: center;
+    height
     
 }
 
@@ -524,8 +529,11 @@ header .light-logo {
 }
 
 .choose-us-header {
-    padding-top:60px;
+    height:55vh;
+    padding-top:70px;
     position: relative;
+    background: radial-gradient(#222, #000);
+    
 }
 
 .choose-us-header::before {
@@ -633,10 +641,7 @@ header .light-logo {
     left: 0;
 }
 
-.choose-us-header {
-    background: radial-gradient(#222, #000);
-    height: 55vh;
-}
+
 
 @media (min-width: 992px) {
     .choose-us .why-choose.why-choose-left {
@@ -845,8 +850,9 @@ header .light-logo {
 
 .header_section {
     z-index: 1;
+    height:55vh;
     background-image: url(http://i63.tinypic.com/2ev93q9.png);
-    padding:50px;
+    padding-top:90px;
     position: relative;
 }
 
@@ -1123,6 +1129,7 @@ header .light-logo {
     }
     .services .services-header h2 {
         font-size: 40px;
+        padding-top:10px;
     }
     .services-paragraph {
         font-size: 16px;
@@ -1132,7 +1139,7 @@ header .light-logo {
         font-size: 18px;
     }
     .services:before {
-        left:46%;
+        left:45%;
         bottom:25px;
     }
     .services-btn .btn_1 {
@@ -1175,11 +1182,12 @@ header .light-logo {
 
     .choose-us-main-header {
         font-size: 35px;
-        padding-top: 20px;
+        
     }
     .choose-us-header-text {
         font-size: 16px;
         padding: 10px;
+        padding-bottom:40px;
     }
     
 
@@ -1216,7 +1224,7 @@ header .light-logo {
     }
     .portfolio-items-section::before {
         left:46%;
-        bottom:25px;
+        bottom:45px;
     }
     .portfolio-btn {
         text-align: center;
@@ -1249,7 +1257,7 @@ header .light-logo {
    
 
    .header_section h3{
-   padding:0;
+   font-size:14px;
    }
 
    /* footer Section */
@@ -1343,13 +1351,14 @@ header .light-logo {
         padding: 8px 15px;
         font-size: 18px;
         margin-top: 30px;
+
         
     }
 
     
 
     .work-with-us {
-        padding:20px;
+        padding:30px;
         
     }
 
@@ -1361,11 +1370,17 @@ header .light-logo {
 
 
     #our_skills .header_section {
-        padding:30px;
+        padding-top:80px;
         
     }
 
+    #our_skills .header_section h3{
+        font-size:18px;
+        padding:10px 80px;
+        
+    }
 
+}
 
 /* Tablet Landscape*/
 
