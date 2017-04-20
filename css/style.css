@@ -662,14 +662,7 @@ header .light-logo {
 
 .work-with-us {
     
-    background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 140, 140, 1) 90%, rgba(0, 156, 156, 1) 100%);
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(90%, rgba(0, 140, 140, 1)), color-stop(100%, rgba(0, 156, 156, 1)));
-    /* safari4+,chrome */
-    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 140, 140, 1) 90%, rgba(0, 156, 156, 1) 100%);
-    background: -o-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 140, 140, 1) 90%, rgba(0, 156, 156, 1) 100%);
-    background: -ms-linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 140, 140, 1) 90%, rgba(0, 156, 156, 1) 100%);
-    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgba(0, 140, 140, 1) 90%, rgba(0, 156, 156, 1) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#009C9C', endColorstr='#000000', GradientType=1);
+    background: url(http://i66.tinypic.com/w19u7n.png);
 }
 
 .work-text {
@@ -1180,6 +1173,10 @@ header .light-logo {
     
     /* Why Choose Section */
 
+    .choose-us-header {
+        padding-top:20px;
+    }
+
 
     .choose-us-main-header {
         font-size: 35px;
@@ -1187,7 +1184,6 @@ header .light-logo {
     }
     .choose-us-header-text {
         font-size: 14px;
-        padding:0;
         
         
     }
@@ -1225,8 +1221,8 @@ header .light-logo {
         padding-bottom:40px;
     }
     .portfolio-items-section::before {
-        left:46%;
-        bottom:45px;
+        left:45%;
+        bottom:55px;
     }
     .portfolio-btn {
         text-align: center;
@@ -1401,7 +1397,7 @@ header .light-logo {
     }
 
     .choose-us-main-header{
-        padding-top:10px;
+        padding-top:20px;
     }
 
     
