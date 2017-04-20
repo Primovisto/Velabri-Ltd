@@ -1172,7 +1172,7 @@ header .light-logo {
     /* Why Choose Section */
     .choose-us-main-header {
         font-size: 35px;
-        padding-top: 20px;
+        padding-top: 10px;
     }
     .choose-us-header-text {
         font-size: 16px;
@@ -1301,24 +1301,7 @@ header .light-logo {
     
 }
 
-@media only screen and (min-device-width : 414px) and (max-device-width : 767px) {
-    .footer {
-        height:160vh;
 
-    }
-
-    .work-with-us {
-        height:38vh;
-    }
-
-    #our_skills .header_section {
-        height:80vh;
-    }
-
-    .choose-us-header{
-        height:80vh;
-    }
-}
 
 
 /* md */
