@@ -1342,12 +1342,21 @@ header .light-logo {
         font-size:14px;
     }
 
+    .work-text{
+        text-align:center;
+        margin:20px;
+    }
+
     .btn_large.quote_btn {
         border: 2px solid #fff;
         padding: 8px 15px;
         font-size: 18px;
-        margin-top: 45px;
+        margin-top: 30px;
         margin-left:50px;
+    }
+
+    .work-with-us {
+        padding:20px;
     }
 
 
@@ -1367,29 +1376,6 @@ header .light-logo {
 
 
 /* Tablet Landscape*/
-
-@media screen and (min-width: 768px) and (max-width: 992px){
-    .work-with-us{
-        padding:20px;
-    }
-    .work-text{
-        text-align:center;
-        margin:0;
-        
-    }
-
-
-    .btn_large.quote_btn {
-    
-    
-    
-    text-align: center;
-    
-    
-    margin-bottom:0px;
-}
-
-}
 
 
 
