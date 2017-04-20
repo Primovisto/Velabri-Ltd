@@ -6,7 +6,7 @@ html {
     padding:0;
     color: #232929;
     height: 100%;
-    width: 100%;
+    max-width: 100%;
     background-color: #fff;
     line-height: 30px;
     text-decoration: none;
@@ -21,7 +21,7 @@ p {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -504,32 +504,6 @@ header .light-logo {
 }
 
 
-/* sm */
-
-@media screen and (min-width: 768px) {
-    {
-        font-size: 1em;
-    }
-}
-
-
-/* md */
-
-@media screen and (min-width: 992px) {
-    {
-        font-size: 1.2em;
-    }
-}
-
-
-/* lg */
-
-@media screen and (min-width: 1200px) {
-    {
-        font-size: 1.3em;
-    }
-}
-
 
 /*Choose-us-section*/
 
@@ -539,7 +513,7 @@ header .light-logo {
     color: #fff;
     font-weight: 800;
     text-align: center;
-    padding-top: 50px;
+    
 }
 
 .choose-us-header-text {
@@ -551,7 +525,7 @@ header .light-logo {
 }
 
 .choose-us-header {
-    height:40vh;
+    padding:40px;
     position: relative;
 }
 
@@ -1372,7 +1346,7 @@ header .light-logo {
     }
 
     .choose-us-header{
-        height:30vh;
+        height:45vh;
     }
 
     .work-with-us {
@@ -1389,7 +1363,7 @@ header .light-logo {
 
     #our_skills .header_section {
         padding:30px;
-        height:30vh;
+        
     }
 
 
