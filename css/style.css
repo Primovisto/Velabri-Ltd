@@ -45,7 +45,6 @@ h2 {
     color: #232929;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
-    margin-top: 50px;
     font-size: 50px;
 }
 
@@ -525,7 +524,7 @@ header .light-logo {
 }
 
 .choose-us-header {
-    padding:40px;
+    padding-top:60px;
     position: relative;
 }
 
@@ -847,7 +846,6 @@ header .light-logo {
 .header_section {
     z-index: 1;
     background-image: url(http://i63.tinypic.com/2ev93q9.png);
-    height:40vh;
     padding:50px;
     position: relative;
 }
@@ -865,6 +863,7 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
     text-align: center;
     color: #fff;
+    padding-bottom:20px;
 }
 
 .header_section::before {
@@ -1213,7 +1212,7 @@ header .light-logo {
         display: none;
     }
     .portfolio-items-section {
-        padding: 0;
+        padding-bottom:40px;
     }
     .portfolio-items-section::before {
         left:46%;
@@ -1237,18 +1236,20 @@ header .light-logo {
 
    #our_skills {
 
-    padding-top:40px;
-    border-top:none;
+    padding:0;
+    
     
 
    }
 
-   .header_section h2 {
-    margin-top:20px;
+   .header-section{
+    padding:10px;
    }
 
+   
+
    .header_section h3{
-    padding:0 20px;
+   padding:0;
    }
 
    /* footer Section */
@@ -1345,9 +1346,7 @@ header .light-logo {
         
     }
 
-    .choose-us-header{
-        height:45vh;
-    }
+    
 
     .work-with-us {
         padding:20px;
