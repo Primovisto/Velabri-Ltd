@@ -747,7 +747,6 @@ header .light-logo {
 
 .portfolio-items-section {
     position: relative;
-    right:20px;
     background-color: #f7f7f7;
     padding-top:20px;
     
@@ -1322,6 +1321,16 @@ header .light-logo {
 
     .jumbotron-section {
         background: contain;
+    }
+
+    .portfolio-items-section {
+        position:relative;
+        left:40px;
+    }
+
+    .image{
+        position:relative;
+        left:20px;
     }
 
 
