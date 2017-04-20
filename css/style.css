@@ -1361,11 +1361,12 @@ header .light-logo {
         padding: 8px 15px;
         font-size: 18px;
         margin-top: 30px;
-        margin-left:50px;
+        
     }
 
     .work-with-us {
         padding:20px;
+        height:40vh;
     }
 
 
@@ -1377,27 +1378,14 @@ header .light-logo {
 
     #our_skills .header_section {
         padding:30px;
+        height:40vh;
     }
 
 
 
 /* Tablet Landscape*/
 
-@media screen and (device-width: 768px) {
-    .header_section {
-        height:40vh;
-    }
 
-    .choose-us-header {
-        height:30vh;
-    }
-}
-
-@media screen and (device-width: 1024px) {
-    .header_section {
-        height:50vh;
-    }
-}
 
 
 /* Inside Pages -Contact Us */
