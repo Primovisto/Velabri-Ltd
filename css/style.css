@@ -21,7 +21,7 @@ p {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -1119,6 +1119,13 @@ header .light-logo {
 
 @media screen and (max-width: 767px) {
     /* Jumbotron Section */
+
+    .jumbotron-section {
+    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
+    height: 100%;
+    max-width:100%;
+    position: relative;
+}
     .jumbotron-content h1 {
         font-size: 35px;
     }
@@ -1364,9 +1371,13 @@ header .light-logo {
         
     }
 
+    .choose-us-header{
+        height:30vh;
+    }
+
     .work-with-us {
         padding:20px;
-        height:40vh;
+        
     }
 
 
@@ -1378,7 +1389,7 @@ header .light-logo {
 
     #our_skills .header_section {
         padding:30px;
-        height:40vh;
+        height:30vh;
     }
 
 
