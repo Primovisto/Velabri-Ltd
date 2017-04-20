@@ -691,7 +691,7 @@ header .light-logo {
 }
 
 .work-text {
-    align-items:  center;
+    
     font-size: 22px;
     color: #fff;
     font-weight: 400;
@@ -1326,7 +1326,7 @@ header .light-logo {
     }
 
     .jumbotron-section {
-        background: contain;
+        background-size:cover;
     }
 
     
@@ -1349,6 +1349,8 @@ header .light-logo {
         margin-top: 45px;
         margin-left:50px;
     }
+
+
     .work-btn {
         text-align: center;
 
@@ -1366,8 +1368,11 @@ header .light-logo {
         padding-top:20px;
 }
 
-@media screen and (width: 768px) {
-
+@media screen and (min-width: 768px) and (max-width: 910px){
+    .work-text{
+        text-align:center;
+        margin:0;
+    }
 
 }
 
