@@ -1154,7 +1154,7 @@ header .light-logo {
     
     /* Get a Quote */
     .work-with-us {
-        height: 25vh;
+        padding:20px;
     }
     .work-text {
         font-family: 'open sans', 'sans-serif';
@@ -1163,7 +1163,7 @@ header .light-logo {
         color: #fff;
         margin: 0;
         text-align: center;
-        padding-top: 15px;
+        
     }
     .btn_large.quote_btn {
         border: 2px solid #fff;
@@ -1356,23 +1356,28 @@ header .light-logo {
 
     }
 
-    .choose-us-header {
-        height:40vh;
-    }
 
     #our_skills .header_section {
-        height:35vh;
+        padding:30px;
     }
 
-    .header_section h2 {
-        padding-top:20px;
-}
+   .header_section h2 {
+    padding-top:0;
+   }
 
-@media screen and (min-width: 768px) and (max-width: 910px){
+
+/* Tablet Landscape*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .work-with-us{
+        padding:20px;
+    }
     .work-text{
         text-align:center;
         margin:0;
+        
     }
+
 
     .btn_large.quote_btn {
     
@@ -1380,7 +1385,8 @@ header .light-logo {
     
     text-align: center;
     
-    margin-top: 10px;
+    
+    margin-bottom:0px;
 }
 
 }
