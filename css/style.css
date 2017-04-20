@@ -529,7 +529,7 @@ header .light-logo {
 
 .choose-us-header {
     height:50vh;
-    padding-top:20px;
+    padding-top:70px;
     position: relative;
     background: radial-gradient(#222, #000);
     
@@ -865,7 +865,7 @@ header .light-logo {
     
 }
 
-.header_section h3 {
+.header_section p {
     font-size: 18px;
     font-family: 'open sans', 'sans-serif';
     text-align: center;
@@ -1256,7 +1256,7 @@ header .light-logo {
     font-size: 35px;
 }
 
-.header_section h3 {
+.header_section p {
     font-size: 14px;
 }
 
@@ -1375,7 +1375,7 @@ header .light-logo {
         
     }
 
-    #our_skills .header_section h3{
+    #our_skills .header_section p{
         font-size:18px;
         padding:10px 80px;
         
@@ -1392,11 +1392,16 @@ header .light-logo {
   and (orientation: portrait) { 
     #our_skills .header_section {
         height:40vh;
+        padding-top:10px;
 
     }
 
     .choose-us-header {
         height:40vh;
+    }
+
+    .choose-us-main-header{
+        padding-top:10px;
     }
 
     
