@@ -516,7 +516,7 @@ header .light-logo {
     color: #fff;
     font-weight: 800;
     text-align: center;
-    height
+    
     
 }
 
@@ -524,12 +524,11 @@ header .light-logo {
     font-family: 'open sans';
     text-align: center;
     font-size: 18px;
-    padding: 10px 80px;
     color: #fff;
 }
 
 .choose-us-header {
-    height:55vh;
+    height:50vh;
     padding-top:70px;
     position: relative;
     background: radial-gradient(#222, #000);
@@ -1187,9 +1186,10 @@ header .light-logo {
         
     }
     .choose-us-header-text {
-        font-size: 16px;
-        padding: 10px;
-        padding-bottom:40px;
+        font-size: 14px;
+        padding:0;
+        
+        
     }
     
 
@@ -1245,25 +1245,21 @@ header .light-logo {
 
 
    #our_skills {
+    padding: 0;
+}
 
-    padding:0;
-    
-    
+#our_skills .header_section {
+    padding: 30px;
+}
 
-   }
+#our_skills .header_section h2 {
+    font-size: 35px;
+}
 
-   #our_skills .header_section{
-    padding:30px;
+.header_section h3 {
+    font-size: 14px;
+}
 
-   }
-
-
-
-   
-
-   .header_section h3{
-   font-size:14px;
-   }
 
    /* footer Section */
    
@@ -1395,8 +1391,12 @@ header .light-logo {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     #our_skills .header_section {
-        height:45vh;
+        height:40vh;
 
+    }
+
+    .choose-us-header {
+        height:40vh;
     }
 
     
@@ -1411,6 +1411,10 @@ header .light-logo {
   and (orientation: landscape) { 
 
     #our_skills .header_section{
+        height:65vh;
+    }
+
+    .choose-us-header{
         height:65vh;
     }
 
