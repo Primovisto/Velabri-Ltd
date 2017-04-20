@@ -682,6 +682,10 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
 }
 
+.work-btn{
+    text-align:right;
+}
+
 .btn_large.quote_btn {
     
     color: #fff;
@@ -690,8 +694,6 @@ header .light-logo {
     text-transform: uppercase;
     font-family: 'Roboto', 'sans-serif';
     font-size: 22px;
-    text-align: center;
-    margin-left:150px;
     margin-top: 35px;
 }
 
@@ -1250,9 +1252,12 @@ header .light-logo {
 
    }
 
-   .header-section{
-    padding:10px;
+   #our_skills .header_section{
+    padding:30px;
+
    }
+
+
 
    
 
