@@ -1182,6 +1182,8 @@ header .light-logo {
     }
     
     /* Why Choose Section */
+
+
     .choose-us-main-header {
         font-size: 35px;
         padding-top: 20px;
@@ -1352,9 +1354,21 @@ header .light-logo {
 
     }
 
-    #our_skills .header_section {
+    .choose-us-header {
         height:40vh;
     }
+
+    #our_skills .header_section {
+        height:35vh;
+    }
+
+    .header_section h2 {
+        padding-top:20px;
+}
+
+@media screen and (width: 768px) {
+
+
 }
 
 
