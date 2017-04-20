@@ -167,7 +167,7 @@ header.navbar-fixed-top .menu-links a {
 /* Start Header */
 
 header {
-    background: rgba(255, 255, 255, 0) none repeat fixed 0 0;
+    background: rgba(255,255,255,0);   
     position: absolute;
     top: 0;
     padding: 15px 0;
@@ -175,6 +175,7 @@ header {
     z-index: 99;
     line-height: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
 }
 
 header .dark-logo {
@@ -1308,16 +1309,16 @@ header .light-logo {
 
 @media only screen and (min-device-width : 414px) and (max-device-width : 767px) {
     .footer {
-        height:160vh;
+        height:200vh;
 
     }
 
     .work-with-us {
-        height:38vh;
+        height:56vh;
     }
 
-    #our_skills .header_section {
-        height:80vh;
+   .header_section {
+        height:90vh;
     }
 
     .choose-us-header{
@@ -1376,7 +1377,8 @@ header .light-logo {
 }
 
 #contact header {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0);
+    border-bottom: 1px solid 0.3;
 }
 
 #contact header .dark-logo {
@@ -1389,15 +1391,10 @@ header .light-logo {
     display: block;
 }
 
-#contact .jumbotron-section {
+#contact .jumbotron-section{
     background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
     height:70%;
-}
-
-#contact .jumbotron-content h1 {
-    font-size:50px;
-}
-
+    }
 #contact .contact-header {
     background-color:#fff;
 }
@@ -1553,8 +1550,8 @@ font-weight: 200;
     color: #32c4e9;
 }
 #about .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
-    height: 50%;
+   background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
+    height: 70%;
 }
 #about .jumbotron-content h1 {
     color: #fff;
@@ -1720,9 +1717,10 @@ font-weight: 200;
     opacity: 1;
     display: block;
 }
-#quote .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
-    height: 50%;
+
+#quote .jumbotron-section{
+    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
+    height:70%;
 }
 
 #quote .quote-heading {
@@ -1816,8 +1814,8 @@ font-weight: 200;
 
 /* Inside Pages - Portfolio Page */
 #portfolio .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
-    height: 50%;
+    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
+    height: 70%;
 }
 
 #portfolio .portfolio-welcome {
@@ -1947,8 +1945,8 @@ font-weight: 200;
     display: block;
 }
 #services .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/23r70v5.jpg") no-repeat fixed 0 0 / cover;
-    height: 50vh;
+    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
+    height: 70%;
 }
 
 #services .service-details{
