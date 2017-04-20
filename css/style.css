@@ -1377,7 +1377,11 @@ header .light-logo {
 
 /* Tablet Landscape*/
 
-
+@media screen and (min-width: 768px) {
+    .header_section {
+        height:40vh;
+    }
+}
 
 
 /* Inside Pages -Contact Us */
