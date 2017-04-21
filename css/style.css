@@ -2065,7 +2065,7 @@ font-weight: 200;
     display: block;
 }
 #services .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
+    background: rgba(0, 0, 0, 0) url("http://i68.tinypic.com/10ehmb5.jpg") no-repeat fixed 0 0 / cover;
     height: 80%;
 }
 
@@ -2124,6 +2124,7 @@ font-weight: 200;
 #services .service-type {
     font-family: 'open sans', 'sans-serif';
     font-size: 20px;
+    font-weight:600;
     margin-top: 15px
 }
 #services .service-page-icon {
