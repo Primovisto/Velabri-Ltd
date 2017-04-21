@@ -1,17 +1,14 @@
 
-
-    body,
+body,
 html {
     margin: 0;
-    padding:0;
+    padding: 0;
     color: #232929;
     height: 100%;
     max-width: 100%;
     background-color: #fff;
     line-height: 30px;
     text-decoration: none;
-    
-
 }
 
 p {
@@ -71,7 +68,7 @@ header.navbar-fixed-top .menu-links a {
 }
 
 
-/* Pre-loader 
+
 
 #loader-wrapper {
     position: fixed;
@@ -163,13 +160,12 @@ header.navbar-fixed-top .menu-links a {
 }
 
 
-/* End Loader */
 
 
 /* Start Header */
 
 header {
-    background: rgba(255,255,255,0);   
+    background: rgba(255, 255, 255, 0);
     position: absolute;
     top: 0;
     padding: 15px 0;
@@ -177,7 +173,6 @@ header {
     z-index: 99;
     line-height: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-
 }
 
 header .dark-logo {
@@ -226,8 +221,8 @@ header .light-logo {
     margin: 0;
 }
 
-.navbar-nav{
-    margin:0;
+.navbar-nav {
+    margin: 0;
 }
 
 .navbar.navbar-inverse .navbar-toggle {
@@ -235,7 +230,6 @@ header .light-logo {
 }
 
 .navbar-inverse .navbar-collapse {
-    
     background-color: #232929;
     visibility: visible;
 }
@@ -263,12 +257,10 @@ header .light-logo {
 .jumbotron-section {
     background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
     height: 100%;
-    max-width:100%;
+    max-width: 100%;
     position: relative;
-    display:block;
-
+    display: block;
 }
-
 
 .jumbotron-content {
     left: 0;
@@ -286,10 +278,10 @@ header .light-logo {
     text-align: center;
     text-decoration: none;
     font-family: 'Roboto', helvetica, sans-serif;
-    
 }
-.jumbotron-content h1:hover span{
-    color:#32c4e9;
+
+.jumbotron-content h1:hover span {
+    color: #32c4e9;
 }
 
 .jumbotron-content p {
@@ -299,7 +291,6 @@ header .light-logo {
     text-decoration: none;
     font-family: 'open sans', helvetica, sans-serif;
     font-weight: 400;
-    
 }
 
 .jumbotron-content ul {
@@ -329,33 +320,29 @@ header .light-logo {
     transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1) 0s;
 }
 
-
-
-
-
 .jumbotron-content ul li:nth-child(1) a:hover {
     background-color: #3d589b;
-    border:2px solid #3d589b;
+    border: 2px solid #3d589b;
 }
 
 .jumbotron-content ul li:nth-child(2) a:hover {
     background-color: #34cbff;
-    border:2px solid #34cbff;
+    border: 2px solid #34cbff;
 }
 
 .jumbotron-content ul li:nth-child(3) a:hover {
     background-color: #0077B5;
-    border:2px solid #0077B5;
+    border: 2px solid #0077B5;
 }
 
 .jumbotron-content ul li:nth-child(4) a:hover {
     background-color: #d34836;
-    border:2px solid #d34836;
+    border: 2px solid #d34836;
 }
 
 .jumbotron-content ul li:nth-child(5) a:hover {
     background-color: #000;
-    border:2px solid #000;
+    border: 2px solid #000;
 }
 
 .jumbotron-button a {
@@ -384,7 +371,6 @@ header .light-logo {
 #jumbo_btn2 {
     background-color: #32c4e9;
     color: #fff;
-    
 }
 
 #jumbo_btn2:hover {
@@ -404,8 +390,8 @@ header .light-logo {
     padding: 10px 0px;
 }
 
-.services-header{
-    padding-top:20px;
+.services-header {
+    padding-top: 20px;
 }
 
 .services-paragraph {
@@ -452,7 +438,7 @@ header .light-logo {
 }
 
 .service .service-icon:hover .img-icon {
-    transform:translateY(-3px);
+    transform: translateY(-3px);
 }
 
 .service:hover .service-icon i {
@@ -515,7 +501,6 @@ header .light-logo {
 }
 
 
-
 /*Choose-us-section*/
 
 .choose-us-main-header {
@@ -524,8 +509,6 @@ header .light-logo {
     color: #fff;
     font-weight: 800;
     text-align: center;
-    
-    
 }
 
 .choose-us-header-text {
@@ -536,11 +519,10 @@ header .light-logo {
 }
 
 .choose-us-header {
-    height:50vh;
-    padding-top:70px;
+    height: 50vh;
+    padding-top: 70px;
     position: relative;
     background: radial-gradient(#222, #000);
-    
 }
 
 .choose-us-header::before {
@@ -648,8 +630,6 @@ header .light-logo {
     left: 0;
 }
 
-
-
 @media (min-width: 992px) {
     .choose-us .why-choose.why-choose-left {
         padding-right: 100px;
@@ -669,12 +649,10 @@ header .light-logo {
 /* Get A Quote Section */
 
 .work-with-us {
-    
-    background: url(http://i66.tinypic.com/w19u7n.png);
+    background: url(http://i64.tinypic.com/2h3bnea.jpg);
 }
 
 .work-text {
-    
     font-size: 22px;
     color: #fff;
     font-weight: 400;
@@ -682,12 +660,11 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
 }
 
-.work-btn{
-    text-align:right;
+.work-btn {
+    text-align: right;
 }
 
 .btn_large.quote_btn {
-    
     color: #fff;
     border: 2px solid #fff;
     padding: 10px 25px;
@@ -709,7 +686,7 @@ header .light-logo {
 /* Portfolio Section */
 
 .portfolio-section {
-    padding:0;
+    padding: 0;
     background-color: #fff;
 }
 
@@ -737,18 +714,16 @@ header .light-logo {
 .portfolio-items-section {
     position: relative;
     background-color: #f7f7f7;
-    padding-top:30px;
-    padding-bottom:60px;
-    margin:0;
-    
-    
+    padding-top: 30px;
+    padding-bottom: 60px;
+    margin: 0;
 }
 
 .image {
     height: 35vh;
     width: 100%;
-    padding: 0; 
-    margin:0;
+    padding: 0;
+    margin: 0;
     -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
     -moz-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
@@ -798,7 +773,6 @@ header .light-logo {
 
 .portfolio-btn {
     text-align: center;
-
 }
 
 .portfolio-btn #btn_2 {
@@ -847,14 +821,13 @@ header .light-logo {
     margin: 0;
     width: 100%;
     background-color: #f7f7f7;
-   
 }
 
 .header_section {
     z-index: 1;
-    height:55vh;
+    height: 55vh;
     background-image: url(http://i63.tinypic.com/2ev93q9.png);
-    padding-top:90px;
+    padding-top: 90px;
     position: relative;
 }
 
@@ -863,7 +836,6 @@ header .light-logo {
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
     font-size: 50px;
-    
 }
 
 .header_section p {
@@ -871,7 +843,7 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
     text-align: center;
     color: #fff;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 .header_section::before {
@@ -937,25 +909,21 @@ header .light-logo {
 /* Footer Section */
 
 .footer {
-   
     background: radial-gradient(#222, #000);
     width: 100%;
-    min-height:50vh;
+    min-height: 50vh;
     text-align: left;
     font-family: 'open sans', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    
-    margin:0;
-   
-    
+    margin: 0;
 }
 
 .footer .footer-left,
 .footer .footer-center,
 .footer .footer-right {
     display: inline-block;
-    margin-top:40px;
+    margin-top: 40px;
     vertical-align: top;
 }
 
@@ -963,7 +931,6 @@ header .light-logo {
 /* footer left*/
 
 .footer .footer-left {
-    
     padding-right: 15px;
 }
 
@@ -973,7 +940,7 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
     font-size: 13px;
     font-weight: normal;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 .footer .about span {
@@ -1007,8 +974,6 @@ header .light-logo {
 
 
 /* footer center*/
-
-
 
 .footer-center .center-header {
     display: block;
@@ -1062,14 +1027,13 @@ header .light-logo {
 
 /* footer right*/
 
-
 .footer .footer-right .right-header {
     display: block;
     color: #fff;
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
     font-weight: 600;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .footer .menu a {
@@ -1099,20 +1063,18 @@ header .light-logo {
 
 @media screen and (max-width: 767px) {
     /* Jumbotron Section */
-
     .jumbotron-section {
-    background: url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
-    height: 100%;
-    max-width:100%;
-    padding:0;
-    
-}
+        background: url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
+        height: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
     .jumbotron-content h1 {
         font-size: 35px;
     }
     .jumbotron-content p {
         font-size: 18px;
-        padding:0 20px;
+        padding: 0 20px;
     }
     .jumbotron-button a {
         padding: 8px 18px;
@@ -1131,7 +1093,7 @@ header .light-logo {
     }
     .services .services-header h2 {
         font-size: 40px;
-        padding-top:10px;
+        padding-top: 10px;
     }
     .services-paragraph {
         font-size: 16px;
@@ -1141,18 +1103,17 @@ header .light-logo {
         font-size: 18px;
     }
     .services:before {
-        left:45%;
-        bottom:25px;
+        left: 45%;
+        bottom: 25px;
     }
     .services-btn .btn_1 {
         font-size: 14px;
         padding: 6px 18px;
         margin: 0;
     }
-    
     /* Get a Quote */
     .work-with-us {
-        padding:20px;
+        padding: 20px;
     }
     .work-text {
         font-family: 'open sans', 'sans-serif';
@@ -1161,7 +1122,6 @@ header .light-logo {
         color: #fff;
         margin: 0;
         text-align: center;
-        
     }
     .btn_large.quote_btn {
         border: 2px solid #fff;
@@ -1178,33 +1138,22 @@ header .light-logo {
         padding: 8px 15px;
         font-size: 18px;
     }
-    
     /* Why Choose Section */
-
     .choose-us-header {
-        padding-top:20px;
+        padding-top: 20px;
     }
-
-
     .choose-us-main-header {
         font-size: 35px;
-        
     }
     .choose-us-header-text {
         font-size: 14px;
-        
-        
     }
-    
-
     /* Portfolio Section */
-
-    .portfolio-items-section{
-        border-bottom:none;
+    .portfolio-items-section {
+        border-bottom: none;
     }
-
     .portfolio-heading h2 {
-        font-size:40px;
+        font-size: 40px;
     }
     .portfolio-image {
         text-align: center;
@@ -1218,19 +1167,18 @@ header .light-logo {
         -moz-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
         box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
     }
-
     .portfolio-website {
-        font-size:12px;
+        font-size: 12px;
     }
     .portfolio-website-type {
         display: none;
     }
     .portfolio-items-section {
-        padding-bottom:40px;
+        padding-bottom: 40px;
     }
     .portfolio-items-section::before {
-        left:45%;
-        bottom:55px;
+        left: 45%;
+        bottom: 55px;
     }
     .portfolio-btn {
         text-align: center;
@@ -1244,86 +1192,60 @@ header .light-logo {
         padding: 8px 16px;
         font-size: 12px;
     }
-
     /* Our Skills Section */
-
-
-   #our_skills {
-    padding: 0;
-}
-
-#our_skills .header_section {
-    padding: 30px;
-}
-
-#our_skills .header_section h2 {
-    font-size: 35px;
-}
-
-.header_section p {
-    font-size: 14px;
-}
-
-
-   /* footer Section */
-   
-    .footer {
-        height:auto;
+    #our_skills {
+        padding: 0;
+    }
+    #our_skills .header_section {
+        padding: 30px;
+    }
+    #our_skills .header_section h2 {
+        font-size: 35px;
+    }
+    .header_section p {
         font-size: 14px;
-        padding:20px ;
-        margin-bottom:0;
+    }
+    /* footer Section */
+    .footer {
+        height: auto;
+        font-size: 14px;
+        padding: 20px;
+        margin-bottom: 0;
         box-sizing: border-box;
-        position:static;
-
-        
-        
+        position: static;
     }
     .footer .footer-left,
     .footer .footer-center,
     .footer .footer-right {
-        
-        display:inline;
+        display: inline;
         width: 100%;
         margin-bottom: 0px;
         text-align: center;
-        margin-top:20px;
-
-        
+        margin-top: 20px;
     }
-
     .footer .about span {
-    margin-bottom: 20px;
-    padding-top: 20px;
-}
-
-   
-
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
     .footer .footer-center .center-header {
-
-    margin-bottom:20px;
-    
-}
-
-
+        margin-bottom: 20px;
+    }
     .footer .footer-right .right-header {
-    
-    margin-top:20px;
-    margin-bottom: 20px;
-}
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     .footer .menu a {
-    font-weight:400;
-    font-size: 14px;
-}
-
-
-#about .about-image img {
-    margin:0;
-}
-
-#about .ed-team-image, .james-team-image {
-    position:relative;
-    left:70px;
-}
+        font-weight: 400;
+        font-size: 14px;
+    }
+    #about .about-image img {
+        margin: 0;
+    }
+    #about .ed-team-image,
+    .james-team-image {
+        position: relative;
+        left: 70px;
+    }
 }
 
 
@@ -1331,114 +1253,70 @@ header .light-logo {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .jumbotron-content h1 {
-        font-size:40px;
-        
+        font-size: 40px;
     }
-
     .jumbotron-section {
-        background-size:contain;
-
+        background-size: contain;
     }
-
-    
-
-    .image{
-        position:relative;
-        left:10px;
+    .image {
+        position: relative;
+        left: 10px;
     }
-
-
-
     .portfolio-website {
-        font-size:14px;
+        font-size: 14px;
     }
-
-    .work-text{
-        text-align:center;
-        margin:20px;
+    .work-text {
+        text-align: center;
+        margin: 20px;
     }
-
     .btn_large.quote_btn {
         border: 2px solid #fff;
         padding: 8px 15px;
         font-size: 18px;
         margin-top: 30px;
-
-        
     }
-
-    
-
     .work-with-us {
-        padding:30px;
-        
+        padding: 30px;
     }
-
-
     .work-btn {
         text-align: center;
-
     }
-
-
     #our_skills .header_section {
-        padding-top:80px;
-        
+        padding-top: 80px;
     }
-
-    #our_skills .header_section p{
-        font-size:18px;
-        padding:10px 80px;
-        
+    #our_skills .header_section p {
+        font-size: 18px;
+        padding: 10px 80px;
     }
-
 }
 
 
 /* Mobile Device Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     #our_skills .header_section {
-        height:40vh;
-        padding-top:10px;
-
+        height: 40vh;
+        padding-top: 10px;
     }
-
     .choose-us-header {
-        height:40vh;
+        height: 40vh;
     }
-
-    .choose-us-main-header{
-        padding-top:5px;
+    .choose-us-main-header {
+        padding-top: 5px;
     }
-
-
-
-    
-
 }
+
 
 /* Mobile Device Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
 
-    #our_skills .header_section{
-        height:65vh;
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    #our_skills .header_section {
+        height: 65vh;
     }
-
-    .choose-us-header{
-        height:65vh;
+    .choose-us-header {
+        height: 65vh;
     }
-
 }
-
-
 
 
 /* Inside Pages -Contact Us */
@@ -1461,7 +1339,7 @@ header .light-logo {
 }
 
 #contact header.navbar-fixed-top {
-    background-color: rgba(50, 196, 233, 0.7);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 #contact header.navbar-fixed-top .menu-links a {
@@ -1493,24 +1371,24 @@ header .light-logo {
     display: none;
 }
 
-
-
+#contact .jumbotron-section {
+    display: none;
+}
 
 #contact .contact-header {
-    background-color:#fff;
-    margin-top:100px;
+    background-color: #fff;
+    margin-top: 100px;
 }
 
 #contact .contact-header h2 {
     color: #232929;
-    margin-top:120px;
+    margin-top: 120px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin-top: 50px;
-    font-weight:900;
+    font-weight: 900;
     font-size: 45px;
 }
-
 
 #contact .contact-header .contact-paragraph {
     font-family: 'open sans', 'sans-serif';
@@ -1552,12 +1430,14 @@ header .light-logo {
 
 #contact #label-header {
     font-family: 'open sans', 'sans-serif';
-font-weight: 200;
+    font-weight: 200;
 }
+
 #contact .contact-form h2 {
     font-family: 'open sans', 'sans-serif';
     color: #232929;
 }
+
 #contact .btn.btn-primary.contact-btn {
     color: #222;
     background-color: #f5f5f5;
@@ -1569,17 +1449,20 @@ font-weight: 200;
     border: 1px solid #cccccc;
     text-shadow: #fff 1px 1px 0;
 }
+
 #contact .btn.btn-primary.contact-btn:hover {
     -webkit-box-shadow: 0 4px 6px -3px #aaa;
     -moz-box-shadow: 0 4px 6px -3px #aaa;
     box-shadow: 0 4px 6px -3px #aaa;
 }
+
 #contact .contact-text h2 {
     font-family: 'open sans';
     color: #232929;
     margin-left: 10%;
-    margin:30px 0;
+    margin: 30px 0;
 }
+
 #contact .contact-text p {
     margin-top: 75px;
     font-size: 14px;
@@ -1588,88 +1471,131 @@ font-weight: 200;
     text-align: justify;
     margin-left: 10%;
     margin-bottom: 15px;
-
 }
+
 #contact .contact-text h5 {
     margin-left: 10%;
 }
+
 #contact .contact-info {
     margin-left: 10%;
     width: 90%;
 }
+
 #contact .contact-info i {
     margin-right: 10px;
     font-size: 20px;
     color: #32c4e9;
 }
+
 .social-list {
     margin-left: 9%;
     padding: 0;
     list-style: none;
     margin-top: 15px;
 }
+
 .social-list > li {
     display: inline-block;
     padding: 0 10px;
 }
+
 .social-list li i {
     font-size: 24px;
     color: #32c4e9;
 }
+
 .social-list li i:hover {
     color: #666;
 }
+
 #map-canvas {
     width: 100%;
     height: 80%;
 }
 
+
 /*  Inside Pages -About Us Page */
+
 #about .about-us {
     background-color: #fff;
 }
+
 #about .menu-links ul li a {
     color: #fff;
 }
+
 #about header.navbar-fixed-top .menu-links a {
     color: #232929;
 }
+
 #about header.navbar-fixed-top .dark-logo {
     opacity: 1;
     display: block;
 }
+
 #about header.navbar-fixed-top .light-logo {
     opacity: 0;
     display: none;
 }
+
 #about header .dark-logo {
     opacity: 0;
     display: none;
 }
+
 #about header .light-logo {
     opacity: 1;
     display: block;
 }
+
 #about .menu-links ul li:hover > a {
     color: #32c4e9;
 }
+
 #about .jumbotron-section {
-   background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
-    height: 80%;
+    background: rgba(0, 0, 0, 0) url("http://i66.tinypic.com/zoefd.jpg") no-repeat fixed 0 0 / cover;
+    height: 100%;
+    position: relative;
 }
-#about .jumbotron-content h1 {
-    color: #fff;
+
+#about .jumbotron-content {
+    top: 45%;
+}
+
+#about .jumbotron-content h2 {
+    font-family: 'open sans', 'sans-serif';
     font-size: 60px;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'open sans', 'sans-serif';
-}
-#about .jumbotron-content p {
     color: #fff;
-    font-family: 'open sans', 'sans-serif';
-    font-size: 20px;
-    text-align: center;
 }
+
+#about .jumbotron-content h2 span {
+    color: #32c4e9;
+}
+
+#about .jumbotron-section .scroll-down {
+    position: absolute;
+    left: 50%;
+    height: 150px;
+    width: 2px;
+    background-color: #fff;
+    bottom: 0;
+}
+
+#about .jumbotron-section .scroll-down::after {
+    position: absolute;
+    left: 50%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0);
+    height: 16px;
+    width: 16px;
+    content: '';
+    display: block;
+    bottom: 150px;
+    margin-left: -8px;
+}
+
 #about .about-text h5 {
     color: #232929;
     font-size: 45px;
@@ -1677,6 +1603,7 @@ font-weight: 200;
     font-weight: 400;
     text-align: center;
 }
+
 #about .about-text p {
     color: #232929;
     font-size: 14px;
@@ -1684,17 +1611,21 @@ font-weight: 200;
     font-weight: 400;
     text-align: justify;
 }
+
 #about .about-us {
     padding: 40px;
 }
+
 #about .about-image img {
     margin-left: 100px;
 }
+
 #about .meet-the-team {
     background-color: #f7f7f7;
     border-bottom: 1px solid #d3d3d3;
     border-top: 1px solid #d3d3d3;
 }
+
 #about .meet-the-team:before {
     display: block;
     position: relative;
@@ -1711,6 +1642,7 @@ font-weight: 200;
     border-right: 1px solid #d3d3d3;
     border-bottom: 1px solid #d3d3d3;
 }
+
 #about .meet-the-team .team-header h2 {
     text-align: center;
     font-family: 'roboto', 'sans-serif';
@@ -1718,7 +1650,9 @@ font-weight: 200;
     margin: 30px;
     color: #232929;
 }
+
 #about .meet-the-team .team-header p {}
+
 #about .team-image .about-bio {
     text-align: center;
     margin-left: 25px;
@@ -1727,6 +1661,7 @@ font-weight: 200;
     font-size: 14px;
     color: #232929;
 }
+
 #about .meet-the-team .team-image .name {
     font-family: 'open sans', 'sans-serif';
     color: #232929;
@@ -1734,11 +1669,13 @@ font-weight: 200;
     text-align: center;
     margin-left: 25px;
 }
+
 #about .ed-team-image,
 .james-team-image {
     border-radius: 50%;
     margin-left: 50px;
 }
+
 #about .meet-the-team .team-image .position {
     font-family: 'open sans', 'sans-serif';
     color: #7f858f;
@@ -1746,9 +1683,11 @@ font-weight: 200;
     text-align: center;
     margin-left: 25px;
 }
+
 #about .about-testimonial {
     background-color: #fff;
 }
+
 #about .testimonial-header h2 {
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
@@ -1756,6 +1695,7 @@ font-weight: 200;
     color: #232929;
     padding-top: 50px;
 }
+
 #about .testimonial-header p {
     font-family: 'open sans', 'sans-serif';
     font-size: 16px;
@@ -1763,20 +1703,24 @@ font-weight: 200;
     text-align: center;
     padding-bottom: 50px;
 }
+
 #about .about-testimonial .testimonial-text p {
     padding-right: 20px;
     color: #232929;
 }
+
 #about .about-testimonial .testimonial-text h5 {
     font-weight: 600;
     color: #232929;
     padding-right: 20px;
 }
+
 #about .about-testimonial .testimonial-text .testimonial-title {
     padding: 0;
     font-size: 12px;
     color: #888;
 }
+
 #about .about-testimonial .testimonial-image img {
     border-radius: 100%;
     width: 100px;
@@ -1786,47 +1730,93 @@ font-weight: 200;
     -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
 }
+
 #about .extra-padding {
     padding: 40px 0;
 }
 
+
 /* Quote Page */
+
 #quote .get-a-quote {
     background-color: #f7f7f7;
     padding: 50px;
 }
+
 #quote .menu-links ul li a {
     color: #fff;
 }
+
 #quote .menu-links ul li:hover > a {
     color: #32c4e9;
 }
+
 #quote header.navbar-fixed-top .menu-links a {
     color: #232929;
 }
+
 #quote header.navbar-fixed-top .dark-logo {
     opacity: 1;
     display: block;
 }
+
 #quote header.navbar-fixed-top .light-logo {
     opacity: 0;
     display: none;
 }
+
 #quote header .dark-logo {
     opacity: 0;
     display: none;
 }
+
 #quote header .light-logo {
     opacity: 1;
     display: block;
 }
 
-#quote .jumbotron-section{
-    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
-    height:80%;
+#quote .jumbotron-section {
+    background: rgba(0, 0, 0, 0) url("http://i66.tinypic.com/zoefd.jpg") no-repeat fixed 0 0 / cover;
+    height: 100%;
+    position: relative;
 }
 
+#quote .jumbotron-content {
+    top: 45%;
+}
 
+#quote .jumbotron-content h2 {
+    font-family: 'open sans', 'sans-serif';
+    font-size: 60px;
+    color: #fff;
+}
+
+#quote .jumbotron-content h2 span {
+    color: #32c4e9;
+}
+
+#quote .jumbotron-section .scroll-down {
+    position: absolute;
+    left: 50%;
+    height: 150px;
+    width: 2px;
+    background-color: #fff;
+    bottom: 0;
+}
+
+#quote .jumbotron-section .scroll-down::after {
+    position: absolute;
+    left: 50%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0);
+    height: 16px;
+    width: 16px;
+    content: '';
+    display: block;
+    bottom: 150px;
+    margin-left: -8px;
+}
 
 #quote .quote-heading {
     color: #232929;
@@ -1835,6 +1825,7 @@ font-weight: 200;
     margin-top: 50px;
     font-size: 45px;
 }
+
 #quote .quote-paragraph {
     font-family: 'open sans', 'sans-serif';
     color: #232929;
@@ -1843,9 +1834,11 @@ font-weight: 200;
     padding: 0 100px;
     margin-bottom: 50px;
 }
+
 #quote .get-a-quote {
     border-top: 1px solid #d3d3d3;
 }
+
 #quote .get-a-quote:before {
     display: block;
     position: relative;
@@ -1861,69 +1854,99 @@ font-weight: 200;
     z-index: 1;
     border-bottom: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
-    
 }
 
-#quote form{
-    padding-left:60px;
+#quote form {
+    padding-left: 60px;
 }
 
 #quote .form-group {
     width: 90%;
-    margin:0;
-
+    margin: 0;
 }
 
-#quote .form-control{
+#quote .form-control {
     background-color: #f7f7f7;
-    border:2px solid #232929;
+    border: 2px solid #232929;
 }
+
 #quote .btn.btn-primary.quote-btn {
-    
     background-color: #f7f7f7;
-    border:2px solid #232929;
-    color:#232929;
-    padding:15px 35px;
-    margin-top:20px;
-    
+    border: 2px solid #232929;
+    color: #232929;
+    padding: 15px 35px;
+    margin-top: 20px;
 }
 
 #quote .btn.btn-primary.quote-btn:hover {
-    
     background-color: rgba(50, 196, 233, 0.4)
-    
 }
 
-#quote ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #666;
-    text-align:center;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #666;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #666;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #666;
+#quote::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #666;
+    text-align: center;
 }
 
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #666;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #666;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #666;
+}
 
 
 /* Inside Pages - Portfolio Page */
+
 #portfolio .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
-    height: 80%;
+    background: rgba(0, 0, 0, 0) url("http://i66.tinypic.com/zoefd.jpg") no-repeat fixed 0 0 / cover;
+    height: 100%;
+    position: relative;
 }
 
-#portfolio .jumbotron-content h1 {
-    font-family: 'open sans', 'sans-serif';
-    font-size:60px;
+#portfolio .jumbotron-content {
+    top: 45%;
 }
 
-#portfolio .jumbotron-content p {
+#portfolio .jumbotron-content h2 {
     font-family: 'open sans', 'sans-serif';
-    font-size:20px;
+    font-size: 60px;
+    color: #fff;
+}
+
+#portfolio .jumbotron-content h2 span {
+    color: #32c4e9;
+}
+
+#portfolio .jumbotron-section .scroll-down {
+    position: absolute;
+    left: 50%;
+    height: 150px;
+    width: 2px;
+    background-color: #fff;
+    bottom: 0;
+}
+
+#portfolio .jumbotron-section .scroll-down::after {
+    position: absolute;
+    left: 50%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0);
+    height: 16px;
+    width: 16px;
+    content: '';
+    display: block;
+    bottom: 150px;
+    margin-left: -8px;
 }
 
 #portfolio .portfolio-welcome {
@@ -2027,63 +2050,101 @@ font-weight: 200;
 
 
 /* Services - Inside Pages */
+
 #services .menu-links ul li a {
     color: #fff;
 }
+
 #services .menu-links ul li:hover > a {
     color: #32c4e9;
 }
+
 #services header.navbar-fixed-top .menu-links a {
     color: #232929;
 }
+
 #services header.navbar-fixed-top .dark-logo {
     opacity: 1;
     display: block;
 }
+
 #services header.navbar-fixed-top .light-logo {
     opacity: 0;
     display: none;
 }
+
 #services header .dark-logo {
     opacity: 0;
     display: none;
 }
+
 #services header .light-logo {
     opacity: 1;
     display: block;
 }
+
 #services .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i68.tinypic.com/10ehmb5.jpg") no-repeat fixed 0 0 / cover;
-    height: 80%;
+    background: rgba(0, 0, 0, 0) url("http://i66.tinypic.com/zoefd.jpg") no-repeat fixed 0 0 / cover;
+    height: 100%;
+    position: relative;
 }
 
-#services .jumbotron-content h1{
-    font-family:'open sans', 'sans-serif';
-    font-size:60px;
-
+#services .jumbotron-content {
+    top: 45%;
 }
 
-#services .jumbotron-content p{
-    font-family:'open sans', 'sans-serif';
-    font-size:20px;
-
+#services .jumbotron-content h2 {
+    font-family: 'open sans', 'sans-serif';
+    font-size: 60px;
+    color: #fff;
 }
 
-#services .service-details{
-    background-color:#f7f7f7;
-    text-align:center;
-    padding-top:30px;
+#services .jumbotron-content h2 span {
+    color: #32c4e9;
+}
+
+#services .jumbotron-section .scroll-down {
+    position: absolute;
+    left: 50%;
+    height: 150px;
+    width: 2px;
+    background-color: #fff;
+    bottom: 0;
+}
+
+#services .jumbotron-section .scroll-down::after {
+    position: absolute;
+    left: 50%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0);
+    height: 16px;
+    width: 16px;
+    content: '';
+    display: block;
+    bottom: 150px;
+    margin-left: -8px;
+}
+
+#services .service-details {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-top: 30px;
     border-bottom: 1px solid #d3d3d3;
 }
+
 #services .row-margin {
     margin-bottom: 30px;
 }
+
 #services .bottom-row-margin {
     margin: 30px 0 60px 0;
 }
+
 #services .services-header {
     border-bottom: 1px solid #d3d3d3;
 }
+
 #services .services-header:after {
     display: block;
     position: relative;
@@ -2100,69 +2161,58 @@ font-weight: 200;
     border-bottom: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
 }
+
 #services .services-paragraph a {
     color: #32c4e9;
 }
+
 #services .services-page-header h2 {
     font-family: 'open sans', 'sans-serif';
     font-size: 40px;
     margin-top: 40px;
     text-align: center;
 }
+
 #services .service-type {
     font-family: 'open sans', 'sans-serif';
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
     margin-top: 15px
 }
-#services .service-page-icon {
-    color: #232929;
-    position: relative;
-    top: 10px;
-    left: 20px;
-}
-#services .fa-pencil:before {
-    position: relative;
-    right: 10px;
-}
-#services .fa-mobile:before {
-    position: relative;
-    left: 15px;
-}
-#services .fa-crosshairs:before {
-    position: relative;
-    left: 15px;
-}
+
+
+
+
+
 #services .fa-caret-down {
     font-size: 25px;
     cursor: pointer;
     padding-left: 10px;
-    color:#232929;
+    color: #232929;
 }
+
 #services .services-paragraph {
     margin-bottom: 0;
 }
+
 #services .service-paragraph h3 {
     font-family: 'open sans', 'sans-serif';
     font-size: 20px;
 }
 
 #services .five-steps {
-    background:url("http://i66.tinypic.com/b61uma.jpg");
-    padding:44px;
+    background: url("http://i64.tinypic.com/2h3bnea.jpg");
+    padding: 44px;
 }
-
-
 
 #services .five-steps ul li {
     list-style: none;
     padding: 10px;
 }
+
 #services .five-steps ul li h5 {
-    
     font-family: 'roboto', 'sans-serif';
     font-size: 36px;
-    
     color: #fff;
     text-align: center;
 }
@@ -2182,25 +2232,25 @@ font-weight: 200;
     z-index: 1;
     border-bottom: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
-
 }
 
 #services .service-type-para {
     font-family: 'open sans';
     color: #232929;
     text-align: left;
-    
-    font-size:16px;
+    font-size: 16px;
 }
+
 #services .five-steps ul li p {
     display: inline-block;
     font-size: 16px;
-    color:#fff;
-    padding:0 100px;
+    color: #fff;
+    padding: 0 100px;
 }
+
 #services .five-steps ul li i {
-    position:relative;
-    left:48%;
+    position: relative;
+    left: 48%;
     font-size: 25px;
     border-radius: 50%;
     border: 2px solid #fff;
@@ -2209,15 +2259,17 @@ font-weight: 200;
     margin-top: 20px;
 }
 
-#services .services-our-process{
-    padding-top:40px;
-    padding-bottom:10px;
+#services .services-our-process {
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
+
 #services .services-our-process h2 {
     font-family: 'roboto', 'sans-serif';
     font-size: 50px;
     text-align: center;
 }
+
 #services .services-our-process p {
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
@@ -2225,9 +2277,8 @@ font-weight: 200;
     text-align: center;
     padding-bottom: 40px;
 }
+
 #services .col-right li {
     padding: 40px;
     list-style: none;
 }
-
-
