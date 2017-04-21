@@ -1,4 +1,5 @@
 
+
     body,
 html {
     margin: 0;
@@ -262,9 +263,12 @@ header .light-logo {
 .jumbotron-section {
     background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
     height: 100%;
-    width:100%;
+    max-width:100%;
     position: relative;
+    display:block;
+
 }
+
 
 .jumbotron-content {
     left: 0;
@@ -941,8 +945,7 @@ header .light-logo {
     font-family: 'open sans', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    padding: 50;
-    border-top: 1px solid #d3d3d3;
+    
     margin:0;
    
     
@@ -1098,10 +1101,11 @@ header .light-logo {
     /* Jumbotron Section */
 
     .jumbotron-section {
-    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
+    background: url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
     height: 100%;
     max-width:100%;
-    position: relative;
+    padding:0;
+    
 }
     .jumbotron-content h1 {
         font-size: 35px;
@@ -1332,7 +1336,8 @@ header .light-logo {
     }
 
     .jumbotron-section {
-        background-size:cover;
+        background-size:contain;
+
     }
 
     
@@ -1486,8 +1491,16 @@ header .light-logo {
 
 #contact .jumbotron-section{
     background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
-    height:70%;
+    height:80%;
     }
+
+#contact .jumbotron-content h1{
+    font-family:'open sans', 'sans-serif';
+    font-size:60px;
+    }
+#contact .jumbotron-content p{
+    font-size: 20px;
+}
 #contact .contact-header {
     background-color:#fff;
 }
@@ -1644,7 +1657,7 @@ font-weight: 200;
 }
 #about .jumbotron-section {
    background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
-    height: 70%;
+    height: 80%;
 }
 #about .jumbotron-content h1 {
     color: #fff;
@@ -1664,7 +1677,6 @@ font-weight: 200;
     font-size: 45px;
     font-family: 'roboto', 'sans-serif';
     font-weight: 400;
-    margin-bottom: 30px;
     text-align: center;
 }
 #about .about-text p {
@@ -1813,7 +1825,12 @@ font-weight: 200;
 
 #quote .jumbotron-section{
     background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
-    height:70%;
+    height:80%;
+}
+
+#quote .jumbotron-content h1{
+    font-family: 'open sans', 'sans-serif';
+    font-size:60px;
 }
 
 #quote .quote-heading {
@@ -1908,12 +1925,22 @@ font-weight: 200;
 /* Inside Pages - Portfolio Page */
 #portfolio .jumbotron-section {
     background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
-    height: 70%;
+    height: 80%;
+}
+
+#portfolio .jumbotron-content h1 {
+    font-family: 'open sans', 'sans-serif';
+    font-size:60px;
+}
+
+#portfolio .jumbotron-content p {
+    font-family: 'open sans', 'sans-serif';
+    font-size:20px;
 }
 
 #portfolio .portfolio-welcome {
     background-color: #fff;
-    padding: 50px;
+    padding: 30px;
 }
 
 #portfolio .portfolio-welcome p {
@@ -2039,11 +2066,26 @@ font-weight: 200;
 }
 #services .jumbotron-section {
     background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2qbt2rp.jpg") no-repeat fixed 0 0 / cover;
-    height: 70%;
+    height: 80%;
+}
+
+#services .jumbotron-content h1{
+    font-family:'open sans', 'sans-serif';
+    font-size:60px;
+
+}
+
+#services .jumbotron-content p{
+    font-family:'open sans', 'sans-serif';
+    font-size:20px;
+
 }
 
 #services .service-details{
-    margin-top:50px;
+    background-color:#f7f7f7;
+    text-align:center;
+    padding-top:30px;
+    border-bottom: 1px solid #d3d3d3;
 }
 #services .row-margin {
     margin-bottom: 30px;
@@ -2085,7 +2127,7 @@ font-weight: 200;
     margin-top: 15px
 }
 #services .service-page-icon {
-    color: #32c4e9;
+    color: #232929;
     position: relative;
     top: 10px;
     left: 20px;
@@ -2115,40 +2157,76 @@ font-weight: 200;
     font-family: 'open sans', 'sans-serif';
     font-size: 20px;
 }
+
+#services .five-steps {
+    background:url("http://i66.tinypic.com/b61uma.jpg");
+    padding:44px;
+}
+
+
+
 #services .five-steps ul li {
     list-style: none;
     padding: 10px;
 }
 #services .five-steps ul li h5 {
-    display: inline-block;
-    font-family: 'open sans', 'sans-serif';
-    font-size: 24px;
-    font-weight: 600;
-    color: #232929;
+    
+    font-family: 'roboto', 'sans-serif';
+    font-size: 36px;
+    
+    color: #fff;
+    text-align: center;
 }
+
+#services .five-steps:before {
+    display: block;
+    position: relative;
+    content: '';
+    width: 50px;
+    height: 50px;
+    bottom: 69px;
+    left: 48%;
+    background-color: #fff;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+
+}
+
 #services .service-type-para {
     font-family: 'open sans';
     color: #232929;
     text-align: left;
-    word-spacing: 2px;
+    
+    font-size:16px;
 }
 #services .five-steps ul li p {
     display: inline-block;
     font-size: 16px;
+    color:#fff;
+    padding:0 100px;
 }
 #services .five-steps ul li i {
-    position: relative;
-    left: 40%;
+    position:relative;
+    left:48%;
     font-size: 25px;
     border-radius: 50%;
-    border: 2px solid #33495f;
+    border: 2px solid #fff;
     padding: 10px;
-    color: #33495f;
+    color: #32c4e9;
     margin-top: 20px;
+}
+
+#services .services-our-process{
+    padding-top:40px;
+    padding-bottom:10px;
 }
 #services .services-our-process h2 {
     font-family: 'roboto', 'sans-serif';
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
 }
 #services .services-our-process p {
@@ -2156,6 +2234,7 @@ font-weight: 200;
     font-size: 18px;
     color: #232929;
     text-align: center;
+    padding-bottom: 40px;
 }
 #services .col-right li {
     padding: 40px;
