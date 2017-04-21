@@ -91,7 +91,7 @@ header.navbar-fixed-top .menu-links a {
     display: block;
     height: 20px;
     width: 20px;
-    background: #444;
+    background: #32c4e9;
     border-radius: 50%;
     position: absolute;
     top: 0px;
@@ -1616,8 +1616,11 @@ header .light-logo {
     padding: 40px;
 }
 
-#about .about-image img {
-    margin-left: 100px;
+
+
+.img-responsive{
+    width:100%;
+    border-radius: 3px;
 }
 
 #about .meet-the-team {
