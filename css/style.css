@@ -1,5 +1,4 @@
-
-body,
+    body,
 html {
     margin: 0;
     padding: 0;
@@ -66,9 +65,6 @@ h5 {
 header.navbar-fixed-top .menu-links a {
     color: #444;
 }
-
-
-
 
 #loader-wrapper {
     position: fixed;
@@ -158,8 +154,6 @@ header.navbar-fixed-top .menu-links a {
     -webkit-transition: all 0.3s 1s ease-out;
     transition: all 0.3s 1s ease-out;
 }
-
-
 
 
 /* Start Header */
@@ -441,8 +435,6 @@ header .light-logo {
     transform: translateY(-3px);
 }
 
-
-
 .services-btn {
     margin: 50px;
     text-align: center;
@@ -648,8 +640,6 @@ header .light-logo {
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
 }
-
-
 
 
 /* Portfolio Section */
@@ -1068,11 +1058,9 @@ header .light-logo {
         font-size: 16px;
         padding: 0px 20px;
     }
-
     .services .services-heading {
-    
-    font-size: 30px;
-}
+        font-size: 30px;
+    }
     .service .service-content h3 {
         font-size: 18px;
     }
@@ -1086,27 +1074,25 @@ header .light-logo {
         margin: 0;
     }
 
-    #services .services-header h2 {
-        font-size:30px;
+    #services .jumbotron-content h2{
+        font-size:40px;
     }
-
+    #services .services-header h2 {
+        font-size: 30px;
+    }
     #services .services-paragraph {
         font-size: 16px;
         padding: 10px;
     }
-
     #services .service .service-content h3 {
-    
-    font-size: 16px;
-    padding:10px;
+        font-size: 16px;
+        padding: 10px;
     }
-
     #services .service-type {
-        font-size:30px;
+        font-size: 30px;
     }
-
     #services .service-type-para {
-        font-size:16px;
+        font-size: 16px;
         padding: 10px;
     }
     /* Get a Quote */
@@ -1174,56 +1160,40 @@ header .light-logo {
     .portfolio-items-section {
         padding-bottom: 40px;
     }
-    .portfolio-items-section::before {
-        left: 45%;
-        bottom: 55px;
-    }
-    .portfolio-btn {
-        text-align: center;
-        margin-top: 30px;
-    }
-    .portfolio-btn #btn_2 {
-        padding: 8px 16px;
-        font-size: 12px;
-    }
-    .portfolio-btn #btn_3 {
-        padding: 8px 16px;
-        font-size: 12px;
-    }
 
-    #portfolio .jumbotron-content h2 {
-    
-    font-size: 40px;
-    
+.portfolio-items-section::before {
+    left: 45%;
+    bottom: 55px;
 }
-
-#portfolio .portfolio-heading h2{
-    font-size:30px;
+.portfolio-btn {
+    text-align: center;
+    margin-top: 30px;
 }
-
-#portfolio  .portfolio-heading-text {
+.portfolio-btn #btn_2 {
+    padding: 8px 16px;
+    font-size: 12px;
+}
+.portfolio-btn #btn_3 {
+    padding: 8px 16px;
+    font-size: 12px;
+}
+#portfolio .jumbotron-content h2 {
+    font-size: 30px;
+}
+#portfolio .portfolio-heading h2 {
+    font-size: 30px;
+}
+#portfolio .portfolio-heading-text {
     padding-top: 10px;
     font-size: 16px;
-    
-    
 }
-
 #quote .quote-heading {
-    
-
     font-size: 35px;
 }
-
 #quote .quote-paragraph {
-    
     font-size: 16px;
-   
     padding: 10px;
-    
 }
-
-
-
 #quote .get-a-quote:before {
     display: block;
     position: relative;
@@ -1240,23 +1210,22 @@ header .light-logo {
     border-bottom: 1px solid #d3d3d3;
     border-right: 1px solid #d3d3d3;
 }
-
 #quote form {
     padding-left: 0;
 }
-
 #quote .form-group {
     width: 100%;
     margin: 0;
 }
-    
-    /* Our Skills Section */
-    #our_skills {
-        padding: 0;
-    }
-    #our_skills .header_section {
-        padding: 30px;
-    }
+
+/* Our Skills Section */
+#our_skills {
+    padding: 0;
+}
+#our_skills .header_section {
+    padding: 30px;
+}
+
     #our_skills .header_section h2 {
         font-size: 35px;
     }
