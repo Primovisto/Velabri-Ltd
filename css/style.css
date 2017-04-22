@@ -480,8 +480,8 @@ header .light-logo {
 }
 
 .choose-us-header {
-    height: 50vh;
-    padding-top: 70px;
+    
+    padding: 60px 10px 100px 10px;
     position: relative;
     background: radial-gradient(#222, #000);
 }
@@ -786,9 +786,8 @@ header .light-logo {
 
 .header_section {
     z-index: 1;
-    height: 55vh;
+    padding:80px 10px;
     background-image: url(http://i63.tinypic.com/2ev93q9.png);
-    padding-top: 90px;
     position: relative;
 }
 
@@ -872,7 +871,7 @@ header .light-logo {
 .footer {
     background: radial-gradient(#222, #000);
     width: 100%;
-    min-height: 50vh;
+    padding-bottom:30px;
     text-align: left;
     font-family: 'open sans', sans-serif;
     font-weight: bold;
@@ -1020,290 +1019,8 @@ header .light-logo {
 /* Responsive  */
 
 
-/* xs */
 
-@media screen and (max-width: 767px) {
-    /* Jumbotron Section */
-    .jumbotron-section {
-        background: url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
-        height: 100%;
-        max-width: 100%;
-        padding: 0;
-    }
-    .jumbotron-content h1 {
-        font-size: 35px;
-    }
-    .jumbotron-content p {
-        font-size: 18px;
-        padding: 0 20px;
-    }
-    .jumbotron-button a {
-        padding: 8px 18px;
-        font-size: 14px;
-    }
-    .btn-large.btn-jumbo {
-        margin-left: 0px;
-    }
-    /*Services Section*/
-    .services {
-        padding: 0;
-    }
-    .service {
-        padding-top: 20px;
-        margin: 20px 40px;
-    }
-    .services .services-header h2 {
-        font-size: 40px;
-        padding-top: 10px;
-    }
-    .services-paragraph {
-        font-size: 16px;
-        padding: 0px 20px;
-    }
-    .services .services-heading {
-        font-size: 30px;
-    }
-    .service .service-content h3 {
-        font-size: 18px;
-    }
-    .services:before {
-        left: 45%;
-        bottom: 25px;
-    }
-    .services-btn .btn_1 {
-        font-size: 14px;
-        padding: 6px 18px;
-        margin: 0;
-    }
 
-    #services .jumbotron-content h2{
-        font-size:40px;
-    }
-    #services .services-header h2 {
-        font-size: 30px;
-    }
-    #services .services-paragraph {
-        font-size: 16px;
-        padding: 10px;
-    }
-    #services .service .service-content h3 {
-        font-size: 16px;
-        padding: 10px;
-    }
-    #services .service-type {
-        font-size: 30px;
-    }
-    #services .service-type-para {
-        font-size: 16px;
-        padding: 10px;
-    }
-    /* Get a Quote */
-    .work-with-us {
-        padding: 20px;
-    }
-    .work-text {
-        font-family: 'open sans', 'sans-serif';
-        font-size: 22px;
-        font-weight: 600;
-        color: #fff;
-        margin: 0;
-        text-align: center;
-    }
-    .btn_large.quote_btn {
-        border: 2px solid #fff;
-        padding: 8px 15px;
-        font-size: 18px;
-        text-align: center;
-        margin-left: 0;
-        margin-top: 25px;
-    }
-    .work-btn {
-        text-align: center;
-    }
-    .btn_large.quote_btn:hover {
-        padding: 8px 15px;
-        font-size: 18px;
-    }
-    /* Why Choose Section */
-    .choose-us-header {
-        padding-top: 20px;
-    }
-    .choose-us-main-header {
-        font-size: 35px;
-    }
-    .choose-us-header-text {
-        font-size: 14px;
-    }
-    /* Portfolio Section */
-    .portfolio-items-section {
-        border-bottom: none;
-    }
-    .portfolio-heading h2 {
-        font-size: 40px;
-    }
-    .portfolio-image {
-        text-align: center;
-        margin: 20px;
-    }
-    .image {
-        height: 20vh;
-        width: 100%;
-        padding: 0;
-        -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
-        -moz-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
-        box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
-    }
-    .portfolio-website {
-        font-size: 12px;
-    }
-    .portfolio-website-type {
-        display: none;
-    }
-    .portfolio-items-section {
-        padding-bottom: 40px;
-    }
-
-.portfolio-items-section::before {
-    left: 45%;
-    bottom: 55px;
-}
-.portfolio-btn {
-    text-align: center;
-    margin-top: 30px;
-}
-.portfolio-btn #btn_2 {
-    padding: 8px 16px;
-    font-size: 12px;
-}
-.portfolio-btn #btn_3 {
-    padding: 8px 16px;
-    font-size: 12px;
-}
-#portfolio .jumbotron-content h2 {
-    font-size: 30px;
-}
-
-#portfolio .portfolio-heading h2 {
-    font-size: 20px;
-}
-#portfolio .portfolio-heading-text {
-    padding-top: 10px;
-    font-size: 16px;
-}
-#quote .quote-heading {
-    font-size: 35px;
-}
-#quote .quote-paragraph {
-    font-size: 16px;
-    padding: 10px;
-}
-#quote .get-a-quote:before {
-    display: block;
-    position: relative;
-    content: '';
-    width: 50px;
-    height: 50px;
-    bottom: 75px;
-    left: 46%;
-    background-color: #fff;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    z-index: 1;
-    border-bottom: 1px solid #d3d3d3;
-    border-right: 1px solid #d3d3d3;
-}
-#quote form {
-    padding-left: 0;
-}
-#quote .form-group {
-    width: 100%;
-    margin: 0;
-}
-
-/* Our Skills Section */
-#our_skills {
-    padding: 0;
-}
-#our_skills .header_section {
-    padding: 30px;
-}
-
-    #our_skills .header_section h2 {
-        font-size: 35px;
-    }
-    .header_section p {
-        font-size: 14px;
-    }
-    /* footer Section */
-    .footer {
-        height: auto;
-        font-size: 14px;
-        padding: 20px;
-        margin-bottom: 0;
-        box-sizing: border-box;
-        position: static;
-    }
-    .footer .footer-left,
-    .footer .footer-center,
-    .footer .footer-right {
-        display: inline;
-        width: 100%;
-        margin-bottom: 0px;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .footer .about span {
-        margin-bottom: 20px;
-        padding-top: 20px;
-    }
-    .footer .footer-center .center-header {
-        margin-bottom: 20px;
-    }
-    .footer .footer-right .right-header {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .footer .menu a {
-        font-weight: 400;
-        font-size: 14px;
-    }
-    #about .about-image img {
-        margin: 0;
-    }
-    #about .ed-team-image,
-    .james-team-image {
-        position: relative;
-        left: 70px;
-    }
-
-   /*Contact Us Page*/
-   #contact .contact-text h2 {
-   
-    margin-left: 0;
-    
-}
-
-#contact .contact-text p {
-    
-    margin-left: 0;
-    
-}
-
-#contact .contact-text h5 {
-    margin-left: 0;
-}
-
-#contact .contact-info {
-    margin-left: 0;
-   
-}
-#contact .contact-us-main:before {
-    
-    left: 45%;
-    
-}
-}
 
 
 /* md */
@@ -1312,9 +1029,7 @@ header .light-logo {
     .jumbotron-content h1 {
         font-size: 40px;
     }
-    .jumbotron-section {
-        background-size: contain;
-    }
+    
     .image {
         position: relative;
         left: 10px;
@@ -1345,35 +1060,11 @@ header .light-logo {
         font-size: 18px;
         padding: 10px 80px;
     }
+
+    
 }
 
 
-/* Mobile Device Portrait */
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-    #our_skills .header_section {
-        height: 40vh;
-        padding-top: 10px;
-    }
-    .choose-us-header {
-        height: 40vh;
-    }
-    .choose-us-main-header {
-        padding-top: 5px;
-    }
-}
-
-
-/* Mobile Device Landscape */
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    #our_skills .header_section {
-        height: 65vh;
-    }
-    .choose-us-header {
-        height: 65vh;
-    }
-}
 
 
 /* Inside Pages -Contact Us */
@@ -2341,4 +2032,286 @@ header .light-logo {
 #services .col-right li {
     padding: 40px;
     list-style: none;
+}
+
+
+
+/* xs */
+
+@media screen and (max-width: 767px) 
+{
+    /* Jumbotron Section */
+    .jumbotron-section {
+        background: url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
+        height: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .jumbotron-content h1 {
+        font-size: 35px;
+    }
+    .jumbotron-content p {
+        font-size: 18px;
+        padding: 0 20px;
+    }
+    .jumbotron-button a {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+    .btn-large.btn-jumbo {
+        margin-left: 0px;
+    }
+    /*Services Section*/
+    .services {
+        padding: 0;
+    }
+    .service {
+        padding-top: 20px;
+        margin: 20px 40px;
+    }
+    .services .services-header h2 {
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .services-paragraph {
+        font-size: 16px;
+        padding: 0px 20px;
+    }
+    .services .services-heading {
+        font-size: 30px;
+    }
+    .service .service-content h3 {
+        font-size: 18px;
+    }
+    .services:before {
+        left: 45%;
+        bottom: 25px;
+    }
+    .services-btn .btn_1 {
+        font-size: 14px;
+        padding: 4px 8px;
+        margin: 0;
+    }
+    #services .jumbotron-content h2 {
+        font-size: 40px;
+    }
+    #services .services-header h2 {
+        font-size: 30px;
+    }
+    #services .services-paragraph {
+        font-size: 16px;
+        padding: 10px;
+    }
+    #services .service .service-content h3 {
+        font-size: 16px;
+        padding: 10px;
+    }
+    #services .service-type {
+        font-size: 30px;
+    }
+    #services .service-type-para {
+        font-size: 16px;
+        padding: 10px;
+    }
+    /* Get a Quote */
+    .work-with-us {
+        padding: 20px;
+    }
+    .work-text {
+        font-family: 'open sans', 'sans-serif';
+        font-size: 22px;
+        font-weight: 600;
+        color: #fff;
+        margin: 0;
+        text-align: center;
+    }
+    .btn_large.quote_btn {
+        border: 2px solid #fff;
+        padding: 8px 15px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .work-btn {
+        text-align: center;
+    }
+    .btn_large.quote_btn:hover {
+        padding: 8px 15px;
+        font-size: 18px;
+    }
+    /* Why Choose Section */
+    .choose-us-header {
+        padding-top: 20px;
+        padding-bottom:60px;
+    }
+    .choose-us-main-header {
+        font-size: 35px;
+    }
+    .choose-us-header-text {
+        font-size: 14px;
+    }
+    /* Portfolio Section */
+    .portfolio-items-section {
+        border-bottom: none;
+    }
+    .portfolio-heading h2 {
+        font-size: 40px;
+    }
+    .portfolio-image {
+        text-align: center;
+        margin: 20px;
+    }
+    .image {
+        height: 20vh;
+        width: 100%;
+        padding: 0;
+        -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
+        box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
+    }
+    .portfolio-website {
+        font-size: 10px;
+    }
+    .portfolio-website-type {
+        display: none;
+    }
+    .portfolio-items-section {
+        padding-bottom: 40px;
+    }
+    .portfolio-items-section::before {
+        left: 45%;
+        bottom: 55px;
+    }
+    .portfolio-btn {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .portfolio-btn #btn_2 {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+    .portfolio-btn #btn_3 {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
+
+    .portfolio-btn #btn_3 .fa-arrow-right{
+        font-size:12px;
+    }
+    #portfolio .jumbotron-content h2 {
+        font-size: 30px;
+    }
+    #portfolio .portfolio-heading h2 {
+        font-size: 20px;
+    }
+    #portfolio .portfolio-heading-text {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    #quote .quote-heading {
+        font-size: 35px;
+    }
+    #quote .quote-paragraph {
+        font-size: 16px;
+        padding: 10px;
+    }
+    #quote .get-a-quote:before {
+        display: block;
+        position: relative;
+        content: '';
+        width: 50px;
+        height: 50px;
+        bottom: 75px;
+        left: 46%;
+        background-color: #fff;
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        z-index: 1;
+        border-bottom: 1px solid #d3d3d3;
+        border-right: 1px solid #d3d3d3;
+    }
+    #quote form {
+        padding-left: 0;
+    }
+    #quote .form-group {
+        width: 100%;
+        margin: 0;
+    }
+    /* Our Skills Section */
+    #our_skills {
+        padding: 0;
+    }
+    #our_skills .header_section {
+        padding: 30px;
+    }
+    #our_skills .header_section h2 {
+        font-size: 35px;
+        padding-top:10px;
+    }
+    .header_section p {
+        font-size: 14px;
+    }
+    /* footer Section */
+    .footer {
+        height: auto;
+        font-size: 14px;
+        padding: 20px;
+        margin-bottom: 0;
+        box-sizing: border-box;
+        position: static;
+    }
+    .footer .footer-left,
+    .footer .footer-center,
+    .footer .footer-right {
+        display: inline;
+        width: 100%;
+        margin-bottom: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .footer .about span {
+        margin-bottom: 20px;
+        padding-top: 20px;
+    }
+    .footer .footer-center .center-header {
+        margin-bottom: 20px;
+    }
+    .footer .footer-right .right-header {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer .menu a {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    #about .about-text h5{
+        font-size:35px;
+    }
+    #about .about-image img {
+        margin: 0;
+    }
+    #about .ed-team-image,
+    .james-team-image {
+        position: relative;
+        left: 70px;
+    }
+    /*Contact Us Page*/
+    #contact .contact-text h2 {
+        margin-left: 0;
+    }
+    #contact .contact-text p {
+        margin-left: 0;
+    }
+    #contact .contact-text h5 {
+        margin-left: 0;
+    }
+    #contact .contact-info {
+        margin-left: 0;
+    }
+    #contact .contact-us-main:before {
+        left: 45%;
+    }
 }
