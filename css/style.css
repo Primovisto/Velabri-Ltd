@@ -1450,7 +1450,7 @@ header .light-logo {
 #about .testimonial-header p {
     font-family: 'open sans', 'sans-serif';
     font-size: 16px;
-    color: #888;
+    color: #232929;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -2287,16 +2287,50 @@ header .light-logo {
         font-size: 14px;
     }
 
+    #about .jumbotron-content h2 {
+        font-size:40px;
+    }
+
     #about .about-text h5{
         font-size:35px;
     }
     #about .about-image img {
         margin: 0;
     }
+
+    #about .meet-the-team:before{
+        left:44%;
+    }
+
+    #about .meet-the-team .team-header h2{
+        font-size:30px;
+    }
     #about .ed-team-image,
     .james-team-image {
         position: relative;
-        left: 70px;
+        margin:0;
+        
+    }
+
+    #about .meet-the-team .team-image .name {
+        margin-left:0;
+    }
+
+    #about .team-image .about-bio {
+        margin-left:0;
+    }
+
+    #about .meet-the-team .team-image .position{
+        margin-left:0;
+    }
+
+    #about .testimonial-header h2 {
+        font-size:30px;
+    }
+
+    #about .about-testimonial .testimonial-text p{
+        font-size:14px;
+        padding-right:0;
     }
     /*Contact Us Page*/
     #contact .contact-text h2 {
