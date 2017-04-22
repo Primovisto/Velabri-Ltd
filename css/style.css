@@ -1192,6 +1192,24 @@ header .light-logo {
         padding: 8px 16px;
         font-size: 12px;
     }
+
+    #portfolio .jumbotron-content h2 {
+    
+    font-size: 40px;
+    
+}
+
+#portfolio .portfolio-heading h2{
+    font-size:30px;
+}
+
+#portfolio  .portfolio-heading-text {
+    
+    font-size: 16px;
+    
+    
+}
+    
     /* Our Skills Section */
     #our_skills {
         padding: 0;
