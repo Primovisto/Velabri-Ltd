@@ -441,40 +441,7 @@ header .light-logo {
     transform: translateY(-3px);
 }
 
-.service:hover .service-icon i {
-    -webkit-animation: spin 0.5s linear;
-    -moz-animation: spin 0.5s linear;
-    -o-animation: spin 0.5s linear;
-    animation: spin 0.5s linear;
-    animation-iteration-count: 1;
-}
 
-@-moz-keyframes spin {
-    from {
-        -moz-transform: rotate(0deg);
-    }
-    to {
-        -moz-transform: rotate(360deg);
-    }
-}
-
-@-webkit-keyframes spin {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-    to {
-        -webkit-transform: rotate(360deg);
-    }
-}
-
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
 
 .services-btn {
     margin: 50px;
@@ -681,6 +648,8 @@ header .light-logo {
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
 }
+
+
 
 
 /* Portfolio Section */
@@ -1099,6 +1068,11 @@ header .light-logo {
         font-size: 16px;
         padding: 0px 20px;
     }
+
+    .services .services-heading {
+    
+    font-size: 30px;
+}
     .service .service-content h3 {
         font-size: 18px;
     }
@@ -1110,6 +1084,30 @@ header .light-logo {
         font-size: 14px;
         padding: 6px 18px;
         margin: 0;
+    }
+
+    #services .services-header h2 {
+        font-size:30px;
+    }
+
+    #services .services-paragraph {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #services .service .service-content h3 {
+    
+    font-size: 16px;
+    padding:10px;
+    }
+
+    #services .service-type {
+        font-size:30px;
+    }
+
+    #services .service-type-para {
+        font-size:16px;
+        padding: 10px;
     }
     /* Get a Quote */
     .work-with-us {
@@ -1204,10 +1202,52 @@ header .light-logo {
 }
 
 #portfolio  .portfolio-heading-text {
-    
+    padding-top: 10px;
     font-size: 16px;
     
     
+}
+
+#quote .quote-heading {
+    
+
+    font-size: 35px;
+}
+
+#quote .quote-paragraph {
+    
+    font-size: 16px;
+   
+    padding: 10px;
+    
+}
+
+
+
+#quote .get-a-quote:before {
+    display: block;
+    position: relative;
+    content: '';
+    width: 50px;
+    height: 50px;
+    bottom: 75px;
+    left: 46%;
+    background-color: #fff;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+}
+
+#quote form {
+    padding-left: 0;
+}
+
+#quote .form-group {
+    width: 100%;
+    margin: 0;
 }
     
     /* Our Skills Section */
