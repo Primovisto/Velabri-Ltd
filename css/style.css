@@ -268,7 +268,7 @@ header .light-logo {
 
 .jumbotron-content h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     font-family: 'Roboto', helvetica, sans-serif;
@@ -1180,8 +1180,9 @@ header .light-logo {
 #portfolio .jumbotron-content h2 {
     font-size: 30px;
 }
+
 #portfolio .portfolio-heading h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 #portfolio .portfolio-heading-text {
     padding-top: 10px;
