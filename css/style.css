@@ -66,6 +66,8 @@ header.navbar-fixed-top .menu-links a {
     color: #444;
 }
 
+/*
+
 #loader-wrapper {
     position: fixed;
     top: 0;
@@ -268,7 +270,7 @@ header .light-logo {
 
 .jumbotron-content h1 {
     color: #fff;
-    font-size: 20px;
+    font-size: 60px;
     text-align: center;
     text-decoration: none;
     font-family: 'Roboto', helvetica, sans-serif;
@@ -1274,6 +1276,33 @@ header .light-logo {
         position: relative;
         left: 70px;
     }
+
+   /*Contact Us Page*/
+   #contact .contact-text h2 {
+   
+    margin-left: 0;
+    
+}
+
+#contact .contact-text p {
+    
+    margin-left: 0;
+    
+}
+
+#contact .contact-text h5 {
+    margin-left: 0;
+}
+
+#contact .contact-info {
+    margin-left: 0;
+   
+}
+#contact .contact-us-main:before {
+    
+    left: 45%;
+    
+}
 }
 
 
