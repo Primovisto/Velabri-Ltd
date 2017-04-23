@@ -20,7 +20,7 @@ img {
     max-width: 100%;
     height: auto;
 }
-.container{width: 100%;}
+
 
 header.navbar-fixed-top {
     animation-duration: 1s;
@@ -1382,7 +1382,7 @@ header .light-logo {
     color: #232929;
     font-size: 20px;
     text-align: center;
-    margin-left: 25px;
+    margin-left: 35px;
 }
 
 #about .ed-team-image,
@@ -2444,7 +2444,21 @@ header .light-logo {
 
 }
 
-@media only screen 
-and (max-device-width : 320px) {
+/* Mobile Devices Landscape */
 
+@media only screen and (min-device-width: 380px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    #about .ed-team-image, .james-team-image {
+        position:relative;
+        left:150px;
+    }
+}
+
+/* Tablets Landscape */
+
+    @media only screen and (device-width : 768px) { 
+
+     #about .ed-team-image, .james-team-image{
+    position:relative;
+    left:220px;
+}
 }
