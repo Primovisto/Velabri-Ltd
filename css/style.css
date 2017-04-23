@@ -348,31 +348,49 @@ header .light-logo {
     font-size: 18px;
     text-decoration: none;
     margin: 20px 0px;
-    margin-top: 40px;
+    margin-top: 30px;
     text-transform: uppercase;
     border-radius: 25px;
     margin-left: 10px;
-    font-weight: 600;
+    
 }
 
 .btn-large.btn-jumbo {
-    background-color: rgba(255, 255, 255, 1);
-    color: #32c4e9;
+    background-color: #32c4e9;
+    color: #fff;
+    padding:12px 15px;
+    
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #000;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
 }
 
 .btn-large.btn-jumbo:hover {
-    background-color: #32c4e9;
-    color: #fff;
+    box-shadow: inset 200px 0  0  0 #fff;
+    color: #32c4e9;
+    
+    outline:none;
 }
 
+
 #jumbo_btn2 {
-    background-color: #32c4e9;
+    background-color: rgba(255,255,255,0);
     color: #fff;
+    padding:10px 15px;
+    border:2px solid #fff;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #000;
+    -webkit-transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    transition: all ease 0.5s;
 }
 
 #jumbo_btn2:hover {
-    background-color: #ffffff;
+    box-shadow: inset 0 200px 0  0 #fff;
     color: #32c4e9;
+    
 }
 
 
@@ -445,22 +463,31 @@ header .light-logo {
 
 .services-btn a {
     background-color: rgba(255, 255, 255, 0);
-    color: #232929;
+    color: #000;
     font-weight: 600;
-    padding: 10px 30px;
+    padding: 8px 20px;
+    display:inline-block;
     margin: 8px;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'open sans', 'sans-serif';
     font-size: 16px;
-    border: 2px solid #232929;
+    border: 2px solid #000;
     border-radius: 4px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #000;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
 }
 
+
 .services-btn a:hover {
-    border-color: #32c4e9;
+    box-shadow: inset 0 100px 0 0 #000;
     color: #32c4e9;
+    background-color: #fff;
 }
+
 
 
 /*Choose-us-section*/
@@ -618,12 +645,12 @@ header .light-logo {
     font-size: 22px;
     color: #fff;
     font-weight: 400;
-    margin: 45px;
+    margin: 45px 20px;
     font-family: 'open sans', 'sans-serif';
 }
 
 .work-btn {
-    text-align: center;
+    text-align: right;
 }
 
 .btn_large.quote_btn {
@@ -680,10 +707,13 @@ header .light-logo {
     padding-bottom: 60px;
     margin: 0;
 }
-
+.portfolio-image {
+    max-width:100%;
+    height:auto;
+}
 .image {
-    height: 35vh;
-    width: 100%;
+    height:auto;
+    max-width: 100%;
     padding: 0;
     margin: 0;
     -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
@@ -738,42 +768,54 @@ header .light-logo {
 }
 
 .portfolio-btn #btn_2 {
-    background: #32c4e9;
-    color: #fff;
+    background: rgba(255, 255, 255, 0);
+    color: #000;
     font-weight: 600;
-    padding: 15px 30px;
-    margin: 8px;
+    padding: 10px 22px;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'open sans', 'sans-serif';
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #000;
+    -webkit-transition: all ease 0.6s;
+    -moz-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+
+    
+}
+
+.portfolio-btn #btn_2:hover {
+    box-shadow: inset 300px 0  0  0 #32c4e9;
+    color: #FFF;
+    border:2px solid #32c4e9;
+}
+
+
+
+
+.portfolio-btn #btn_3 {
+    background-color: rgba(255,255,255,0);
+    color: #32c4e9;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 10px;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'open sans', 'sans-serif';
     font-size: 16px;
     border: 2px solid #32c4e9;
     border-radius: 4px;
-    text-align: center;
-}
-
-.portfolio-btn #btn_2:hover {
-    background-color: #fff;
-    color: #32c4e9;
-}
-
-.portfolio-btn #btn_3 {
-    background-color: rgba(255, 255, 255, 0);
-    color: #232929;
-    font-weight: 600;
-    padding: 15px 30px;
-    margin: 8px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'open sans', 'sans-serif';
-    font-size: 16px;
-    border: 2px solid #232929;
-    border-radius: 4px;
+    
 }
 
 .portfolio-btn #btn_3:hover {
-    border-color: #232929;
-    color: #32c4e9;
+    
+    background-color:#fff;
+    color: #000;
+    border:2px solid #000;
 }
 
 

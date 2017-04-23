@@ -10,8 +10,8 @@ $(document).ready(function() {
 
 });
 
-/*-----------------
-    fixed top
+/*-------------------------
+    fixed top Header Menu
  -----------------*/
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 70) {
@@ -21,7 +21,11 @@ $(document).ready(function() {
         }
     });
 
+/*-----------------------------
+    jQuery on Homepage
+ ----------------------------*/
         
+
 /*-----------------------------
     jQuery on Services Page
  ----------------------------*/
