@@ -21,13 +21,79 @@ $(document).ready(function() {
         }
     });
 
-/*-----------------------------
-    jQuery on Homepage
+/*---------------------------------
+    jQuery on Homepage Check icons
  ----------------------------*/
+
+
+
+ $(document).ready(function(){
+    $('#check1').mouseenter(function(){
+        $("#check1").css("color", "#32c4e9");
+
+    });
+
+    $('#check1').mouseleave(function(){
+        $("#check1").css("color", "#000");
+
+    });
+
+    $('#check2').mouseenter(function(){
+        $("#check2").css("color", "#32c4e9");
+
+    });
+
+    $('#check2').mouseleave(function(){
+        $("#check2").css("color", "#000");
+
+    });
+
+    $('#check3').mouseenter(function(){
+        $("#check3").css("color", "#32c4e9");
+
+    });
+
+    $('#check3').mouseleave(function(){
+        $("#check3").css("color", "#000");
+
+    });
+
+    $('#check4').mouseenter(function(){
+        $("#check4").css("color", "#32c4e9");
+
+    });
+
+    $('#check4').mouseleave(function(){
+        $("#check4").css("color", "#000");
+
+    });
+
+    $('#check5').mouseenter(function(){
+        $("#check5").css("color", "#32c4e9");
+
+    });
+
+    $('#check5').mouseleave(function(){
+        $("#check5").css("color", "#000");
+
+    });
+
+    $('#check6').mouseenter(function(){
+        $("#check6").css("color", "#32c4e9");
         
 
-/*-----------------------------
-    jQuery on Services Page
+    });
+
+    $('#check6').mouseleave(function(){
+        $("#check6").css("color", "#000");
+        
+
+    });
+
+ });
+
+/*------------------------------------
+    jQuery on Services Page dropdown
  ----------------------------*/
    
       $(document).ready(function(){
