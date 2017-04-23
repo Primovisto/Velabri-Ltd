@@ -20,7 +20,6 @@ img {
     max-width: 100%;
     height: auto;
 }
-.container{width: 100%;}
 
 header.navbar-fixed-top {
     animation-duration: 1s;
@@ -618,12 +617,12 @@ header .light-logo {
     font-size: 22px;
     color: #fff;
     font-weight: 400;
-    margin: 45px;
+    margin: 45px 0;
     font-family: 'open sans', 'sans-serif';
 }
 
 .work-btn {
-    text-align: center;
+    text-align: right;
 }
 
 .btn_large.quote_btn {
@@ -1026,7 +1025,44 @@ header .light-logo {
 
 /* md */
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .jumbotron-content h1 {
+        font-size: 40px;
+    }
+    
+    .image {
+        position: relative;
+        left: 10px;
+    }
+    .portfolio-website {
+        font-size: 14px;
+    }
+    .work-text {
+        text-align: center;
+        margin: 20px;
+    }
+    .btn_large.quote_btn {
+        border: 2px solid #fff;
+        padding: 8px 15px;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .work-with-us {
+        padding: 30px;
+    }
+    .work-btn {
+        text-align: center;
+    }
+    #our_skills .header_section {
+        padding-top: 80px;
+    }
+    #our_skills .header_section p {
+        font-size: 18px;
+        padding: 10px 80px;
+    }
 
+    
+}
 
 
 
@@ -1388,7 +1424,7 @@ header .light-logo {
 #about .ed-team-image,
 .james-team-image {
     border-radius: 50%;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 #about .meet-the-team .team-image .position {
@@ -1438,7 +1474,7 @@ header .light-logo {
 
 #about .about-testimonial .testimonial-image img {
     border-radius: 100%;
-    max-width: 100px;
+    width: 100px;
     height: 80px;
     border: 1px solid #eee;
     -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
@@ -1448,10 +1484,6 @@ header .light-logo {
 
 #about .extra-padding {
     padding: 40px 0;
-}
-
-#about .margin-between {
-    margin:30px;
 }
 
 
@@ -2064,7 +2096,7 @@ header .light-logo {
         font-size: 40px;
     }
     #services .services-header h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
     #services .services-paragraph {
         font-size: 16px;
@@ -2075,28 +2107,11 @@ header .light-logo {
         padding: 10px;
     }
     #services .service-type {
-        font-size: 26px;
+        font-size: 30px;
     }
     #services .service-type-para {
         font-size: 16px;
         padding: 10px;
-    }
-
-    #services .services-our-process h2{
-        font-size:35px;
-    }
-
-    #services .five-steps:before{
-        left:44%;
-    }
-    #services .five-steps ul li p{
-        padding:20px;
-        text-align:center;
-        font-size:14px;
-    }
-
-    #services .five-steps ul li i{
-        left:42%;
     }
     /* Get a Quote */
     .work-with-us {
@@ -2194,24 +2209,6 @@ header .light-logo {
         padding-top: 10px;
         font-size: 16px;
     }
-
-    #portfolio .portfolio-page-header h2 {
-        font-size:35px;
-    }
-
-    #portfolio .portfolio-welcome p {
-        font-size:16px;
-    }
-
-    #portfolio .portfolio-main:before{
-        left:44%;
-    }
-
-    #quote .jumbotron-content h2 {
-        font-size: 40px;
-    }
-
-
     #quote .quote-heading {
         font-size: 35px;
     }
@@ -2220,9 +2217,20 @@ header .light-logo {
         padding: 10px;
     }
     #quote .get-a-quote:before {
-        
-        left: 44%;
-        
+        display: block;
+        position: relative;
+        content: '';
+        width: 50px;
+        height: 50px;
+        bottom: 75px;
+        left: 46%;
+        background-color: #fff;
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        z-index: 1;
+        border-bottom: 1px solid #d3d3d3;
+        border-right: 1px solid #d3d3d3;
     }
     #quote form {
         padding-left: 0;
@@ -2299,9 +2307,8 @@ header .light-logo {
     }
     #about .ed-team-image,
     .james-team-image {
-        
-        margin-left:25px;
-        margin-top:20px;
+        position: relative;
+        margin:0;
         
     }
 
@@ -2325,15 +2332,6 @@ header .light-logo {
         font-size:14px;
         padding-right:0;
     }
-
-    #about .about-testimonial .testimonial-image img{
-        position:relative;
-        right:15px;
-    }
-
-    #about .margin-between {
-    margin:20px 0;
-}
     /*Contact Us Page*/
     #contact .contact-text h2 {
         margin-left: 0;
@@ -2350,101 +2348,4 @@ header .light-logo {
     #contact .contact-us-main:before {
         left: 45%;
     }
-}
-
-/*md */
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .jumbotron-content h1 {
-        font-size: 40px;
-    }
-    
-    .image {
-        position: relative;
-        left: 10px;
-    }
-    .portfolio-website {
-        font-size: 14px;
-    }
-    .work-text {
-        text-align: center;
-        margin: 20px;
-    }
-    .btn_large.quote_btn {
-        border: 2px solid #fff;
-        padding: 8px 15px;
-        font-size: 18px;
-        margin-top: 30px;
-    }
-    .work-with-us {
-        padding: 30px;
-    }
-    .work-btn {
-        text-align: center;
-    }
-    #our_skills .header_section {
-        padding-top: 80px;
-    }
-    #our_skills .header_section p {
-        font-size: 18px;
-        padding: 10px 80px;
-    }
-
-    #quote .get-a-quote:before {
-        left:46%;
-    }
-
-    #contact .contact-header .contact-paragraph{
-        margin-bottom:20px;
-        padding:20px;
-    }
-
-    #portfolio .portfolio-main:before{
-        left:47%;
-    }
-
-    #services .five-steps:before{
-        left:47%;
-    }
-
-    #services .five-steps ul li p{
-        padding:20px;
-        text-align:center;
-    }
-
-    #services .five-steps ul li i{
-        left:46%;
-    }
-
-    #about .ed-team-image, .james-team-image {
-            
-            margin-top:30px;
-            margin-left:0;
-    }
-
-    #about .meet-the-team .team-image .name{
-        margin-left: 0;
-        margin-top:15px;
-    }
-
-    #about .meet-the-team:before{
-        left:47%;
-    }
-
-    #about .about-testimonial .testimonial-text p {
-        margin-left:40px;
-    }
-
-    #about .about-testimonial .testimonial-text h5 {
-        margin-left:40px;
-    }
-
-
-
-
-}
-
-@media only screen 
-and (max-device-width : 320px) {
-
 }
