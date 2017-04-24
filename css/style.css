@@ -213,13 +213,12 @@ header .light-logo {
     padding: 15px 0;
 }
 
-.navbar{
-    margin-bottom:0;
+.navbar {
+    margin-bottom: 0;
 }
 
-
-.navbar-brand{
-    margin-left:25px;
+.navbar-brand {
+    margin-left: 25px;
 }
 
 .navbar.navbar-inverse {
@@ -228,13 +227,13 @@ header .light-logo {
 
 .navbar.navbar-inverse .navbar-toggle {
     background-color: #000;
-    margin-right:25px;
+    margin-right: 25px;
 }
 
 .navbar-inverse .navbar-collapse {
     background-color: #000;
     visibility: visible;
-    margin:0;
+    margin: 0;
 }
 
 .navbar .navbar-header {
@@ -245,7 +244,6 @@ header .light-logo {
 #myCollapsingList {
     background-color: #000;
     visibility: visible;
-    
 }
 
 #myCollapsingList li a {
@@ -253,12 +251,13 @@ header .light-logo {
     background-color: #000;
     font-family: 'open sans', 'sans-serif';
     font-weight: 600;
-    border-color:#000;
+    border-color: #000;
 }
 
 .resp-menu {
-    padding:0;
+    padding: 0;
 }
+
 
 
 /* Jumbotron Section */
