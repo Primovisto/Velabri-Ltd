@@ -1428,10 +1428,12 @@ header .light-logo {
 #about .about-testimonial .testimonial-text p {
     padding-right: 20px;
     color: #000;
+    font-size:14px;
 }
 
 #about .about-testimonial .testimonial-text h5 {
     font-weight: 600;
+    font-size:16px;
     color: #000;
     padding-right: 20px;
 }
@@ -1444,16 +1446,15 @@ header .light-logo {
 
 #about .about-testimonial .testimonial-image img {
     border-radius: 100%;
-    width: 100px;
-    height: 80px;
-    border: 1px solid #eee;
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
-    -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
-    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
+    max-width:100%;
+    min-width: 80px;
+    min-height:80px;
+    border: 1px solid #d3d3d3;
+    
 }
 
-#about .extra-padding {
-    padding: 40px 0;
+#about .margin-between{
+    margin-bottom:40px;
 }
 
 

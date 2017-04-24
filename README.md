@@ -91,7 +91,7 @@ Wanted a simple footer that maintained the color scheme and provided information
 
 I generally used 'Open Sans' for normal sized paragraphs and small headers and 'Roboto:900' for larger headers. The link to both were downloaded from 'google fonts'
 
-<h3>Colors<h3>
+<h3>Colors</h3>
 
 The color scheme at www.kissmetrics.com was used for inspiration. Black(#000), White(#fff) and Light Blue(#32c4e9) made up the color palette.
 
@@ -99,6 +99,10 @@ The color scheme at www.kissmetrics.com was used for inspiration. Black(#000), W
 <h3>Images</h3>
 Images for the website were attained from free image download sites such as pixabay.com and pexels.com.
 The images were converted to urls via tinypic.com
+
+<h3>Pages</h3>
+
+With all pages on the site I wanted to maintain the same overall look and feel.
 
 
 

@@ -28,67 +28,17 @@ $(document).ready(function() {
 
 
  $(document).ready(function(){
-    $('#check1').mouseenter(function(){
-        $("#check1").css("color", "#32c4e9");
+    $('.fa-check').mouseenter(function(){
+        $(".fa-check").css("color", "#32c4e9");
 
     });
 
-    $('#check1').mouseleave(function(){
-        $("#check1").css("color", "#000");
+    $('.fa-check').mouseleave(function(){
+        $(".fa-check").css("color", "#000");
 
     });
 
-    $('#check2').mouseenter(function(){
-        $("#check2").css("color", "#32c4e9");
 
-    });
-
-    $('#check2').mouseleave(function(){
-        $("#check2").css("color", "#000");
-
-    });
-
-    $('#check3').mouseenter(function(){
-        $("#check3").css("color", "#32c4e9");
-
-    });
-
-    $('#check3').mouseleave(function(){
-        $("#check3").css("color", "#000");
-
-    });
-
-    $('#check4').mouseenter(function(){
-        $("#check4").css("color", "#32c4e9");
-
-    });
-
-    $('#check4').mouseleave(function(){
-        $("#check4").css("color", "#000");
-
-    });
-
-    $('#check5').mouseenter(function(){
-        $("#check5").css("color", "#32c4e9");
-
-    });
-
-    $('#check5').mouseleave(function(){
-        $("#check5").css("color", "#000");
-
-    });
-
-    $('#check6').mouseenter(function(){
-        $("#check6").css("color", "#32c4e9");
-        
-
-    });
-
-    $('#check6').mouseleave(function(){
-        $("#check6").css("color", "#000");
-        
-
-    });
 
  });
 
@@ -164,3 +114,47 @@ $(document).ready(function() {
   
 });
    
+   /*--------------------------------------------
+    jQuery on Testimonial Images About Us Page
+ -----------------------------------------*/
+ $(document).ready(function(){
+    $('#test-img1').mouseenter(function(){
+        $("#test-img1").css("box-shadow", "0px 0px 5px 1px rgba(0, 0, 0, 0.46)");
+
+    });
+    $('#test-img1').mouseleave(function(){
+        $("#test-img1").css("box-shadow", "none");
+
+    });
+
+    $('#test-img2').mouseenter(function(){
+        $("#test-img2").css("box-shadow", "0px 0px 5px 1px rgba(0, 0, 0, 0.46)");
+
+    });
+    $('#test-img2').mouseleave(function(){
+        $("#test-img2").css("box-shadow", "none");
+
+    });
+
+    $('#test-img3').mouseenter(function(){
+        $("#test-img3").css("box-shadow", "0px 0px 5px 1px rgba(0, 0, 0, 0.46)");
+
+    });
+    $('#test-img3').mouseleave(function(){
+        $("#test-img3").css("box-shadow", "none");
+
+    });
+
+    $('#test-img4').mouseenter(function(){
+        $("#test-img4").css("box-shadow", "0px 0px 5px 1px rgba(0, 0, 0, 0.46)");
+
+    });
+    $('#test-img4').mouseleave(function(){
+        $("#test-img4").css("box-shadow", "none");
+
+    });
+
+
+ });
+
+  
