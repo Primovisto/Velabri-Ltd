@@ -31,11 +31,12 @@ Bootstrap was used for the menu navigation and for mobile devices a dropdown men
 
 
 <h5>Javascript</h5>
-Javascript was incorporated to tell the 'window' to fix the menu to the top of the page once the user scrolls down the page more than 70 pixels. The javascript added a class "navbar-fixed-top" when the user scrolled down more than 70px this class fixed the menu tothe top of the page and styled the menu accordingly.
+Javascript was incorporated to tell the 'window' to fix the menu to the top of the page once the user scrolls down the page more than 70 pixels. The javascript added a class "navbar-fixed-top" when the user scrolled down more than 70px this class fixed the menu to the top of the page and styled the menu accordingly.
 
 
 
 <h3>Jumbotron Section</h3>
+
 
 <h3>Services Section</h3>
 
@@ -47,13 +48,27 @@ I wanted to include our 'Services section' towards the top of the page so that i
 The 'Why Choose Us' section is basically 3 columns, 1 right, 1 left and center image. The center image is designed to disappear on smaller devices such as tablet and phone.
 
 
+
 <h3>Work with Us Section</h3>
 
+Almost like a banner with call to action wording and button leading to our 'Get a Quote Page'
 
 
 <h3>Portfolio Section</h3>
 
+Images of previous projects in grayscale with change to full color on hover.
 
+4 columns in each row changes to 2 columns for smaller devices.
+
+
+<h3>Our Skills</h3>
+
+Images of Front-End Skills that are scaled and get larger on hover. Inspiration for this scale feature was gained from www.flowwebdesign.ie.
+
+
+<h3>Footer</h3>
+
+Wanted a simple footer that maintained the color scheme and provided information and links to different features of the site.
 
 
 <h3>Fonts</h3>
@@ -72,6 +87,18 @@ The images were converted to urls via tinypic.com
 <h3>Hosting</h3>
 
 The Website is currently being hosted by Github Pages at url: http://primovisto.github.io/Velabri-Ltd/index.html
+
+<h3>Other Features</h3>
+
+<h5>jQuery:</h5>
+
+jQuery Dropdown Paragraph on click in Services page.
+
+jQuery icon color change on mouseenter in 'Why Choose Us' section.
+
+<h5>Contact Forms</h5>
+
+2 contact forms were used. 1 on the 'contact us page' and 1 on the 'get a quote page' 
 
 
  
