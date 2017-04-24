@@ -5,6 +5,22 @@
 For my Stream 1 Project I  built a website which I can use to advertise my services as a web developer/designer. To do so I used HTML, CSS, Javascript and JQuery. The design I was hoping to achieve is a professional looking site which clearly identifies the services we offer and allows the user to get in touch with us easily. I received inspiration for the layout style from http://themexlab.com/htmldemo/mordant/, www.avalanchedesigns.ie, www.thinkwebsites.ie and nuadesign.ie I liked the color scheme from www.kissmetrics.com so I incorporated a similar color scheme. the main layout of the site is built using Bootstraps grid layout.
 
 
+<h3>Deployment</h3>
+
+The Website is currently being hosted live by Github Pages at url: http://primovisto.github.io/Velabri-Ltd/index.
+
+
+<h3>Built With:</h3>
+
+HTML
+
+CSS
+
+Javascript/jQuery
+
+Bootstrap
+
+
 
 <h3>Building the Website Preloader</h3>
 I decided to include a preloader for the website. This was the first task I undertook for the website.
@@ -84,9 +100,7 @@ The color scheme at www.kissmetrics.com was used for inspiration. Black(#000), W
 Images for the website were attained from free image download sites such as pixabay.com and pexels.com.
 The images were converted to urls via tinypic.com
 
-<h3>Hosting</h3>
 
-The Website is currently being hosted by Github Pages at url: http://primovisto.github.io/Velabri-Ltd/index.html
 
 <h3>Other Features</h3>
 
@@ -96,9 +110,13 @@ jQuery Dropdown Paragraph on click in Services page.
 
 jQuery icon color change on mouseenter in 'Why Choose Us' section.
 
-<h5>Contact Forms</h5>
+<h5>Contact Forms:</h5>
 
 2 contact forms were used. 1 on the 'contact us page' and 1 on the 'get a quote page' 
+
+<h5>Favicon:</h5>
+
+Added Favicon to head tag in html of all pages
 
 
  
