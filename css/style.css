@@ -2,7 +2,7 @@
 html {
     margin: 0;
     padding: 0;
-    color: #232929;
+    color: #000;
     height: 100%;
     max-width: 100%;
     background-color: #fff;
@@ -13,14 +13,13 @@ html {
 p {
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
-    color: #232929;
+    color: #000;
 }
 
 img {
     max-width: 100%;
     height: auto;
 }
-
 
 header.navbar-fixed-top {
     animation-duration: 1s;
@@ -39,17 +38,17 @@ header.navbar-fixed-top {
 }
 
 h2 {
-    color: #232929;
+    color: #000;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
     font-size: 50px;
 }
 
 h5 {
-    font-family: 'open sans';
+    font-family: 'open sans', 'sans-serif';
     font-size: 20px;
     font-weight: 600;
-    color: #666;
+    
 }
 
 .navbar-fixed-top .light-logo {
@@ -64,7 +63,7 @@ h5 {
 }
 
 header.navbar-fixed-top .menu-links a {
-    color: #444;
+    color: #000;
 }
 
 /*
@@ -218,32 +217,28 @@ header .light-logo {
     margin: 0;
 }
 
-.navbar-nav {
-    margin: 0;
-}
-
 .navbar.navbar-inverse .navbar-toggle {
     background-color: #222;
 }
 
 .navbar-inverse .navbar-collapse {
-    background-color: #232929;
+    background-color: #000;
     visibility: visible;
 }
 
 .navbar .navbar-header {
-    background-color: #232929;
+    background-color: #000;
     border: none;
 }
 
 #myCollapsingList {
-    background-color: #232929;
+    background-color: #000;
     visibility: visible;
 }
 
 #myCollapsingList li a {
     color: #32c4e9;
-    background-color: #232929;
+    background-color: #000;
     font-family: 'open sans', 'sans-serif';
     font-weight: 600;
 }
@@ -343,57 +338,51 @@ header .light-logo {
 }
 
 .jumbotron-button a {
-    padding: 7px 15px;
-    font-family: 'roboto', 'open sans';
-    font-size: 18px;
-    text-decoration: none;
-    margin: 20px 0px;
-    margin-top: 30px;
-    text-transform: uppercase;
-    border-radius: 5px;
-    margin-left: 10px;
+        padding: 7px 15px;
+        font-family: 'roboto', 'open sans';
+        font-size: 18px;
+        text-decoration: none;
+        margin: 20px 0px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        margin-left: 10px;
+    }
     
-}
-
-.btn-large.btn-jumbo {
-    background-color: #32c4e9;
-    color: #fff;
-    padding:12px 15px;
-    text-align: center;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #000;
-    -webkit-transition: all ease 0.8s;
-    -moz-transition: all ease 0.8s;
-    transition: all ease 0.8s;
-}
-
-.btn-large.btn-jumbo:hover {
-    box-shadow: inset 200px 0  0  0 #fff;
-    color: #32c4e9;
+    .btn-large.btn-jumbo {
+        background-color: #32c4e9;
+        color: #fff;
+        padding: 12px 15px;
+        text-align: center;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #000;
+        -webkit-transition: all ease 0.8s;
+        -moz-transition: all ease 0.8s;
+        transition: all ease 0.8s;
+    }
     
-    outline:none;
-}
-
-
-#jumbo_btn2 {
-    background-color: rgba(255,255,255,0);
-    color: #fff;
-    padding:10px 15px;
-    border:2px solid #fff;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #000;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-
-}
-
-#jumbo_btn2:hover {
-    box-shadow: inset 0 100px 0  0 #fff;
-    color: #32c4e9;
+    .btn-large.btn-jumbo:hover {
+        box-shadow: inset 200px 0 0 0 #fff;
+        color: #32c4e9;
+        outline: none;
+    }
     
+    #jumbo_btn2 {
+        background-color: rgba(255, 255, 255, 0);
+        color: #fff;
+        padding: 10px 15px;
+        border: 2px solid #fff;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #000;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        transition: all ease 0.5s;
+    }
     
-}
+    #jumbo_btn2:hover {
+        box-shadow: inset 0 100px 0 0 #fff;
+        color: #32c4e9;
+    }
 
 
 /* End Jumbotron */
@@ -411,9 +400,13 @@ header .light-logo {
     padding-top: 20px;
 }
 
+.services-header h2{
+    color:#000;
+}
+
 .services-paragraph {
     font-family: 'open sans', 'sans-serif';
-    color: #232929;
+    color: #000;
     font-size: 18px;
     text-align: center;
     padding: 0 100px;
@@ -442,13 +435,8 @@ header .light-logo {
     margin: 20px;
 }
 
-.services .services-heading {
-    font-family: 'open sans', 'sans-serif';
-    font-size: 40px;
-}
-
 .service .service-content h3 {
-    color: #232929;
+    color: #000;
     font-size: 18px;
     font-weight: 600;
     font-family: 'open sans';
@@ -464,32 +452,30 @@ header .light-logo {
 }
 
 .services-btn a {
-    background-color: rgba(255, 255, 255, 0);
-    color: #000;
-    font-weight: 600;
-    padding: 8px 20px;
-    display:inline-block;
-    margin: 8px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'open sans', 'sans-serif';
-    font-size: 16px;
-    border: 2px solid #000;
-    border-radius: 4px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #000;
-    -webkit-transition: all ease 0.8s;
-    -moz-transition: all ease 0.8s;
-    transition: all ease 0.8s;
-}
-
-
-.services-btn a:hover {
-    box-shadow: inset 0 100px 0 0 #000;
-    color: #32c4e9;
-    background-color: #fff;
-}
-
+        background-color: rgba(255, 255, 255, 0);
+        color: #000;
+        font-weight: 600;
+        padding: 8px 20px;
+        display: inline-block;
+        margin: 8px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'open sans', 'sans-serif';
+        font-size: 16px;
+        border: 2px solid #000;
+        border-radius: 4px;
+        cursor: pointer;
+        box-shadow: inset 0 0 0 0 #000;
+        -webkit-transition: all ease 0.8s;
+        -moz-transition: all ease 0.8s;
+        transition: all ease 0.8s;
+    }
+    
+    .services-btn a:hover {
+        box-shadow: inset 0 100px 0 0 #000;
+        color: #32c4e9;
+        background-color: #fff;
+    }
 
 
 /*Choose-us-section*/
@@ -580,13 +566,17 @@ header .light-logo {
     color: #3d3d3d;
 }
 
-#check1{
-    color:#000;
+.why-choose.why-choose-right .simple-icon i {
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 22px
 }
 
-.why-choose .simple-icon i {
+.why-choose.why-choose-left .simple-icon i {
     border: 2px solid #000;
-    color: #232929;
+    color: #000;
     border-radius: 50%;
     padding: 15px;
     font-size: 22px
@@ -636,14 +626,14 @@ header .light-logo {
 /* Get A Quote Section */
 
 .work-with-us {
-    background: url(http://i64.tinypic.com/2h3bnea.jpg);
+    background: url(http://i65.tinypic.com/5bbdq0.png);
 }
 
 .work-text {
     font-size: 22px;
     color: #fff;
     font-weight: 400;
-    margin: 45px 20px;
+    margin: 45px 0;
     font-family: 'open sans', 'sans-serif';
 }
 
@@ -651,25 +641,24 @@ header .light-logo {
     text-align: right;
 }
 
-.btn_large.quote_btn {
-    color: #fff;
-    border: 2px solid #32c4e9;
-    padding: 10px 25px;
-    text-transform: uppercase;
-    font-family: 'Roboto', 'sans-serif';
-    font-size: 22px;
-    margin-top: 35px;
-    background-color:#32c4e9;
-}
-
-.btn_large.quote_btn:hover {
-    background-color: rgba(255, 255, 255, 1);
-    color: #232929;
-    border: 2px solid #fff;
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
-}
-
+  .btn_large.quote_btn {
+        color: #fff;
+        border: 2px solid #32c4e9;
+        padding: 10px 25px;
+        text-transform: uppercase;
+        font-family: 'Roboto', 'sans-serif';
+        font-size: 22px;
+        margin-top: 35px;
+        background-color: #32c4e9;
+    }
+    
+    .btn_large.quote_btn:hover {
+        background-color: rgba(255, 255, 255, 1);
+        color: #232929;
+        border: 2px solid #fff;
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+    }
 
 /* Portfolio Section */
 
@@ -688,7 +677,7 @@ header .light-logo {
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
     font-size: 50px;
-    color: #232929;
+    color: #000;
 }
 
 .portfolio-heading-text {
@@ -706,13 +695,10 @@ header .light-logo {
     padding-bottom: 60px;
     margin: 0;
 }
-.portfolio-image {
-    max-width:100%;
-    height:auto;
-}
+
 .image {
-    height:auto;
-    max-width: 100%;
+    height: 35vh;
+    width: 100%;
     padding: 0;
     margin: 0;
     -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
@@ -734,7 +720,7 @@ header .light-logo {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     margin-top: 15px;
-    color: #232929;
+    color: #000;
 }
 
 .portfolio-website-type {
@@ -767,35 +753,29 @@ header .light-logo {
 }
 
 .portfolio-btn #btn_2 {
-    background: rgba(255, 255, 255, 0);
-    color: #000;
-    font-weight: 600;
-    padding: 10px 22px;
-    margin: 10px;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'open sans', 'sans-serif';
-    font-size: 16px;
-    border: 2px solid #000;
-    border-radius: 4px;
-    box-shadow: inset 0 0 0 0 #000;
-    -webkit-transition: all ease 0.6s;
-    -moz-transition: all ease 0.6s;
-    transition: all ease 0.6s;
-
+        background: rgba(255, 255, 255, 0);
+        color: #000;
+        font-weight: 600;
+        padding: 10px 22px;
+        margin: 10px;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'open sans', 'sans-serif';
+        font-size: 16px;
+        border: 2px solid #000;
+        border-radius: 4px;
+        box-shadow: inset 0 0 0 0 #000;
+        -webkit-transition: all ease 0.6s;
+        -moz-transition: all ease 0.6s;
+        transition: all ease 0.6s;
+    }
     
-}
-
-.portfolio-btn #btn_2:hover {
-    box-shadow: inset 300px 0  0  0 #32c4e9;
-    color: #FFF;
-    border:2px solid #32c4e9;
-}
-
-
-
-
+    .portfolio-btn #btn_2:hover {
+        box-shadow: inset 300px 0 0 0 #32c4e9;
+        color: #FFF;
+        border: 2px solid #32c4e9;
+    }
 
 
 /* Skills Section */
@@ -875,7 +855,7 @@ header .light-logo {
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
     transition: all 300ms linear;
-    border: 1px solid #000;
+    border: 1px solid #232929;
 }
 
 .skills_logos .skilltypes:hover {
@@ -994,17 +974,6 @@ header .light-logo {
     font-weight: 400;
 }
 
-.footer .footer-center p span {
-    display: block;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 2;
-}
-
-.footer .footer-center p a {
-    color: #fff;
-    text-decoration: none;
-}
 
 
 /* footer right*/
@@ -1038,17 +1007,6 @@ header .light-logo {
 }
 
 
-/* Responsive  */
-
-
-
-
-
-
-/* md */
-
-
-
 
 
 
@@ -1064,7 +1022,7 @@ header .light-logo {
 }
 
 #contact .menu-links ul li a {
-    color: #232929;
+    color: #000;
 }
 
 #contact .menu-links ul li a:hover {
@@ -1076,7 +1034,7 @@ header .light-logo {
 }
 
 #contact header.navbar-fixed-top .menu-links a {
-    color: #232929;
+    color: #000;
 }
 
 #contact .navbar-fixed-top .dark-logo {
@@ -1091,7 +1049,7 @@ header .light-logo {
 
 #contact header {
     background: rgba(255, 255, 255, 1);
-    border-bottom: 1px solid #232929;
+    border-bottom: 1px solid #000;
 }
 
 #contact header .dark-logo {
@@ -1114,7 +1072,7 @@ header .light-logo {
 }
 
 #contact .contact-header h2 {
-    color: #232929;
+    color: #000;
     margin-top: 120px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -1168,7 +1126,7 @@ header .light-logo {
 
 #contact .contact-form h2 {
     font-family: 'open sans', 'sans-serif';
-    color: #232929;
+    color: #000;
 }
 
 #contact .btn.btn-primary.contact-btn {
@@ -1191,7 +1149,7 @@ header .light-logo {
 
 #contact .contact-text h2 {
     font-family: 'open sans';
-    color: #232929;
+    color: #000;
     margin-left: 10%;
     margin: 30px 0;
 }
@@ -1200,7 +1158,7 @@ header .light-logo {
     margin-top: 75px;
     font-size: 14px;
     font-family: 'open sans';
-    color: #232929;
+    color: #000;
     text-align: justify;
     margin-left: 10%;
     margin-bottom: 15px;
@@ -1259,7 +1217,7 @@ header .light-logo {
 }
 
 #about header.navbar-fixed-top .menu-links a {
-    color: #232929;
+    color: #000;
 }
 
 #about header.navbar-fixed-top .dark-logo {
@@ -1330,7 +1288,7 @@ header .light-logo {
 }
 
 #about .about-text h5 {
-    color: #232929;
+    color: #000;
     font-size: 45px;
     font-family: 'roboto', 'sans-serif';
     font-weight: 400;
@@ -1338,7 +1296,7 @@ header .light-logo {
 }
 
 #about .about-text p {
-    color: #232929;
+    color: #000;
     font-size: 14px;
     font-family: 'open sans', 'sans-serif';
     font-weight: 400;
@@ -1384,7 +1342,7 @@ header .light-logo {
     font-family: 'roboto', 'sans-serif';
     font-size: 45px;
     margin: 30px;
-    color: #232929;
+    color: #000;
 }
 
 #about .meet-the-team .team-header p {}
@@ -1395,21 +1353,21 @@ header .light-logo {
     padding: 30px;
     font-family: 'open sans', 'sans-serif';
     font-size: 14px;
-    color: #232929;
+    color: #000;
 }
 
 #about .meet-the-team .team-image .name {
     font-family: 'open sans', 'sans-serif';
-    color: #232929;
+    color: #000;
     font-size: 20px;
     text-align: center;
-    margin-left: 35px;
+    margin-left: 25px;
 }
 
 #about .ed-team-image,
 .james-team-image {
     border-radius: 50%;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 
 #about .meet-the-team .team-image .position {
@@ -1428,26 +1386,26 @@ header .light-logo {
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
     font-size: 45px;
-    color: #232929;
+    color: #000;
     padding-top: 50px;
 }
 
 #about .testimonial-header p {
     font-family: 'open sans', 'sans-serif';
     font-size: 16px;
-    color: #232929;
+    color: #000;
     text-align: center;
     padding-bottom: 50px;
 }
 
 #about .about-testimonial .testimonial-text p {
     padding-right: 20px;
-    color: #232929;
+    color: #000;
 }
 
 #about .about-testimonial .testimonial-text h5 {
     font-weight: 600;
-    color: #232929;
+    color: #000;
     padding-right: 20px;
 }
 
@@ -1459,7 +1417,7 @@ header .light-logo {
 
 #about .about-testimonial .testimonial-image img {
     border-radius: 100%;
-    max-width: 100px;
+    width: 100px;
     height: 80px;
     border: 1px solid #eee;
     -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.46);
@@ -1469,10 +1427,6 @@ header .light-logo {
 
 #about .extra-padding {
     padding: 40px 0;
-}
-
-#about .margin-between {
-    margin:30px;
 }
 
 
@@ -1492,7 +1446,7 @@ header .light-logo {
 }
 
 #quote header.navbar-fixed-top .menu-links a {
-    color: #232929;
+    color: #000;
 }
 
 #quote header.navbar-fixed-top .dark-logo {
@@ -1559,7 +1513,7 @@ header .light-logo {
 }
 
 #quote .quote-heading {
-    color: #232929;
+    color: #000;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
     margin-top: 50px;
@@ -1568,7 +1522,7 @@ header .light-logo {
 
 #quote .quote-paragraph {
     font-family: 'open sans', 'sans-serif';
-    color: #232929;
+    color: #000;
     font-size: 18px;
     text-align: center;
     padding: 0 100px;
@@ -1607,12 +1561,12 @@ header .light-logo {
 
 #quote .form-control {
     background-color: #f7f7f7;
-    border: 2px solid #232929;
+    border: 2px solid #000;
 }
 
 #quote .btn.btn-primary.quote-btn {
     background-color: #f7f7f7;
-    border: 2px solid #232929;
+    border: 2px solid #000;
     color: #232929;
     padding: 15px 35px;
     margin-top: 20px;
@@ -1698,7 +1652,7 @@ header .light-logo {
     text-align: center;
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
-    color: #232929;
+    color: #000;
 }
 
 #portfolio .portfolio-item {
@@ -1777,7 +1731,7 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
     font-size: 16px;
     font-weight: 600;
-    color: #232929;
+    color: #000;
 }
 
 #portfolio .portfolio-item-info .type {
@@ -1785,7 +1739,7 @@ header .light-logo {
     font-family: 'open sans', 'sans-serif';
     font-size: 12px;
     font-weight: 400;
-    color: #666;
+    color: #444;
 }
 
 
@@ -1800,7 +1754,7 @@ header .light-logo {
 }
 
 #services header.navbar-fixed-top .menu-links a {
-    color: #232929;
+    color: #000;
 }
 
 #services header.navbar-fixed-top .dark-logo {
@@ -1920,15 +1874,11 @@ header .light-logo {
     margin-top: 15px
 }
 
-
-
-
-
 #services .fa-caret-down {
     font-size: 25px;
     cursor: pointer;
     padding-left: 10px;
-    color: #232929;
+    color: #000;
 }
 
 #services .services-paragraph {
@@ -1941,7 +1891,7 @@ header .light-logo {
 }
 
 #services .five-steps {
-    background: url("http://i64.tinypic.com/2h3bnea.jpg");
+    background: url("http://i63.tinypic.com/2zrf9xt.png");
     padding: 44px;
 }
 
@@ -1976,7 +1926,7 @@ header .light-logo {
 
 #services .service-type-para {
     font-family: 'open sans';
-    color: #232929;
+    color: #000;
     text-align: left;
     font-size: 16px;
 }
@@ -2013,7 +1963,7 @@ header .light-logo {
 #services .services-our-process p {
     font-family: 'open sans', 'sans-serif';
     font-size: 18px;
-    color: #232929;
+    color: #000;
     text-align: center;
     padding-bottom: 40px;
 }
@@ -2025,461 +1975,423 @@ header .light-logo {
 
 
 
-/* xs */
-
-@media screen and (max-width: 767px) 
-{
-    /* Jumbotron Section */
-    .jumbotron-section {
-        background: url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
-        height: 100%;
-        max-width: 100%;
-        padding: 0;
-    }
-    .jumbotron-content h1 {
-        font-size: 35px;
-    }
-    .jumbotron-content p {
-        font-size: 18px;
-        padding: 0 20px;
-    }
-    .jumbotron-button a {
-        padding: 8px 18px;
-        font-size: 14px;
-    }
-    .btn-large.btn-jumbo {
-        margin-left: 0px;
-    }
-    /*Services Section*/
-    .services {
-        padding: 0;
-    }
-    .service {
-        padding-top: 20px;
-        margin: 20px 40px;
-    }
-    .services .services-header h2 {
-        font-size: 40px;
-        padding-top: 10px;
-    }
-    .services-paragraph {
-        font-size: 16px;
-        padding: 0px 20px;
-    }
-    .services .services-heading {
-        font-size: 30px;
-    }
-    .service .service-content h3 {
-        font-size: 18px;
-    }
-    .services:before {
-        left: 45%;
-        bottom: 25px;
-    }
-    .services-btn .btn_1 {
-        font-size: 14px;
-        padding: 4px 8px;
-        margin: 0;
-    }
-    #services .jumbotron-content h2 {
-        font-size: 40px;
-    }
-    #services .services-header h2 {
-        font-size: 35px;
-    }
-    #services .services-paragraph {
-        font-size: 16px;
-        padding: 10px;
-    }
-    #services .service .service-content h3 {
-        font-size: 16px;
-        padding: 10px;
-    }
-    #services .service-type {
-        font-size: 26px;
-    }
-    #services .service-type-para {
-        font-size: 16px;
-        padding: 10px;
-    }
-
-    #services .services-our-process h2{
-        font-size:35px;
-    }
-
-    #services .five-steps:before{
-        left:44%;
-    }
-    #services .five-steps ul li p{
-        padding:20px;
-        text-align:center;
-        font-size:14px;
-    }
-
-    #services .five-steps ul li i{
-        left:42%;
-    }
-    /* Get a Quote */
-    .work-with-us {
-        padding: 20px;
-    }
-    .work-text {
-        font-family: 'open sans', 'sans-serif';
-        font-size: 22px;
-        font-weight: 600;
-        color: #fff;
-        margin: 0;
-        text-align: center;
-    }
-    .btn_large.quote_btn {
-        border: 2px solid #fff;
-        padding: 8px 15px;
-        font-size: 18px;
-        text-align: center;
-        margin-left: 0;
-        margin-top: 25px;
-    }
-    .work-btn {
-        text-align: center;
-    }
-    .btn_large.quote_btn:hover {
-        padding: 8px 15px;
-        font-size: 18px;
-    }
-    /* Why Choose Section */
-    .choose-us-header {
-        padding-top: 20px;
-        padding-bottom:60px;
-    }
-    .choose-us-main-header {
-        font-size: 35px;
-    }
-    .choose-us-header-text {
-        font-size: 14px;
-    }
-    /* Portfolio Section */
-    .portfolio-items-section {
-        border-bottom: none;
-    }
-    .portfolio-heading h2 {
-        font-size: 40px;
-    }
-    .portfolio-image {
-        text-align: center;
-        margin: 20px;
-    }
-    .image {
-        height: 20vh;
-        width: 100%;
-        padding: 0;
-        -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
-        -moz-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
-        box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
-    }
-    .portfolio-website {
-        font-size: 10px;
-    }
-    .portfolio-website-type {
-        display: none;
-    }
-    .portfolio-items-section {
-        padding-bottom: 40px;
-    }
-    .portfolio-items-section::before {
-        left: 45%;
-        bottom: 55px;
-    }
-    .portfolio-btn {
-        text-align: center;
-        margin-top: 30px;
-    }
-    .portfolio-btn #btn_2 {
-        padding: 4px 8px;
-        font-size: 10px;
-    }
-    .portfolio-btn #btn_3 {
-        padding: 4px 8px;
-        font-size: 10px;
-    }
-
-    .portfolio-btn #btn_3 .fa-arrow-right{
-        font-size:12px;
-    }
-    #portfolio .jumbotron-content h2 {
-        font-size: 30px;
-    }
-    #portfolio .portfolio-heading h2 {
-        font-size: 20px;
-    }
-    #portfolio .portfolio-heading-text {
-        padding-top: 10px;
-        font-size: 16px;
-    }
-
-    #portfolio .portfolio-page-header h2 {
-        font-size:35px;
-    }
-
-    #portfolio .portfolio-welcome p {
-        font-size:16px;
-    }
-
-    #portfolio .portfolio-main:before{
-        left:44%;
-    }
-
-    #quote .jumbotron-content h2 {
-        font-size: 40px;
-    }
+/* ------------------------
+   Responsive
+-----------------------*/
 
 
-    #quote .quote-heading {
-        font-size: 35px;
-    }
-    #quote .quote-paragraph {
-        font-size: 16px;
-        padding: 10px;
-    }
-    #quote .get-a-quote:before {
-        
-        left: 44%;
-        
-    }
-    #quote form {
-        padding-left: 0;
-    }
-    #quote .form-group {
-        width: 100%;
-        margin: 0;
-    }
-    /* Our Skills Section */
-    #our_skills {
-        padding: 0;
-    }
-    #our_skills .header_section {
-        padding: 30px;
-    }
-    #our_skills .header_section h2 {
-        font-size: 35px;
-        padding-top:10px;
-    }
-    .header_section p {
-        font-size: 14px;
-    }
-    /* footer Section */
-    .footer {
-        height: auto;
-        font-size: 14px;
-        padding: 20px;
-        margin-bottom: 0;
-        box-sizing: border-box;
-        position: static;
-    }
-    .footer .footer-left,
-    .footer .footer-center,
-    .footer .footer-right {
-        display: inline;
-        width: 100%;
-        margin-bottom: 0px;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .footer .about span {
-        margin-bottom: 20px;
-        padding-top: 20px;
-    }
-    .footer .footer-center .center-header {
-        margin-bottom: 20px;
-    }
-    .footer .footer-right .right-header {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .footer .menu a {
-        font-weight: 400;
-        font-size: 14px;
+/* Mobile Devices */
+
+ @media screen and (max-width: 767px) {
+        /* Jumbotron Section */
+        .jumbotron-section {
+            background: url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
+            height: 100%;
+            max-width: 100%;
+            padding: 0;
+        }
+        .jumbotron-content h1 {
+            font-size: 35px;
+        }
+        .jumbotron-content p {
+            font-size: 18px;
+            padding: 0 20px;
+        }
+        .jumbotron-button a {
+            padding: 8px 18px;
+            font-size: 14px;
+        }
+        .btn-large.btn-jumbo {
+            margin-left: 0px;
+        }
+        /*Services Section*/
+        .services {
+            padding: 0;
+        }
+        .service {
+            padding-top: 20px;
+            margin: 20px 40px;
+        }
+        .services .services-header h2 {
+            font-size: 40px;
+            padding-top: 10px;
+        }
+        .services-paragraph {
+            font-size: 16px;
+            padding: 0px 20px;
+        }
+        .services .services-heading {
+            font-size: 30px;
+        }
+        .service .service-content h3 {
+            font-size: 18px;
+        }
+        .services:before {
+            left: 45%;
+            bottom: 25px;
+        }
+        .services-btn .btn_1 {
+            font-size: 14px;
+            padding: 4px 8px;
+            margin: 0;
+        }
+        #services .jumbotron-content h2 {
+            font-size: 40px;
+        }
+        #services .services-header h2 {
+            font-size: 35px;
+        }
+        #services .services-paragraph {
+            font-size: 16px;
+            padding: 10px;
+        }
+        #services .service .service-content h3 {
+            font-size: 16px;
+            padding: 10px;
+        }
+        #services .service-type {
+            font-size: 26px;
+        }
+        #services .service-type-para {
+            font-size: 16px;
+            padding: 10px;
+        }
+        #services .services-our-process h2 {
+            font-size: 35px;
+        }
+        #services .five-steps:before {
+            left: 44%;
+        }
+        #services .five-steps ul li p {
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+        #services .five-steps ul li i {
+            left: 42%;
+        }
+        /* Get a Quote */
+        .work-with-us {
+            padding: 20px;
+        }
+        .work-text {
+            font-family: 'open sans', 'sans-serif';
+            font-size: 22px;
+            font-weight: 600;
+            color: #fff;
+            margin: 0;
+            text-align: center;
+        }
+        .btn_large.quote_btn {
+            border: 2px solid #fff;
+            padding: 8px 15px;
+            font-size: 18px;
+            text-align: center;
+            margin-left: 0;
+            margin-top: 25px;
+        }
+        .work-btn {
+            text-align: center;
+        }
+        .btn_large.quote_btn:hover {
+            padding: 8px 15px;
+            font-size: 18px;
+        }
+        /* Why Choose Section */
+        .choose-us-header {
+            padding-top: 20px;
+            padding-bottom: 60px;
+        }
+        .choose-us-main-header {
+            font-size: 35px;
+        }
+        .choose-us-header-text {
+            font-size: 14px;
+        }
+        /* Portfolio Section */
+        .portfolio-items-section {
+            border-bottom: none;
+        }
+        .portfolio-heading h2 {
+            font-size: 40px;
+        }
+        .portfolio-image {
+            text-align: center;
+            margin: 20px;
+        }
+        .image {
+            height: 20vh;
+            width: 100%;
+            padding: 0;
+            -webkit-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 2px 8px -1px rgba(0, 0, 0, 0.5);
+        }
+        .portfolio-website {
+            font-size: 10px;
+        }
+        .portfolio-website-type {
+            display: none;
+        }
+        .portfolio-items-section {
+            padding-bottom: 40px;
+        }
+        .portfolio-items-section::before {
+            left: 45%;
+            bottom: 55px;
+        }
+        .portfolio-btn {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .portfolio-btn #btn_2 {
+            padding: 4px 8px;
+            font-size: 10px;
+        }
+        .portfolio-btn #btn_3 {
+            padding: 4px 8px;
+            font-size: 10px;
+        }
+        .portfolio-btn #btn_3 .fa-arrow-right {
+            font-size: 12px;
+        }
+        #portfolio .jumbotron-content h2 {
+            font-size: 30px;
+        }
+        #portfolio .portfolio-heading h2 {
+            font-size: 20px;
+        }
+        #portfolio .portfolio-heading-text {
+            padding-top: 10px;
+            font-size: 16px;
+        }
+        #portfolio .portfolio-page-header h2 {
+            font-size: 35px;
+        }
+        #portfolio .portfolio-welcome p {
+            font-size: 16px;
+        }
+        #portfolio .portfolio-main:before {
+            left: 44%;
+        }
+        #quote .jumbotron-content h2 {
+            font-size: 40px;
+        }
+        #quote .quote-heading {
+            font-size: 35px;
+        }
+        #quote .quote-paragraph {
+            font-size: 16px;
+            padding: 10px;
+        }
+        #quote .get-a-quote:before {
+            left: 44%;
+        }
+        #quote form {
+            padding-left: 0;
+        }
+        #quote .form-group {
+            width: 100%;
+            margin: 0;
+        }
+        /* Our Skills Section */
+        #our_skills {
+            padding: 0;
+        }
+        #our_skills .header_section {
+            padding: 30px;
+        }
+        #our_skills .header_section h2 {
+            font-size: 35px;
+            padding-top: 10px;
+        }
+        .header_section p {
+            font-size: 14px;
+        }
+        /* footer Section */
+        .footer {
+            height: auto;
+            font-size: 14px;
+            padding: 20px;
+            margin-bottom: 0;
+            box-sizing: border-box;
+            position: static;
+        }
+        .footer .footer-left,
+        .footer .footer-center,
+        .footer .footer-right {
+            display: inline;
+            width: 100%;
+            margin-bottom: 0px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .footer .about span {
+            margin-bottom: 20px;
+            padding-top: 20px;
+        }
+        .footer .footer-center .center-header {
+            margin-bottom: 20px;
+        }
+        .footer .footer-right .right-header {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .footer .menu a {
+            font-weight: 400;
+            font-size: 14px;
+        }
+        #about .jumbotron-content h2 {
+            font-size: 40px;
+        }
+        #about .about-text h5 {
+            font-size: 35px;
+        }
+        #about .about-image img {
+            margin: 0;
+        }
+        #about .meet-the-team:before {
+            left: 44%;
+        }
+        #about .meet-the-team .team-header h2 {
+            font-size: 30px;
+        }
+        #about .ed-team-image,
+        .james-team-image {
+            margin-left: 25px;
+            margin-top: 20px;
+        }
+        #about .meet-the-team .team-image .name {
+            margin-left: 0;
+        }
+        #about .team-image .about-bio {
+            margin-left: 0;
+        }
+        #about .meet-the-team .team-image .position {
+            margin-left: 0;
+        }
+        #about .testimonial-header h2 {
+            font-size: 30px;
+        }
+        #about .about-testimonial .testimonial-text p {
+            font-size: 14px;
+            padding-right: 0;
+        }
+        #about .about-testimonial .testimonial-image img {
+            position: relative;
+            right: 15px;
+        }
+        #about .margin-between {
+            margin: 20px 0;
+        }
+        /*Contact Us Page*/
+        #contact .contact-text h2 {
+            margin-left: 0;
+        }
+        #contact .contact-text p {
+            margin-left: 0;
+        }
+        #contact .contact-text h5 {
+            margin-left: 0;
+        }
+        #contact .contact-info {
+            margin-left: 0;
+        }
+        #contact .contact-us-main:before {
+            left: 45%;
+        }
     }
 
-    #about .jumbotron-content h2 {
-        font-size:40px;
-    }
+/* Tablets*/
 
-    #about .about-text h5{
-        font-size:35px;
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        .jumbotron-content h1 {
+            font-size: 40px;
+        }
+        .image {
+            position: relative;
+            left: 10px;
+        }
+        .portfolio-website {
+            font-size: 14px;
+        }
+        .work-text {
+            text-align: center;
+            margin: 20px;
+        }
+        .btn_large.quote_btn {
+            border: 2px solid #fff;
+            padding: 8px 15px;
+            font-size: 18px;
+            margin-top: 30px;
+        }
+        .work-with-us {
+            padding: 30px;
+        }
+        .work-btn {
+            text-align: center;
+        }
+        #our_skills .header_section {
+            padding-top: 80px;
+        }
+        #our_skills .header_section p {
+            font-size: 18px;
+            padding: 10px 80px;
+        }
+        #quote .get-a-quote:before {
+            left: 46%;
+        }
+        #contact .contact-header .contact-paragraph {
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        #portfolio .portfolio-main:before {
+            left: 47%;
+        }
+        #services .five-steps:before {
+            left: 47%;
+        }
+        #services .five-steps ul li p {
+            padding: 20px;
+            text-align: center;
+        }
+        #services .five-steps ul li i {
+            left: 46%;
+        }
+        #about .ed-team-image,
+        .james-team-image {
+            margin-top: 30px;
+            margin-left: 0;
+        }
+        #about .meet-the-team .team-image .name {
+            margin-left: 0;
+            margin-top: 15px;
+        }
+        #about .meet-the-team:before {
+            left: 47%;
+        }
+        #about .about-testimonial .testimonial-text p {
+            margin-left: 40px;
+        }
+        #about .about-testimonial .testimonial-text h5 {
+            margin-left: 40px;
+        }
     }
-    #about .about-image img {
-        margin: 0;
-    }
-
-    #about .meet-the-team:before{
-        left:44%;
-    }
-
-    #about .meet-the-team .team-header h2{
-        font-size:30px;
-    }
-    #about .ed-team-image,
-    .james-team-image {
-        
-        margin-left:25px;
-        margin-top:20px;
-        
-    }
-
-    #about .meet-the-team .team-image .name {
-        margin-left:0;
-    }
-
-    #about .team-image .about-bio {
-        margin-left:0;
-    }
-
-    #about .meet-the-team .team-image .position{
-        margin-left:0;
-    }
-
-    #about .testimonial-header h2 {
-        font-size:30px;
-    }
-
-    #about .about-testimonial .testimonial-text p{
-        font-size:14px;
-        padding-right:0;
-    }
-
-    #about .about-testimonial .testimonial-image img{
-        position:relative;
-        right:15px;
-    }
-
-    #about .margin-between {
-    margin:20px 0;
-}
-    /*Contact Us Page*/
-    #contact .contact-text h2 {
-        margin-left: 0;
-    }
-    #contact .contact-text p {
-        margin-left: 0;
-    }
-    #contact .contact-text h5 {
-        margin-left: 0;
-    }
-    #contact .contact-info {
-        margin-left: 0;
-    }
-    #contact .contact-us-main:before {
-        left: 45%;
-    }
-}
-
-/*md */
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .jumbotron-content h1 {
-        font-size: 40px;
-    }
+    /* Mobile Devices Landscape */
     
-    .image {
-        position: relative;
-        left: 10px;
+    @media only screen and (min-device-width: 380px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+        #about .ed-team-image,
+        .james-team-image {
+            position: relative;
+            left: 150px;
+        }
     }
-    .portfolio-website {
-        font-size: 14px;
+    /* Tablets Landscape */
+    
+    @media only screen and (device-width: 768px) {
+        #about .ed-team-image,
+        .james-team-image {
+            position: relative;
+            left: 220px;
+        }
     }
-    .work-text {
-        text-align: center;
-        margin: 20px;
-    }
-    .btn_large.quote_btn {
-        border: 2px solid #fff;
-        padding: 8px 15px;
-        font-size: 18px;
-        margin-top: 30px;
-    }
-    .work-with-us {
-        padding: 30px;
-    }
-    .work-btn {
-        text-align: center;
-    }
-    #our_skills .header_section {
-        padding-top: 80px;
-    }
-    #our_skills .header_section p {
-        font-size: 18px;
-        padding: 10px 80px;
-    }
-
-    #quote .get-a-quote:before {
-        left:46%;
-    }
-
-    #contact .contact-header .contact-paragraph{
-        margin-bottom:20px;
-        padding:20px;
-    }
-
-    #portfolio .portfolio-main:before{
-        left:47%;
-    }
-
-    #services .five-steps:before{
-        left:47%;
-    }
-
-    #services .five-steps ul li p{
-        padding:20px;
-        text-align:center;
-    }
-
-    #services .five-steps ul li i{
-        left:46%;
-    }
-
-    #about .ed-team-image, .james-team-image {
-            
-            margin-top:30px;
-            margin-left:0;
-    }
-
-    #about .meet-the-team .team-image .name{
-        margin-left: 0;
-        margin-top:15px;
-    }
-
-    #about .meet-the-team:before{
-        left:47%;
-    }
-
-    #about .about-testimonial .testimonial-text p {
-        margin-left:40px;
-    }
-
-    #about .about-testimonial .testimonial-text h5 {
-        margin-left:40px;
-    }
-
-
-
-
-}
-
-/* Mobile Devices Landscape */
-
-@media only screen and (min-device-width: 380px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-    #about .ed-team-image, .james-team-image {
-        position:relative;
-        left:150px;
-    }
-}
-
-/* Tablets Landscape */
-
-    @media only screen and (device-width : 768px) { 
-
-     #about .ed-team-image, .james-team-image{
-    position:relative;
-    left:220px;
-}
-}
