@@ -10,13 +10,17 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
     <link rel="icon" type="image/png" href="http://i66.tinypic.com/vd1ddw.png" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Velabri Contact Us Page</title>
+<script> 
+function submit() {
+    return confirm('Thank you for contacting us!');
+}
+</script>
+    
 </head>
 
 <body id="contact">
@@ -137,9 +141,9 @@
                             </div>
                             <div class="form-group">
                                 <label for="message" id="label-header4">Message:</label>
-                                <textarea class="form-control" name="message" required=""></textarea>
+                                <textarea class="form-control" name="message" required="" rows="5" cols="40"></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary contact-btn" onclick="return confirm('Thank you for contacting us!')">Submit</button>
+                            <button type="submit" class="btn btn-primary contact-btn" onclick='Submit()' name='submit button'>Submit</button>
                         </form>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12 contact-text">
