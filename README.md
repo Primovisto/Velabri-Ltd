@@ -104,6 +104,13 @@ The images were converted to urls via tinypic.com
 
 With all pages on the site I wanted to maintain the same overall look and feel.
 
+<h3>Testing jQuery/Javascript</h3>
+Manual tests were carried out on the fixed header dropdown on scroll. It was tested on numerous devices and browsers and worked on all.
+
+Manual tests were carried out on the Page Preloader timeout. It was tested on numerous devices and browsers and worked on all.
+
+
+
 
 
 <h3>Other Features</h3>

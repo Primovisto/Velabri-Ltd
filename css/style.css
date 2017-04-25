@@ -66,7 +66,7 @@ header.navbar-fixed-top .menu-links a {
     color: #000;
 }
 
-/*
+/*- Page Preloader -*/
 
 #loader-wrapper {
     position: fixed;
@@ -107,7 +107,7 @@ header.navbar-fixed-top .menu-links a {
 
 #ball-3 {
     position: absolute;
-    left: 80px;
+    left: -40px;
     animation: bounce 1s ease-in-out 1s infinite;
 }
 
@@ -127,7 +127,7 @@ header.navbar-fixed-top .menu-links a {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #000;
     z-index: 1000;
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
@@ -158,7 +158,7 @@ header.navbar-fixed-top .menu-links a {
 }
 
 
-/* Start Header */
+/* ------------------------------------------Start Header-------------------------------------- */
 
 header {
     background: rgba(255, 255, 255, 0);
@@ -206,7 +206,7 @@ header .light-logo {
 }
 
 
-/* Responsive Menu */
+/*------------------------------------- Responsive Menu --------------------------------------*/
 
 .mobile-logo-section {
     text-align: center;
@@ -260,7 +260,7 @@ header .light-logo {
 
 
 
-/* Jumbotron Section */
+/* ------------------------------------------------Jumbotron Section-------------------------------------------------- */
 
 .jumbotron-section {
     background: rgba(0, 0, 0, 0) url("http://i63.tinypic.com/2s0xna8.jpg") no-repeat fixed 0 0 / cover;
@@ -418,7 +418,7 @@ header .light-logo {
 /* End Jumbotron */
 
 
-/* Services Section */
+/* ----------------------------------------------Services Section----------------------------------------------- */
 
 .services {
     border-top: 1px solid #d3d3d3;
@@ -508,7 +508,7 @@ header .light-logo {
     }
 
 
-/*Choose-us-section*/
+/* ------------------------------------------------------Choose-us-Section------------------------------------------*/
 
 .choose-us-main-header {
     font-size: 50px;
@@ -653,7 +653,7 @@ header .light-logo {
 /* End why choose */
 
 
-/* Get A Quote Section */
+/* -----------------------------------------------Get A Quote Section -------------------------------------------------*/
 
 .work-with-us {
     background: url(http://i65.tinypic.com/5bbdq0.png);
@@ -690,7 +690,7 @@ header .light-logo {
         font-family: 'Roboto', sans-serif;
     }
 
-/* Portfolio Section */
+/* -------------------------------------- Portfolio Section ------------------------------------*/
 
 .portfolio-section {
     padding: 0;
@@ -786,13 +786,13 @@ header .light-logo {
         background: rgba(255, 255, 255, 0);
         color: #000;
         font-weight: 600;
-        padding: 10px 22px;
+        padding: 12px 22px;
         margin: 10px;
         text-decoration: none;
         text-align: center;
         text-transform: uppercase;
         font-family: 'open sans', 'sans-serif';
-        font-size: 16px;
+        font-size: 14px;
         border: 2px solid #000;
         border-radius: 4px;
         box-shadow: inset 0 0 0 0 #000;
@@ -808,7 +808,9 @@ header .light-logo {
     }
 
 
-/* Skills Section */
+/* ---------------------------------------------Skills Section ---------------------------------------------------*/
+
+/* Skills Section Header*/
 
 #our_skills {
     margin: 0;
@@ -919,7 +921,7 @@ header .light-logo {
     vertical-align: top;
 }
 
-
+/* -------------------------------------------Footer Section ---------------------------------------------------*/
 /* footer left*/
 
 .footer .footer-left {
@@ -1040,7 +1042,7 @@ header .light-logo {
 
 
 
-/* Inside Pages -Contact Us */
+/* ----------------------------------------------Inside Pages -Contact Us Page -------------------------------- */
 
 #contact {
     background-color: #f7f7f7;
@@ -1236,7 +1238,7 @@ header .light-logo {
 }
 
 
-/*  Inside Pages -About Us Page */
+/*  ------------------------------------------------Inside Pages - About Us Page ------------------------------------*/
 
 #about .about-us {
     background-color: #fff;
@@ -1461,7 +1463,7 @@ header .light-logo {
 }
 
 
-/* Quote Page */
+/* ----------------------------------------------------Get a Quote Page ------------------------------------------------*/
 
 #quote .get-a-quote {
     background-color: #f7f7f7;
@@ -1629,7 +1631,7 @@ header .light-logo {
 }
 
 
-/* Inside Pages - Portfolio Page */
+/* --------------------------------------------Inside Pages - Portfolio Page ---------------------------------------------*/
 
 #portfolio .jumbotron-section {
     background: rgba(0, 0, 0, 0) url("http://i66.tinypic.com/zoefd.jpg") no-repeat fixed 0 0 / cover;
@@ -1774,7 +1776,7 @@ header .light-logo {
 }
 
 
-/* Services - Inside Pages */
+/* ----------------------------------------------Services Page - Inside Pages -------------------------------------------------*/
 
 #services .menu-links ul li a {
     color: #fff;
